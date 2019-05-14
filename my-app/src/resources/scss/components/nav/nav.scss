@@ -1,0 +1,31 @@
+@import "../../mixins";
+
+.nav{
+  @include setTheme('border-right-color', xxHigh);
+  @include posFix(40px, 7.5vh, false, invert);
+  @include flexGrid(space-between, center, nowrap);
+  @include size(80px, 85vh);
+  @include hide(tab);
+  @include introAnimation(150%, 0, .7s);
+  transform: translate3d(150%, 0, 0);
+  border-right: 1px solid;
+  flex-direction: column;
+
+  &-lang {
+    @include size(80%, 80px);
+    @include flexGrid(center, center, nowrap);
+    transform: translateX(10%);
+    flex-direction: column;
+    cursor: pointer;
+
+    .icon {
+      @include setTheme('color', xxHigh);
+      transition: none;
+      font-size: 24px;
+    }
+
+    p {
+      width: 100%;
+    }
+  }
+}

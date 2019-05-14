@@ -1,0 +1,87 @@
+@import "variables";
+
+@mixin size($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+@mixin posAbs($x, $y, $offset, $invert) {
+  position: absolute;
+  @if $invert == default {
+    left: $x;
+    top: $y;
+    @if $offset == true {
+      transform: translate(-50%, -50%);
+    }
+  } @else {
+    right: $x;
+    bottom: $y;
+    @if $offset == true {
+      transform: translate(50%, 50%);
+    }
+  }
+}
+
+@mixin posFix($x, $y, $offset, $invert) {
+  position: fixed;
+  @if $invert == default {
+    left: $x;
+    top: $y;
+    @if $offset == true {
+      transform: translate(-50%, -50%);
+    }
+  } @else {
+    right: $x;
+    bottom: $y;
+    @if $offset == true {
+      transform: translate(50%, 50%);
+    }
+  }
+}
+
+@mixin flexGrid($align, $justify, $wrap) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $wrap;
+}
+
+@mixin smooth($prop, $time) {
+  transition: $prop $time ease;
+  &:hover {transition: $prop $time ease}
+}
+
+@mixin view($which) {
+  @if $which == phone {
+    @media only screen and (max-width: 600px) {@content}
+  } @else if $which == tab {
+    @media only screen and (max-width: 1000px) {@content}
+  } @else {
+    @media only screen and (max-width: $which) {@content}
+  }
+}
+
+@mixin introAnimation ($x, $y, $d) {
+  opacitY: 0;
+  transform: translate3d($x, $y, 0);
+  transition: transform 1s ease, opacity 1s ease;
+  transition-delay: $d, $d;
+
+  &-in {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@mixin hide($which) {@include view($which) {display: none}}
+
+@mixin theme($which) {.theme__#{$which} & {@content}}
+
+@mixin setTheme($prop, $which) {
+  .theme__Dark & {#{$prop}: map-get($theme_Dark, $which)}
+  .theme__Red & {#{$prop}: map-get($theme_Red, $which)}
+  .theme__Light & {#{$prop}: map-get($theme_Light, $which)}
+  .theme__Black & {#{$prop}: map-get($theme_Black, $which)}
+  .theme__Purple & {#{$prop}: map-get($theme_Purple, $which)}
+  .theme__Wheat & {#{$prop}: map-get($theme_Wheat, $which)}
+}

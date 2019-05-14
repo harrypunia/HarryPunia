@@ -1,0 +1,28 @@
+@import "../../mixins";
+@import "../../wrapper";
+
+.intro {
+  @include wrapper();
+  @include size(100%, 100vh);
+  @include flexGrid(flex-start, center, nowrap);
+  flex-direction: column;
+}
+
+.myImg {
+  @include introAnimation(-100px, 0, .2s);
+  width: 300px;
+}
+
+.info {@include introAnimation(-120px, 0, .3s)}
+
+.button {
+  @include introAnimation(-120px, 0, .4s);
+  margin: 20px 0 20px -10px;
+}
+
+.link {
+  @include introAnimation(-125px, 0, .5s);
+  margin: 20px 0 20px -10px;
+}
+
+.bottomNav {@include introAnimation(0, 100px, .6s)}

@@ -1,0 +1,55 @@
+@import "../../resources/scss/mixins";
+@import "../../resources/scss/variables";
+
+button {
+  @include setTheme('border-color', xHigh);
+  @include flexGrid(center, center, nowrap);
+  @include size(auto, 50px);
+  border: 1px solid;
+  position: relative;
+  padding: 0 50px;
+  border-radius: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 10;
+
+  &:active {}
+
+  &:focus {
+    @include setTheme('border-color', xxHigh);
+    outline: 0;
+    border: 1px solid;
+  }
+
+  div {
+    @include setTheme('background', main);
+    @include flexGrid(center, center, no-wrap);
+    @include size(100%, 100%);
+    @include smooth(transform, 0.3s);
+    position: absolute;
+  }
+
+  i {
+    @include setTheme('color', xxHigh);
+    font-size: 20px;
+  }
+
+  p{
+    @include smooth(transform, 0.3s);
+    line-height: 1em;
+    color: white;
+    margin: 0;
+  }
+}
+
+.horizontal {
+  div {transform: translateX(-100%)}
+  &:hover div {transform: translateX(0)}
+  &:hover p {transform: translateX(80%)}
+}
+.vertical {
+  div {transform: translateY(-100%)}
+  &:hover div {transform: translateY(0)}
+  &:hover p {transform: translateY(80%)}
+}

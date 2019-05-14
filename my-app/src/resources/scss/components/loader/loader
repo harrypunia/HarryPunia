@@ -1,0 +1,22 @@
+@import "../../mixins";
+
+.loader {
+  @include posFix(0, 0, false, default);
+  @include size(100vw, 100vh);
+  @include smooth(transform, .8s);
+  @include flexGrid(center, center, nowrap);
+  z-index: 999;
+  background: white;
+
+  &-in {
+    transform: translate3d(0, 0, 0);
+  }
+
+  &-out {
+    transform: translate3d(0, -120%, 0);
+  }
+
+  .gif {
+    @include size(200px, auto);
+  }
+}

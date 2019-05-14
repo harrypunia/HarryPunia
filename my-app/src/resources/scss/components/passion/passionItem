@@ -1,0 +1,17 @@
+@import "../../mixins";
+
+.container {
+  @include size(320px, 600px);
+  @include flexGrid(center, space-between, nowrap);
+  flex-direction: column;
+  margin: 40px auto 40px auto;
+  padding: 0 20px;
+
+  @include view(phone) {margin: 80px auto 80px auto}
+
+  p {width: 100%}
+
+  .img {width: 60%}
+
+  .button {margin: 40px auto 0 auto}
+}

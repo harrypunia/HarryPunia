@@ -1,0 +1,31 @@
+@import "../../mixins";
+@import "./intro_animations";
+
+.container {
+  @include posAbs(50vw, 50px, true, invert);
+  @include size(auto, 40px);
+  @include flexGrid(center, top, nowrap);
+}
+
+.audio {
+  @include setTheme('color', high);
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.scroll {
+  @include setTheme('border-color', high);
+  @include flexGrid(flex-start, center, nowrap);
+  @include size(22px, 36px);
+  border: 1px solid;
+  border-radius: 15px;
+
+  &-dot {
+    @include setTheme('background', high);
+    @include size(4px, 4px);
+    border-radius: 50%;
+    margin-top: 5px;
+    animation: scroll-dot 2s ease infinite;
+  }
+}
