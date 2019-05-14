@@ -6,6 +6,7 @@
     <Nav :state="state" :theme="theme" @receivedTheme="updateSketch($event)"/>
     <Intro :state="state" />
     <Passion/>
+    Hi
     <Skills/>
   </div>
 </template>
