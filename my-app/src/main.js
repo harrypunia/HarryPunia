@@ -1,13 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faGlobeAmericas } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import VueRouter from 'vue-router'
+import Home from "./pages/Home"
 
-library.add( faGlobeAmericas );
-Vue.component('icon', FontAwesomeIcon);
 Vue.config.productionTip = false;
+Vue.use(VueRouter);
+const routes = [
+  { path: '/', component: Home }
+];
+
+const router = new VueRouter({routes});
 
 new Vue({
+  router,
   render: h => h(App),
 }).$mount('#app');

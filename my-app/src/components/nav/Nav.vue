@@ -1,7 +1,7 @@
 <template>
   <div class="nav" :class="'nav-' + state">
     <div class="nav-lang">
-      <icon class="icon" icon="globe-americas"></icon>
+      <i class="icon fab fa-canadian-maple-leaf"></i>
       <p center small>{{msg.lang.eng}}</p>
     </div>
     <NavTheme v-on:themeUpdated="updateApp($event)" :theme="theme"/>
