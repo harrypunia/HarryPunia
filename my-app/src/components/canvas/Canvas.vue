@@ -14,7 +14,7 @@
     components: { "vue-p5": VueP5 },
     props: ['theme'],
     watch: {
-      theme(newValue, oldValue) {
+      theme(newValue) {
         this.colors.main= variables[newValue + "Main"];
         this.colors.secondary= variables[newValue + "Secondary"]
       }

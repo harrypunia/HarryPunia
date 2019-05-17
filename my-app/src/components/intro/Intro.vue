@@ -3,7 +3,7 @@
     <img class="myImg" :class="'myImg-' + state" src="../../resources/img/intro/harryPunia.jpg" alt="Harry Punia">
     <IntroInfo class="info" :class="'info-' + state"/>
     <Button action="#" class="button" :class="'button-' + state" dir="horizontal" :text="msg.button" img="grin-alt" />
-    <a hover class="link" :class="'link-' + state" href="#skill">{{msg.caseStudies}}</a>
+    <a hover href="#" class="link" :class="'link-' + state" v-scroll-to="'#skills'">{{msg.caseStudies}}</a>
     <IntroBottomNav class="bottomNav" :class="'bottomNav-' + state" />
   </div>
 </template>

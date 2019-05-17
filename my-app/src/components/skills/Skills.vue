@@ -1,5 +1,5 @@
 <template>
-  <div class="skills">
+  <div id="skills" class="skills">
     <h1 class="title">{{msg.title}}</h1>
     <SkillItem num="1" :items="[
         {url: 'illustrator.svg', desc: 'Illustrator'},

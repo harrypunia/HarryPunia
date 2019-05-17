@@ -22,7 +22,8 @@
 
 .link {
   @include introAnimation(-125px, 0, .5s);
-  margin: 20px 0 20px -10px;
+  text-align: left;
+  margin: 20px 0 20px 0;
 }
 
 .bottomNav {@include introAnimation(0, 100px, .6s)}

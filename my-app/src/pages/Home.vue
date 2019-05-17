@@ -19,7 +19,3 @@
     components: { Canvas, Intro, Passion, Skills }
   }
 </script>
-
-<style lang="scss" scoped>
-
-</style>
