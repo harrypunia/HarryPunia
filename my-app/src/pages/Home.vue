@@ -8,10 +8,10 @@
 </template>
 
 <script>
-  import Canvas from "../components/canvas/Canvas";
-  import Intro from "../components/intro/Intro"
-  import Passion from "../components/passion/Passion"
-  import Skills from "../components/skills/Skills"
+  import Canvas from "./canvas/Canvas";
+  import Intro from "./intro/Intro"
+  import Passion from "./passion/Passion"
+  import Skills from "./skills/Skills"
 
   export default {
     name: "Home",

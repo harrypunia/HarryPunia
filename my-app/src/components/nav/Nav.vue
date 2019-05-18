@@ -1,8 +1,9 @@
 <template>
   <div class="nav" :class="'nav-' + state">
-    <div class="nav-lang">
+    <div class="nav-lang" @click="toggleLang()">
       <i class="icon fab fa-canadian-maple-leaf"></i>
-      <p center small>{{msg.lang.eng}}</p>
+      <p selected ref="en" center small class="nav-lang-titles nav-lang-selected">EN</p>
+      <p ref="fr" center small class="nav-lang-titles nav-lang-unselected">FR</p>
     </div>
     <NavTheme v-on:themeUpdated="updateApp($event)" :theme="theme"/>
     <NavButtons/>
@@ -12,7 +13,6 @@
 <script>
   import NavButtons from "./NavButtons"
   import NavTheme from "./NavTheme"
-  import {nav} from "../../resources/locale/en";
 
   export default {
     name: "Nav",
@@ -20,12 +20,21 @@
     props: ['theme', 'state'],
     data() {
       return {
-        msg: nav,
-        animState: this.$props.state
+        animState: this.$props.state,
+        activeLang: 'EN'
       }
     },
     methods: {
-      updateApp(newTheme) {this.$emit('receivedTheme', newTheme);}
+      updateApp(newTheme) {this.$emit('receivedTheme', newTheme);},
+      toggleLang() {
+        this.activeLang !== 'FR' ? this.setLang('fr', 'en') : this.setLang('en', 'fr');
+      },
+      setLang(which, active) {
+        this.$i18n.locale = which;
+        this.activeLang = which.toUpperCase();
+        this.$refs[active].removeAttribute('selected');
+        this.$refs[which].setAttribute('selected', '');
+      }
     }
   }
 </script>

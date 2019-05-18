@@ -8,14 +8,15 @@
 </template>
 
 <script>
-  import Loader from "./components/loader/Loader";
+  import Loader from "./components/loader/Loader"
   import Header from "./components/header/Header"
   import Nav from "./components/nav/Nav"
+
   export default {
     name: 'app',
     components: { Loader, Header, Nav },
     data() {
-      return {theme: 'Red', state: 'out'}
+      return { theme: 'Red', state: 'out' }
     },
     methods: {
       updateSketch(newTheme) {this.theme = newTheme},

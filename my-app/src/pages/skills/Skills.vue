@@ -1,6 +1,6 @@
 <template>
   <div id="skills" class="skills">
-    <h1 class="title">{{msg.title}}</h1>
+    <h1 class="title">{{ $t('skills.title') }}</h1>
     <SkillItem num="1" :items="[
         {url: 'illustrator.svg', desc: 'Illustrator'},
         {url: 'photoshop.svg', desc: 'PhotoShop'},
@@ -24,7 +24,6 @@
 </template>
 
 <script>
-  import {skills} from "../../resources/locale/en"
   import SkillItem from "./SkillItem"
 
   export default {

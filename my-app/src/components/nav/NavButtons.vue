@@ -1,20 +1,15 @@
 <template>
   <div class="buttons">
-    <a hover href="#" class="buttons-items">{{msg[1]}}</a>
-    <a hover href="#" class="buttons-items">{{msg[2]}}</a>
-    <a hover href="#" class="buttons-items">{{msg[3]}}</a>
-    <a hover href="#" class="buttons-items">{{msg[4]}}</a>
+    <a hover href="#" class="buttons-items">{{$t('nav.btn.1')}}</a>
+    <a hover href="#" class="buttons-items">{{$t('nav.btn.2')}}</a>
+    <a hover href="#" class="buttons-items">{{$t('nav.btn.3')}}</a>
+    <a hover href="#" class="buttons-items">{{$t('nav.btn.4')}}</a>
   </div>
 </template>
 
 <script>
-  import {nav} from "../../resources/locale/en.js";
-
   export default {
-    name: "NavButtons",
-    data() {
-      return {msg: nav.buttons}
-    }
+    name: "NavButtons"
   }
 </script>
 

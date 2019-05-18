@@ -16,9 +16,9 @@
     "i": "^0.3.6",
     "npm": "^6.9.0",
     "vue": "^2.6.10",
+    "vue-i18n": "^8.11.2",
     "vue-p5": "^0.7.1",
-    "vue-router": "^3.0.6",
-    "vue-scrollto": "^2.15.0"
+    "vue-router": "^3.0.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.7.0",

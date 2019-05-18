@@ -13,10 +13,21 @@
 
   &-lang {
     @include size(80%, 80px);
-    @include flexGrid(center, center, nowrap);
+    @include flexGrid(center, flex-start, nowrap);
+    background: transparent;
     transform: translateX(10%);
     flex-direction: column;
     cursor: pointer;
+
+    &:hover .nav-lang-titles {
+      transform: translate(-50%, -50%);
+      opacity: 1;
+    }
+
+    &:hover .nav-lang-titles[selected] {
+      transform: translate(-100%, -50%);
+      opacity: 0;
+    }
 
     .icon {
       @include setTheme('color', xxHigh);
@@ -24,8 +35,16 @@
       font-size: 24px;
     }
 
-    p {
-      width: 100%;
+    &-titles {
+      @include posAbs(50%, 50%, false, default);
+      transform: translate(100%, -50%);
+      transition: transform .2s ease, opacity .2s ease;
+      opacity: 0;
+
+      &[selected] {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+      }
     }
   }
 }

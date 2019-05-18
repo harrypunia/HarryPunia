@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <p class="header__logo">Harry Punia</p>
+    <p class="header__logo">Logo</p>
   </div>
 </template>
 
