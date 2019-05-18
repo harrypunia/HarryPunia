@@ -1,22 +1,22 @@
 <template>
   <div id="skills" class="skills">
     <h1 class="title">{{ $t('skills.title') }}</h1>
-    <SkillItem num="1" :items="[
+    <SkillItem id="skill1" num="1" :items="[
         {url: 'illustrator.svg', desc: 'Illustrator'},
         {url: 'photoshop.svg', desc: 'PhotoShop'},
         {url: 'inDesign.svg', desc: 'InDesign'}
       ]"/>
-    <SkillItem num="2" :items="[
+    <SkillItem id="skill2" num="2" :items="[
         {url: 'html.svg', desc: 'HTML'},
         {url: 'css.svg', desc: 'CSS'},
         {url: 'javascript.svg', desc: 'Javscript'},
         {url: 'threejs.svg', desc: 'Three JS'},
         {url: 'p5js.png', desc: 'P5 Js'},
       ]"/>
-    <SkillItem num="3" :items="[
+    <SkillItem id="skill3" num="3" :items="[
         {url: 'arduino.png', desc: 'Arduino'},
       ]"/>
-    <SkillItem num="4" :items="[
+    <SkillItem id="skill4" num="4" :items="[
         {url: 'premierpro.svg', desc: 'Premier Pro'},
         {url: 'cinema4d.png', desc: 'Cinema 4D'},
       ]"/>
@@ -28,12 +28,7 @@
 
   export default {
     name: "Skills",
-    components: { SkillItem },
-    data() {
-      return {
-        msg: skills
-      }
-    }
+    components: { SkillItem }
   }
 </script>
 

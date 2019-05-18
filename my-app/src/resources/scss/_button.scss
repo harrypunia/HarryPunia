@@ -2,14 +2,13 @@
 @import "../../resources/scss/variables";
 
 button {
-  @include setTheme('border-color', xHigh);
+  @include setTheme('background-color', xxHigh);
   @include flexGrid(center, center, nowrap);
   @include size(auto, 50px);
-  border: 1px solid;
+  border: none;
   position: relative;
   padding: 0 50px;
   border-radius: 50px;
-  background-color: transparent;
   cursor: pointer;
   overflow: hidden;
   z-index: 10;
@@ -17,13 +16,11 @@ button {
   &:active {}
 
   &:focus {
-    @include setTheme('border-color', xxHigh);
     outline: 0;
-    border: 1px solid;
   }
 
   div {
-    @include setTheme('background', main);
+    @include setTheme('background', xxHigh);
     @include flexGrid(center, center, no-wrap);
     @include size(100%, 100%);
     @include smooth(transform, 0.3s);
@@ -31,11 +28,12 @@ button {
   }
 
   i {
-    @include setTheme('color', xxHigh);
+    @include setTheme('color', main);
     font-size: 20px;
   }
 
   p{
+    @include setTheme('color', main);
     @include smooth(transform, 0.3s);
     line-height: 1em;
     color: white;

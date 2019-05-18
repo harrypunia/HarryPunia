@@ -1,6 +1,6 @@
 <template>
   <div class="passion">
-    <h1 class="title">{{ $t('passion.heading') }}</h1>
+    <h1 class="title">{{ $t('passion.title') }}</h1>
     <p center faded class="subheading">{{ $t('passion.subheading') }}</p>
     <div class="outline"></div>
     <div class="grid">

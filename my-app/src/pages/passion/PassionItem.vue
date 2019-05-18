@@ -3,19 +3,23 @@
     <img class="img" :src="getImg()" alt="">
     <h3>{{ $t(`passion.item.${num}.title` )}}</h3>
     <p>{{ $t(`passion.item.${num}.desc`) }}</p>
-    <Button class="button" dir="vertical" :text="$t('passion.item.button')" img="arrow-down" />
+    <div @click="highlightElement">
+      <Button class="button" dir="vertical" :text="$t('passion.item.button')" img="arrow-down" />
+    </div>
   </div>
 </template>
 
 <script>
   import Button from "../../components/button/Button"
+  import { highlightDiv } from "../../resources/js/index"
 
   export default {
     name: "PassionItem",
     components: { Button },
     props: ['num'],
     methods: {
-      getImg() {return require('../../resources/img/passion/passionItem' + this.num + '.png')}
+      getImg() {return require('../../resources/img/passion/passionItem' + this.num + '.png')},
+      highlightElement() {highlightDiv(`skill${this.$props.num}`)}
     }
   }
 </script>
