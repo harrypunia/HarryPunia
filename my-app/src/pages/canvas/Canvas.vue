@@ -1,6 +1,9 @@
 <template>
-  <div>
-    <vue-p5 id="canvas" v-on="{setup, draw}"></vue-p5>
+  <div ref="canvas">
+    <vue-p5 id="canvas"
+            @setup="setup"
+            @draw="draw">
+    </vue-p5>
   </div>
 </template>
 
@@ -32,6 +35,7 @@
       setup(sketch) {
         sketch.createCanvas(window.innerWidth, window.innerHeight);
         this.s = new S(sketch);
+        window.onresize = () => sketch.resizeCanvas(window.innerWidth, window.innerHeight);
       },
       draw(sk) {
         sk.background(sk.color(this.colors.main));
@@ -46,6 +50,6 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    z-index: -100
+    z-index: 100
   }
 </style>
