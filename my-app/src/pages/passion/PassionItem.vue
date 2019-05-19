@@ -12,6 +12,7 @@
 <script>
   import Button from "../../components/button/Button"
   import { highlightDiv } from "../../resources/js/index"
+  import jump from "jump.js"
 
   export default {
     name: "PassionItem",
@@ -19,7 +20,7 @@
     props: ['num'],
     methods: {
       getImg() {return require('../../resources/img/passion/passionItem' + this.num + '.png')},
-      highlightElement() {highlightDiv(`skill${this.$props.num}`)}
+      highlightElement() {highlightDiv(`skill${this.$props.num}`); jump(`#skill${this.num}`)}
     }
   }
 </script>

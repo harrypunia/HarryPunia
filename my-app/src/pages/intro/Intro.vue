@@ -1,5 +1,5 @@
 <template>
-  <div class="intro">
+  <div id="intro" class="intro">
     <img class="myImg" :class="'myImg-' + state" src="../../resources/img/intro/harryPunia.jpg" alt="Harry Punia">
     <IntroInfo class="info" :class="'info-' + state"/>
     <Button action="#" class="button" :class="'button-' + state" dir="horizontal" :text="$t('intro.button')" img="grin-alt" />
