@@ -1,5 +1,5 @@
-@import "../../mixins";
-@import "../../wrapper";
+@import "../../../mixins";
+@import "../../../wrapper";
 
 .intro {
   @include wrapper();

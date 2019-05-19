@@ -32,4 +32,4 @@
   }
 </script>
 
-<style lang="scss" scoped>@import "../../resources/scss/components/skills/skills";</style>
+<style lang="scss" scoped>@import "../../../resources/scss/pages/home/skills/skills";</style>

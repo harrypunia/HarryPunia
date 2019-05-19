@@ -14,15 +14,15 @@
 </template>
 
 <script>
-  import Button from "../../components/button/Button"
+  import Button from "../../../components/button/Button"
   export default {
     name: "SkillItem",
     components: { Button },
     props: [ 'num', 'items' ],
     methods: {
-      getImg(name) {return require('../../resources/img/skills/' + name)}
+      getImg(name) {return require('../../../resources/img/skills/' + name)}
     }
   }
 </script>
 
-<style lang="scss" scoped>@import "../../resources/scss/components/skills/skillItem";</style>
+<style lang="scss" scoped>@import "../../../resources/scss/pages/home/skills/skillItem";</style>

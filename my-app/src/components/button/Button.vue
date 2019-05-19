@@ -16,4 +16,4 @@
 
 </script>
 
-<style lang="scss">@import "../../resources/scss/button";</style>
+<style lang="scss">@import "../../resources/scss/components/button/button";</style>

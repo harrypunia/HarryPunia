@@ -10,8 +10,8 @@
 </template>
 
 <script>
-  import Button from "../../components/button/Button"
-  import { highlightDiv } from "../../resources/js/index"
+  import Button from "../../../components/button/Button"
+  import { highlightDiv } from "../../../resources/js"
   import jump from "jump.js"
 
   export default {
@@ -19,10 +19,10 @@
     components: { Button },
     props: ['num'],
     methods: {
-      getImg() {return require('../../resources/img/passion/passionItem' + this.num + '.png')},
+      getImg() {return require('../../../resources/img/passion/passionItem' + this.num + '.png')},
       highlightElement() {highlightDiv(`skill${this.$props.num}`); jump(`#skill${this.num}`)}
     }
   }
 </script>
 
-<style lang="scss" scoped>@import "../../resources/scss/components/passion/passionItem";</style>
+<style lang="scss" scoped>@import "../../../resources/scss/pages/home/passion/passionItem";</style>

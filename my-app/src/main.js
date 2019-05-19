@@ -5,7 +5,7 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 //Assets
 import {i18n} from "./resources/locale/vue-i81n"
-import Home from "./pages/Home"
+import Home from "./pages/home/Home"
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter);

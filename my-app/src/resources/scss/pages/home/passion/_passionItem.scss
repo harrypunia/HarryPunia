@@ -1,4 +1,4 @@
-@import "../../mixins";
+@import "../../../mixins";
 
 .container {
   @include size(320px, 600px);

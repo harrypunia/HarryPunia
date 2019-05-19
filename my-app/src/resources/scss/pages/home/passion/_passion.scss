@@ -1,6 +1,6 @@
-@import "../../mixins";
-@import "../../variables";
-@import "../../wrapper";
+@import "../../../mixins";
+@import "../../../variables";
+@import "../../../wrapper";
 
 .passion {
   @include wrapper();

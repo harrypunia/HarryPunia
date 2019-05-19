@@ -10,7 +10,7 @@
 <script>
   import VueP5 from "vue-p5"
   import S from "./sketches/sketch1";
-  import variables from "../../resources/scss/_variables.scss";
+  import variables from "../../../resources/scss/_variables.scss";
 
   export default {
     name: "Canvas",

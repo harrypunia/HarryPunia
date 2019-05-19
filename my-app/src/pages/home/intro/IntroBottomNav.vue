@@ -23,4 +23,4 @@
   }
 </script>
 
-<style lang="scss" scoped>@import "../../resources/scss/components/intro/introBottomNav";</style>
+<style lang="scss" scoped>@import "../../../resources/scss/pages/home/intro/introBottomNav";</style>

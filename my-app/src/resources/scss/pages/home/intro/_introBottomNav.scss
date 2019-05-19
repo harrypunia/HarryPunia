@@ -1,5 +1,5 @@
-@import "../../mixins";
-@import "./intro_animations";
+@import "../../../mixins";
+@import "intro_animations";
 
 .container {
   @include posAbs(50vw, 50px, true, invert);

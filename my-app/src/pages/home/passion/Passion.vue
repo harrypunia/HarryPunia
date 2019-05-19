@@ -20,4 +20,4 @@
   }
 </script>
 
-<style lang="scss" scoped>@import "../../resources/scss/components/passion/passion";</style>
+<style lang="scss" scoped>@import "../../../resources/scss/pages/home/passion/passion";</style>

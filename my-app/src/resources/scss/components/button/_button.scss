@@ -1,5 +1,5 @@
-@import "../../resources/scss/mixins";
-@import "../../resources/scss/variables";
+@import "../../mixins";
+@import "../../variables";
 
 button {
   @include setTheme('background-color', xxHigh);
