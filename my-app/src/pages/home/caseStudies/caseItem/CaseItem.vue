@@ -1,31 +1,22 @@
 <template>
   <div ref="study" class="caseItem">
+    <i class="fas fa-times caseItem-close"></i>
     <div class="caseItem-preview">
       <h3 invert class="caseItem-title">{{ $t(`caseStudies.${num}.title`) }}</h3>
       <CaseItemTags :tags="['Visual Design', 'Poster', 'Typography', 'Graphics']"/>
     </div>
-    <div class="caseItem-images">
-      <img :src="getImg('alternate')" alt="Preview Case Study">
-      <img :src="getImg('preview')" alt="Preview Case Study">
-    </div>
+    <CaseItemImages :num="num" />
   </div>
 </template>
 
 <script>
   import CaseItemTags from "./CaseItemTags"
+  import CaseItemImages from "./CaseItemImages"
 
   export default {
     name: "CaseItem",
     props: [ 'num' ],
-    components: { CaseItemTags },
-    data() {
-      return {
-
-      }
-    },
-    methods: {
-      getImg(which) {return require('../../../../resources/img/caseStudies/' + this.num + '/'  + which + '.jpg')},
-    }
+    components: { CaseItemTags, CaseItemImages }
   }
 </script>
 

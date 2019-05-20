@@ -4,16 +4,17 @@
 .caseItem {
   @include setTheme('background-color', main);
   @include setShadow(regular);
-  @include size(100%, 300px);
+  @include size(100%, 380px);
   position: relative;
   padding: map-get($spacing, regular);
   margin-bottom: map-get($spacing, large);
   overflow: visible;
-  transition: height ease .2s;
+  transition: height ease-in .4s;
 
   &-preview {
     @include posAbs(map-get($spacing, large), 50%, false, default);
-    transition: left .5s ease, top .5s ease;
+    z-index: 1;
+    transition: left .4s ease-in, top .4s ease-in;
     transform: translateY(-50%);
   }
 
@@ -21,49 +22,36 @@
     margin-bottom: map-get($spacing, small);
   }
 
-  &-images {
-    @include size(100%, 100%);
-
-    img {object-fit: cover}
-
-    img:nth-child(1) {
-      @include size(0, 100%);
-      transition: width ease .5s, height ease .5s;
-    }
-
-    img:nth-child(2) {
-      @include size(100%, 100%);
-      transition: width ease .5s, height ease .5s;
-    }
+  &-close {
+    @include setTheme('color', xxHigh);
+    position: absolute;
+    top: 2em;
+    right: map-get($spacing, large);
+    font-size: 24px;
+    z-index: 0;
+    transition: top .5s ease, right .5s ease, transform .5s ease;
+    cursor: pointer;
   }
 
   &[open] {
     height: 800px;
-    transition: height ease .5s;
+    transition: height ease-out .4s;
 
     .caseItem {//prefix reset
       &-preview {
         @include posAbs(map-get($spacing, regular), 0, false, default);
-        transition: left .5s ease, top .5s ease;
-        width: calc(100% - 100px);
+        transition: left .4s ease-out, top .4s ease;
       }
 
       &-title {
         @include setTheme('color', xxHigh);
       }
 
-      &-images {
-        img:nth-child(1) {
-          @include size(calc(20% - 10px), 50%);
-          padding-right: 10px;
-          transition: width ease .5s, height ease .5s, padding ease .5s;
-        }
-
-        img:nth-child(2) {
-          @include size(calc(80% - 10px), 50%);
-          padding-left: 10px;
-          transition: width ease .5s, height ease .5s, padding ease .5s;
-        }
+      &-close {
+        top: -1.5em;
+        right: map-get($spacing, regular);
+        transform: rotate(180deg);
+        transition: top .5s ease, right .5s ease, transform .5s ease;
       }
     }
   }

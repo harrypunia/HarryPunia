@@ -1,8 +1,7 @@
 <template>
   <div id="caseStudies" class="caseStudies">
     <h1 title>{{ $t('caseStudies.title') }}</h1>
-    <CaseItem num="1" open  @click="openStudy($event)"/>
-    <CaseItem num="2" open />
+    <CaseItem :key="index" v-for="index in 2" :num="index" @click.native="selection = index" :open="selection === index" />
   </div>
 </template>
 
@@ -14,11 +13,13 @@
     components: { CaseItem },
     data() {
       return {
+        selection: 0
       }
     },
     methods: {
       openStudy(e) {
-          console.log(e);
+        const target = e.currentTarget;
+        this.selection = target.id;
       }
     }
   }
