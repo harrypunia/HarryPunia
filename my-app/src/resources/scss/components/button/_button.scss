@@ -5,6 +5,8 @@ button {
   @include setTheme('background-color', xxHigh);
   @include flexGrid(center, center, nowrap);
   @include size(auto, 50px);
+  @include setShadow(small);
+  @include smooth(transform, .2s);
   border: none;
   position: relative;
   padding: 0 50px;
@@ -17,6 +19,11 @@ button {
 
   &:focus {
     outline: 0;
+  }
+
+  &:hover {
+    @include setShadow(large);
+    transform: scale(1.05) !important;
   }
 
   div {

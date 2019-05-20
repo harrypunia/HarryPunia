@@ -26,5 +26,4 @@
 
 <style lang="scss">
   @import "resources/scss/index";
-  @import "resources/scss/theme";
 </style>

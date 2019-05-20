@@ -1,0 +1,16 @@
+@import "../../../mixins";
+@import "../../../variables";
+
+.caseItemTags {
+  @include flexGrid(center, flex-start, no-wrap);
+  cursor: default;
+  .tag-item:nth-child(1) {margin-left: 0} //reset first child's margin to edge
+}
+
+.tag-item {
+  @include setTheme('background-color', xxHigh);
+  padding: map-get($spacing, xxSmall) map-get($spacing, xSmall);
+  margin: 0 map-get($spacing, xSmall);
+  width: 100px;
+  border-radius: 10px;
+}

@@ -4,18 +4,20 @@
     <Intro :state="state" />
     <Passion/>
     <Skills/>
+    <CaseStudies/>
   </div>
 </template>
 
 <script>
-  import Canvas from "./canvas/Canvas";
+  import Canvas from "./canvas/Canvas"
   import Intro from "./intro/Intro"
   import Passion from "./passion/Passion"
   import Skills from "./skills/Skills"
+  import CaseStudies from "./caseStudies/CaseStudies"
 
   export default {
     name: "Home",
     props: ['theme', 'state'],
-    components: { Canvas, Intro, Passion, Skills }
+    components: { Canvas, Intro, Passion, Skills, CaseStudies }
   }
 </script>

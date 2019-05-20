@@ -1,0 +1,70 @@
+@import "../../../mixins";
+@import "../../../wrapper";
+
+.caseItem {
+  @include setTheme('background-color', main);
+  @include setShadow(regular);
+  @include size(100%, 300px);
+  position: relative;
+  padding: map-get($spacing, regular);
+  margin-bottom: map-get($spacing, large);
+  overflow: visible;
+  transition: height ease .2s;
+
+  &-preview {
+    @include posAbs(map-get($spacing, large), 50%, false, default);
+    transition: left .5s ease, top .5s ease;
+    transform: translateY(-50%);
+  }
+
+  &-title {
+    margin-bottom: map-get($spacing, small);
+  }
+
+  &-images {
+    @include size(100%, 100%);
+
+    img {object-fit: cover}
+
+    img:nth-child(1) {
+      @include size(0, 100%);
+      transition: width ease .5s, height ease .5s;
+    }
+
+    img:nth-child(2) {
+      @include size(100%, 100%);
+      transition: width ease .5s, height ease .5s;
+    }
+  }
+
+  &[open] {
+    height: 800px;
+    transition: height ease .5s;
+
+    .caseItem {//prefix reset
+      &-preview {
+        @include posAbs(map-get($spacing, regular), 0, false, default);
+        transition: left .5s ease, top .5s ease;
+        width: calc(100% - 100px);
+      }
+
+      &-title {
+        @include setTheme('color', xxHigh);
+      }
+
+      &-images {
+        img:nth-child(1) {
+          @include size(calc(20% - 10px), 50%);
+          padding-right: 10px;
+          transition: width ease .5s, height ease .5s, padding ease .5s;
+        }
+
+        img:nth-child(2) {
+          @include size(calc(80% - 10px), 50%);
+          padding-left: 10px;
+          transition: width ease .5s, height ease .5s, padding ease .5s;
+        }
+      }
+    }
+  }
+}

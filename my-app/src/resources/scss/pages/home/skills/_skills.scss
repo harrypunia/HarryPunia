@@ -3,7 +3,5 @@
 
 .skills {
   @include wrapper();
-  @include size(100%, auto);
-
-  .title{margin-bottom: 80px}
+  @include size(100%, auto)
 }

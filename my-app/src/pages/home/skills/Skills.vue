@@ -1,6 +1,6 @@
 <template>
   <div id="skills" class="skills">
-    <h1 class="title">{{ $t('skills.title') }}</h1>
+    <h1 title>{{ $t('skills.title') }}</h1>
     <SkillItem id="skill1" num="1" :items="[
         {url: 'illustrator.svg', desc: 'Illustrator'},
         {url: 'photoshop.svg', desc: 'PhotoShop'},

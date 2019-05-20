@@ -76,6 +76,20 @@ $theme_Wheat: (
     selection: rgb(109, 132, 64)
 );
 
+$shadow: (
+  small: 0 0 10px rgba(0,0,0, 0.1),
+  regular: 0 0 15px rgba(0,0,0, 0.15),
+  large: 0 0 20px rgba(0,0,0, 0.2)
+);
+
+$spacing: (
+  xxSmall: 5px,
+  xSmall: 10px,
+  small: 20px,
+  regular: 40px,
+  large: 80px
+);
+
 :export {
   DarkMain: map-get($theme_Dark, main);
   DarkSecondary: map-get($theme_Dark, xxMain);

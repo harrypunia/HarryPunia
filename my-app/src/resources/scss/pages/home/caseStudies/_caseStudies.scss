@@ -1,0 +1,6 @@
+@import "../../../mixins";
+@import "../../../wrapper";
+
+.caseStudies {
+  @include wrapper();
+}
