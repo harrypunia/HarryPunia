@@ -15,4 +15,7 @@
   border-radius: 10px;
 }
 
-.caseItem[open] .caseItemTags {visibility: hidden}
+.invert {
+  @include setTheme('background-color', main);
+  @include setTheme('color', xxHigh);
+}

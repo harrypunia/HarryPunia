@@ -1,7 +1,0 @@
-@import "../../../mixins";
-
-.caseItemContent {
-  @include size(100%, 400px);
-  @include setTheme('background-color',xxHigh);
-  margin-top: map-get($spacing, small);
-}

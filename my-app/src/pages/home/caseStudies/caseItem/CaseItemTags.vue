@@ -1,13 +1,13 @@
 <template>
   <div class="caseItemTags">
-    <p small center invert :key="tag.key" v-for="tag in tags" class="tag-item">{{tag}}</p>
+    <p small center invert :key="tag.key" v-for="tag in tags" class="tag-item" :class="{invert : invert}">{{tag}}</p>
   </div>
 </template>
 
 <script>
   export default {
     name: "CaseItemTags",
-    props: ['tags']
+    props: ['tags', 'invert' ]
   }
 </script>
 

@@ -2,11 +2,11 @@
 
 .caseItem {
   @include setTheme('background-color', main);
-  @include setShadow(regular);
-  @include size(100%, 380px);
+  @include size(100%, 280px);
   position: relative;
-  padding: map-get($spacing, regular);
-  margin-bottom: map-get($spacing, large);
+  padding: map-get($spacing, small);
+  padding-top: map-get($spacing, regular);
+  margin-bottom: map-get($spacing, small);
   overflow: visible;
   transition: height ease-in .4s, transform ease .4s;
 
@@ -39,8 +39,8 @@
   &-close {
     @include setTheme('color', xxHigh);
     position: absolute;
-    top: 2em;
-    right: 65px;
+    top: 4em;
+    right: map-get($spacing, regular);
     font-size: 24px;
     z-index: 0;
     transition: top .5s ease, right .5s ease, transform .5s ease;
@@ -48,6 +48,7 @@
   }
 
   &[open] {
+    @include setShadow(regular);
     height: 800px;
     transition: height ease-out .4s;
 
@@ -56,13 +57,16 @@
     .clickToOpen {display: none}
 
     .caseItem {//prefix reset
+      &-tags {visibility: hidden}
+
       &-preview {
-        @include posAbs(map-get($spacing, regular), 0, false, default);
+        @include posAbs(map-get($spacing, regular), -5px, false, default);
+        transform: translateY(0);
         transition: left .4s ease-out, top .4s ease;
       }
 
       &-close {
-        top: -1.5em;
+        top: 10px;
         transition: top .5s ease;
       }
     }

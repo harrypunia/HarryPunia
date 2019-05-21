@@ -5,10 +5,10 @@
       <i class="fas fa-times caseItem-close" @click="$emit('close')"></i>
       <div class="caseItem-preview">
         <h3 class="caseItem-title">{{ $t(`caseStudies.${num}.title`) }}</h3>
-        <CaseItemTags :tags="['Visual Design', 'Poster', 'Typography', 'Graphics']"/>
+        <CaseItemTags class="caseItem-tags" :tags="['Visual Design', 'Poster', 'Typography', 'Graphics']"/>
       </div>
       <CaseItemImages :num="num" />
-      <CaseItemContent />
+      <CaseItemContent :num="num" />
     </div>
   </div>
 </template>
