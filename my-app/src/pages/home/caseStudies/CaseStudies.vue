@@ -1,7 +1,7 @@
 <template>
   <div id="caseStudies" class="caseStudies">
     <h1 title>{{ $t('caseStudies.title') }}</h1>
-    <CaseItem :key="index" v-for="index in 2" :num="index" @click.native="selection = index" :open="selection === index" />
+    <CaseItem :key="index" v-for="index in 2" :num="index" @click.native="changeStudy(index)" :open="selection === index" @close="closeStudy" />
   </div>
 </template>
 
@@ -13,13 +13,18 @@
     components: { CaseItem },
     data() {
       return {
-        selection: 0
+        selection: 0,
+        close: false
       }
     },
     methods: {
-      openStudy(e) {
-        const target = e.currentTarget;
-        this.selection = target.id;
+      changeStudy(i) {
+        !this.close ? this.selection = i : 0
+        this.close = false;
+      },
+      closeStudy() {
+        this.close = true;
+        this.selection = 0;
       }
     }
   }

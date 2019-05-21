@@ -3,6 +3,7 @@
     <div class="caseItem-images-mask">
       <img :src="getImg('alternate')" alt="Preview Case Study">
       <img :src="getImg('preview')" alt="Preview Case Study">
+      <div class="caseItem-images-textShadow"></div>
     </div>
   </div>
 </template>

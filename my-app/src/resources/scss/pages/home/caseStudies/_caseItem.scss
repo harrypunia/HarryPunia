@@ -1,5 +1,4 @@
 @import "../../../mixins";
-@import "../../../wrapper";
 
 .caseItem {
   @include setTheme('background-color', main);
@@ -9,7 +8,21 @@
   padding: map-get($spacing, regular);
   margin-bottom: map-get($spacing, large);
   overflow: visible;
-  transition: height ease-in .4s;
+  transition: height ease-in .4s, transform ease .4s;
+
+  &:hover {transform: scale(1.01)}
+
+  &-wrapper {
+    @include size(100%, 100%);
+    overflow: hidden;
+  }
+
+  .clickToOpen{
+    @include posAbs(0, 0, false, default);
+    @include size(100%, 100%);
+    z-index: 10;
+    cursor: pointer;
+  }
 
   &-preview {
     @include posAbs(map-get($spacing, large), 50%, false, default);
@@ -20,13 +33,14 @@
 
   &-title {
     margin-bottom: map-get($spacing, small);
+    text-shadow: 0 0 20px rgba(black, .1);
   }
 
   &-close {
     @include setTheme('color', xxHigh);
     position: absolute;
     top: 2em;
-    right: map-get($spacing, large);
+    right: 65px;
     font-size: 24px;
     z-index: 0;
     transition: top .5s ease, right .5s ease, transform .5s ease;
@@ -37,21 +51,19 @@
     height: 800px;
     transition: height ease-out .4s;
 
+    &:hover {transform: scale(1)}
+
+    .clickToOpen {display: none}
+
     .caseItem {//prefix reset
       &-preview {
         @include posAbs(map-get($spacing, regular), 0, false, default);
         transition: left .4s ease-out, top .4s ease;
       }
 
-      &-title {
-        @include setTheme('color', xxHigh);
-      }
-
       &-close {
         top: -1.5em;
-        right: map-get($spacing, regular);
-        transform: rotate(180deg);
-        transition: top .5s ease, right .5s ease, transform .5s ease;
+        transition: top .5s ease;
       }
     }
   }
