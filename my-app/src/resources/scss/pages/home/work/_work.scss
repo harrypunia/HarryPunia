@@ -1,0 +1,6 @@
+@import "../../../mixins";
+@import "../../../wrapper";
+
+.work {
+  @include wrapper();
+}

@@ -5,6 +5,7 @@
     <Passion/>
     <Skills/>
     <CaseStudies/>
+    <Work/>
   </div>
 </template>
 
@@ -14,10 +15,11 @@
   import Passion from "./passion/Passion"
   import Skills from "./skills/Skills"
   import CaseStudies from "./caseStudies/CaseStudies"
+  import Work from "./work/Work"
 
   export default {
     name: "Home",
     props: ['theme', 'state'],
-    components: { Canvas, Intro, Passion, Skills, CaseStudies }
+    components: { Canvas, Intro, Passion, Skills, CaseStudies, Work }
   }
 </script>

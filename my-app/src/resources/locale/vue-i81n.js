@@ -7,6 +7,7 @@ import {nav} from "./nav-lang";
 import {passion} from "./passion-lang"
 import {skills} from "./skills-lang";
 import {caseStudies} from "./caseStudies-lang";
+import {work} from "./work-lang";
 
 Vue.use(VueI18n);
 
@@ -18,14 +19,16 @@ export const i18n = new VueI18n({
       nav: {...nav.en},
       passion: {...passion.en},
       skills: {...skills.en},
-      caseStudies: {...caseStudies.en}
+      caseStudies: {...caseStudies.en},
+      work: {...work.en}
     },
     fr: {
       intro: {...intro.fr},
       nav: {...nav.fr},
       passion: {...passion.fr},
       skills: {...skills.fr},
-      caseStudies: {...caseStudies.fr}
+      caseStudies: {...caseStudies.fr},
+      work: {...work.fr}
     }
   }
 });

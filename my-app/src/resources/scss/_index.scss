@@ -137,9 +137,7 @@ q {
   }
 }
 
-::selection {
-  @include setTheme('background-color', selection);
-}
+::selection {@include setTheme('background-color', selection)}
 
 div[highlightDiv] {
   position: relative;
