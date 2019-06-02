@@ -23,7 +23,7 @@
 </template>
 
 <script>
-  import CaseItemTags from "./CaseItemTags"
+  import CaseItemTags from "../../../../components/Tags"
   export default {
     name: "CaseItemContent",
     props: [ 'num' ],

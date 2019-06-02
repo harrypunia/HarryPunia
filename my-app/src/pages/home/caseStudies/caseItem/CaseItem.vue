@@ -5,7 +5,7 @@
       <i class="fas fa-times caseItem-close" @click="$emit('close')"></i>
       <div class="caseItem-preview">
         <h3 class="caseItem-title">{{ $t(`caseStudies.${num}.title`) }}</h3>
-        <CaseItemTags class="caseItem-tags" :tags="['Visual Design', 'Poster', 'Typography', 'Graphics']"/>
+        <Tags class="caseItem-tags" :tags="['Visual Design', 'Poster', 'Typography', 'Graphics']"/>
       </div>
       <CaseItemImages :num="num" />
       <CaseItemContent :num="num" />
@@ -14,14 +14,14 @@
 </template>
 
 <script>
-  import CaseItemTags from "./CaseItemTags"
+  import Tags from "../../../../components/Tags"
   import CaseItemImages from "./CaseItemImages"
   import CaseItemContent from "./CaseItemContent"
 
   export default {
     name: "CaseItem",
     props: [ 'num', 'selection' ],
-    components: { CaseItemTags, CaseItemImages, CaseItemContent }
+    components: { Tags, CaseItemImages, CaseItemContent }
   }
 </script>
 

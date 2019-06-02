@@ -5,7 +5,6 @@
   @include flexGrid(center, space-between, no-wrap);
   @include setShadow(small);
   @include smooth(transform, .4s);
-  @include setTheme('border-color', high);
   text-decoration: none;
   border: 1px solid;
   border-radius: 5px;
@@ -28,6 +27,8 @@
     font-size: 15px;
     margin-top: .5em;
   }
+
+  &-tags {margin-top: map-get($spacing, small)}
 
   &-name {
     font-weight: 200;

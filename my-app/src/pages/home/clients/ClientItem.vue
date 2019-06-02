@@ -1,29 +1,33 @@
 <template>
-  <a :href="hpRef" rel="noreferrer noopener" class="clientItem" :style="{backgroundColor: brandColor}">
+  <a :href="hpRef" rel="noreferrer noopener" class="clientItem" :style="{backgroundColor: brandColor, borderColor: contentColor}">
     <div class="clientItem-info">
       <div>
-        <h4 :style="{...setColor}">{{ $t(`clients.${brandName}.type`) }}</h4>
-        <p :style="{...setColor}">{{ $t(`clients.${brandName}.duration`) }}</p>
+        <h4 :style="{color: contentColor}">{{ $t(`clients.${brandName}.type`) }}</h4>
+        <p :style="{color: contentColor}">{{ $t(`clients.${brandName}.duration`) }}</p>
+        <Tags
+            class="clientItem-tags"
+            size="small"
+            :background="contentColor"
+            :color="brandColor"
+            :tags=" $t(`clients.${brandName}.projects`)"
+        />
       </div>
-      <i :style="{...setColor}" class="fas fa-external-link-alt"></i>
+      <i :style="{color: contentColor}" class="fas fa-external-link-alt"></i>
     </div>
     <img class="clientItem-logo" :src="getImg(brandName)" alt="client" />
-    <h4 :style="{...setColor}" class="clientItem-name">{{brandName.toUpperCase()}}</h4>
+    <h4 :style="{color: contentColor}" class="clientItem-name">{{brandName.toUpperCase()}}</h4>
   </a>
 </template>
 
 <script>
+  import Tags from "../../../components/Tags"
+
   export default {
     name: "ClientItem",
     props: [ 'brandName', 'brandColor', 'contentColor', 'hpRef' ],
-    data() {
-      return {
-        setColor: { color: this.contentColor }
-      }
-    },
+    components: { Tags },
     methods: {
-      getImg(which) {return require('../../../resources/img/clients/' + which + '.png')},
-      getText(what) {return 'clients.' + this.brandName + '.' + what}
+      getImg(which) {return require('../../../resources/img/clients/' + which + '.png')}
     }
   }
 </script>
