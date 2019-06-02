@@ -1,6 +1,8 @@
 @import "../../../mixins";
 @import "../../../wrapper";
 
-.work {
+.clients {
   @include wrapper();
+
+  &-items {@include flexGrid(center, center, wrap);}
 }

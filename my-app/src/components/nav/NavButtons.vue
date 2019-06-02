@@ -1,9 +1,9 @@
 <template>
   <div class="buttons">
-    <a hover href="#" class="buttons-items" @click="scrollTo($t('nav.btn.1'))">{{$t('nav.btn.1')}}</a>
-    <a hover href="#" class="buttons-items" @click="scrollTo($t('nav.btn.2'))">{{$t('nav.btn.2')}}</a>
-    <a hover href="#" class="buttons-items" @click="scrollTo($t('nav.btn.3'))">{{$t('nav.btn.3')}}</a>
-    <a hover href="#" class="buttons-items" @click="scrollTo($t('nav.btn.4'))">{{$t('nav.btn.4')}}</a>
+    <a hover href="#" class="buttons-items" @click="scrollTo('intro')">{{$t('nav.btn.1')}}</a>
+    <a hover href="#" class="buttons-items" @click="scrollTo('caseStudies')">{{$t('nav.btn.2')}}</a>
+    <a hover href="#" class="buttons-items" @click="scrollTo('clients')">{{$t('nav.btn.3')}}</a>
+    <a hover href="#" class="buttons-items" @click="scrollTo('about')">{{$t('nav.btn.4')}}</a>
   </div>
 </template>
 

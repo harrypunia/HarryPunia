@@ -2,17 +2,17 @@ export const nav = {
   en: {
     btn: {
       1: "Intro",
-      2: "About",
-      3: "Project",
-      4: "Work"
+      2: "Project",
+      3: "Clients",
+      4: "About"
     }
   },
   fr: {
     btn: {
       1: "Intro",
-      2: "Sur",
-      3: "Projets",
-      4: "Travail"
+      2: "Projets",
+      3: "Clients",
+      4: "Sur"
     }
   }
 };

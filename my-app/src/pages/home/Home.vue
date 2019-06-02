@@ -15,7 +15,7 @@
   import Passion from "./passion/Passion"
   import Skills from "./skills/Skills"
   import CaseStudies from "./caseStudies/CaseStudies"
-  import Work from "./work/Work"
+  import Work from "./clients/Clients"
 
   export default {
     name: "Home",

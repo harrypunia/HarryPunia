@@ -7,15 +7,16 @@
   transition: background .2s, color .2s;
 }
 
+body, html {font-size: 62.5%}
+
 body {
   margin: 0;
-  font-size: 62.5%;
   width: 100vw;
   overflow-x: hidden;
   will-change: background-color;
 }
 
-h1, h2, h3, p, a, q {
+h1, h2, h3, h4, p, a, q {
   display: block;
   line-height: 1.5em;
   margin: 0;
@@ -26,12 +27,12 @@ h1[center], h2[center], h3[center], h4[center], p[center], a[center], q[center] 
 
 h1[title] {margin-bottom: map-get($spacing, large)}
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   @include setTheme('color', xxHigh);
   &[invert] {@include setTheme('color', main)}
 }
 
-h2, h3 {
+h2, h3, h4 {
   font-family: 'Poppins';
 }
 
@@ -41,33 +42,40 @@ p, a, q {
 
 a, q {
   font-weight: 400;
-  font-size: 1.6rem;
   font-size: 16px;
+  font-size: 1.6rem;
 }
 
 h1 {
   font-family: 'Cormorant Garamond';
   font-weight: 300;
-  font-size: 3.2rem;
   font-size: 32px;
+  font-size: 3.2rem;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 3rem;
   font-size: 30px;
+  font-size: 3rem;
   letter-spacing: -0.5px;
 }
 
 h3 {
   font-weight: 400;
-  font-size: 2.4rem;
   font-size: 24px;
+  font-size: 2.4rem;
 }
+
+h4 {
+  font-weight: 400;
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
 
 p {
   @include setTheme('color', high);
-  font-weight: 300;
+  font-weight: 200;
   font-size: 1.6rem;
   font-size: 16px;
   max-width: 500px;
