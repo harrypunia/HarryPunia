@@ -14,8 +14,8 @@
       </div>
       <i :style="{color: contentColor}" class="fas fa-external-link-alt"></i>
     </div>
-    <img class="clientItem-logo" :src="getImg(brandName)" alt="client" />
     <h4 :style="{color: contentColor}" class="clientItem-name">{{brandName.toUpperCase()}}</h4>
+    <img class="clientItem-logo" :src="getImg(brandName)" alt="client" />
   </a>
 </template>
 

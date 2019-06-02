@@ -4,7 +4,7 @@
 .tags-container {
   @include flexGrid(center, flex-start, wrap);
   cursor: default;
-  margin-left: -10px;
+  margin-left: -5px;
 }
 
 .invert {
@@ -15,7 +15,7 @@
 .tags {
   @include setTheme('background-color', xxHigh);
   padding: map-get($spacing, xxSmall) map-get($spacing, xSmall);
-  margin: 0 10px;
+  margin: 0 5px;
   margin-bottom: map-get($spacing, xSmall);
   border-radius: 20px;
 

@@ -4,17 +4,17 @@ export const clients = {
     neoEvolution: {
       type: 'Part-time',
       duration: '3+ months (on-going)',
-      projects: ['Web Design', 'Web Development', 'Web Development', 'Web Development']
+      projects: ['Web Design', 'Web Development', 'Logo Design']
     },
     punias: {
       type: 'Freelance',
       duration: '1+ year (on-going)',
-      projects: ['hey', 'hello']
+      projects: ['Web Design', 'Web Development', 'Logo Design', 'Architectural Designs']
     },
     firmway: {
       type: 'One time project',
       duration: '1 week',
-      projects: ['hey', 'hello']
+      projects: ['Brochure Design']
     }
   },
   fr: {
@@ -22,17 +22,17 @@ export const clients = {
     neoEvolution: {
       type: 'Temps partiel',
       duration: '3 mois et plus (en cours)',
-      projects: ['hey', 'hello']
+      projects: ['Web / Conception visuelle', 'Développement web', 'Création de logo']
     },
     punias: {
       type: 'Plein temps',
       duration: '1 an ou plus (en cours)',
-      projects: ['hey', 'hello']
+      projects: ['Web / Conception visuelle', 'Développement web', 'Création de logo', 'Designs architecturaux']
     },
     firmway: {
       type: 'Projet ponctuel',
       duration: '1 semaine',
-      projects: ['hey', 'hello']
+      projects: ['Conception de la brochure']
     }
   }
 };
