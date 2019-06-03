@@ -80,6 +80,10 @@ p {
   font-size: 16px;
   max-width: 500px;
 
+  &[bold] {
+    font-weight: 400;
+  }
+
   &[small] {
     font-size: 1.2rem;
     font-size: 12px;

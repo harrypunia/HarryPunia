@@ -8,6 +8,7 @@ import {passion} from "./passion-lang"
 import {skills} from "./skills-lang";
 import {caseStudies} from "./caseStudies-lang";
 import {clients} from "./clients-lang";
+import {about} from "./about-lang";
 
 Vue.use(VueI18n);
 
@@ -20,7 +21,8 @@ export const i18n = new VueI18n({
       passion: {...passion.en},
       skills: {...skills.en},
       caseStudies: {...caseStudies.en},
-      clients: {...clients.en}
+      clients: {...clients.en},
+      about: {...about.en}
     },
     fr: {
       intro: {...intro.fr},
@@ -28,7 +30,8 @@ export const i18n = new VueI18n({
       passion: {...passion.fr},
       skills: {...skills.fr},
       caseStudies: {...caseStudies.fr},
-      clients: {...clients.fr}
+      clients: {...clients.fr},
+      about: {...about.fr}
     }
   }
 });

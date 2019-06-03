@@ -6,6 +6,7 @@
     <Skills/>
     <CaseStudies/>
     <Work/>
+    <About/>
   </div>
 </template>
 
@@ -16,10 +17,11 @@
   import Skills from "./skills/Skills"
   import CaseStudies from "./caseStudies/CaseStudies"
   import Work from "./clients/Clients"
+  import About from "./about/About"
 
   export default {
     name: "Home",
     props: ['theme', 'state'],
-    components: { Canvas, Intro, Passion, Skills, CaseStudies, Work }
+    components: { Canvas, Intro, Passion, Skills, CaseStudies, Work, About }
   }
 </script>

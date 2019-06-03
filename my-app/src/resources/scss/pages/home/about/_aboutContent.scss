@@ -1,0 +1,26 @@
+@import "../../../mixins";
+
+.aboutContent {
+  @include size(800px, 700px);
+  padding: 0 map-get($spacing, xSmall);
+
+  h4 {margin-top: map-get($spacing, regular)}
+
+  & h4:first-child {margin: 0}
+
+  &-items {
+    @include setTheme('border-color', xxMain);
+    padding: map-get($spacing, xSmall) map-get($spacing, small);
+    border: 1px dashed;
+    margin-top: map-get($spacing, xSmall);
+  }
+
+  &-personal {
+    @include flexGrid(flex-start, flex-start, wrap);
+
+    &-items {
+      width: 50%;
+      margin-bottom: map-get($spacing, xSmall);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../../mixins";
+@import "../../../wrapper";
+
+.about {
+  @include wrapper();
+
+  &-wrapper {
+    @include size(100%, 700px);
+    @include flexGrid(center, space-between, wrap)
+  }
+
+  &-image {
+    @include size(400px, 700px);
+    object-fit: cover;
+  }
+}

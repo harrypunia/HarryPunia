@@ -3,8 +3,8 @@
 
 .tags-container {
   @include flexGrid(center, flex-start, wrap);
-  cursor: default;
   margin-left: -5px;
+  cursor: inherit;
 }
 
 .invert {
