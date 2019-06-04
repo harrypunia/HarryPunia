@@ -1,6 +1,12 @@
 <template>
   <div id="intro" class="intro">
-    <img class="myImg" :class="'myImg-' + state" src="../../../resources/img/intro/harryPunia.jpg" alt="Harry Punia">
+    <Parallax
+        class="myImg"
+        :class="'myImg-' + state"
+        :src="require('../../../resources/img/intro/harryPunia.jpg')"
+        alt="Harry Punia"
+        :size="{w: 300, h:300}"
+    />
     <IntroInfo class="info" :class="'info-' + state"/>
     <Button action="#" class="button" :class="'button-' + state" dir="horizontal" :text="$t('intro.button')" img="grin-alt" />
     <a hover class="link" :class="'link-' + state">{{ $t('intro.caseStudies') }}</a>
@@ -9,13 +15,14 @@
 </template>
 
 <script>
+  import Parallax from "../../../components/Parallax"
   import Button from "../../../components/button/Button"
   import IntroBottomNav from "./IntroBottomNav"
   import IntroInfo from "./IntroInfo"
 
   export default {
     name: "Intro",
-    components: { Button, IntroBottomNav, IntroInfo },
+    components: { Button, IntroBottomNav, IntroInfo, Parallax },
     props: ['state']
   }
 </script>
