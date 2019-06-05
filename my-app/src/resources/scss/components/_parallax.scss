@@ -1,0 +1,23 @@
+@import "../mixins";
+
+.parallax {
+  @include flexGrid(center, center, no-wrap);
+  overflow: hidden;
+  
+  img {
+    will-change: transform;
+    transition: none;
+  }
+}
+
+.landscape {
+    img {
+      @include size(100%, auto)
+    }
+  }
+
+.portrait {
+  img{
+    @include size(auto, 120%)
+  }
+}

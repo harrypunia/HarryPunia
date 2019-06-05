@@ -7,7 +7,6 @@
   padding: map-get($spacing, small);
   padding-top: map-get($spacing, regular);
   margin-bottom: map-get($spacing, small);
-  overflow: visible;
   transition: height ease-in .4s, transform ease .4s;
 
   &:hover {transform: scale(1.01)}

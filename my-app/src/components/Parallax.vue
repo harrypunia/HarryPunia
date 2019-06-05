@@ -1,20 +1,19 @@
 <template>
-  <Parallaxy
-      class="parallax"
-      :speed-factor="speed || 0.1"
-      breakpoint="(min-width: 600px)"
-      :style="{width: size.w + 'px', height: size.h + 'px', minHeight: 0}"
-  >
-    <img :src="src" :alt="alt">
-  </Parallaxy>
+  <div :class="landscape ? 'landscape' : 'portrait'" class="parallax" @click="fetchParentOffset($event)">
+    <img v-parallax="speed" :src="src" :alt="alt">
+  </div>
 </template>
 
 <script>
-  import Parallaxy from "vue-parallaxy"
-
   export default {
     name: "Parallax",
-    components: { Parallaxy },
-    props: [ 'src', 'alt', 'speed', 'size' ]
+    props: [ 'src', 'alt', 'speed', 'landscape' ],
+    methods: {
+      fetchParentOffset(e) {
+        console.log(e.currentTarget.offsetParent.offsetTop);
+      }
+    }
   }
 </script>
+
+<style lang="scss" scoped>@import "../resources/scss/components/parallax";</style>

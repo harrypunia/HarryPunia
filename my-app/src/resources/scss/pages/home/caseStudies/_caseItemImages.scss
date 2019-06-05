@@ -1,6 +1,7 @@
 @import "../../../mixins";
 
 .caseItem {
+  position: relative;
 
   &-images {
     @include size(100%, 300px);
@@ -14,24 +15,20 @@
     &-mask {
       @include size(100%, 100%);
       position: relative;
-      overflow: hidden;
+    }
 
-      img {
-        display: block;
-        object-fit: cover;
+    &-alternate {
+      @include size(25%, 100%);
+      object-fit: cover;
+      transform: translate3d(calc(-100% - 20px), 0, 0);
+      transition: transform ease-in .4s;
+    }
 
-        &:nth-child(1) {
-          @include size(25%, 100%);
-          transform: translate3d(calc(-100% - 20px), 0, 0);
-          transition: transform ease-in .4s;
-        }
-
-        &:nth-child(2) {
-          @include size(calc(100%), 100%);
-          transform: translate3d(0, -100%, 0);
-          transition: transform ease-in .4s;
-        }
-      }
+    &-preview {
+      object-fit: cover;
+      @include size(100%, 100%);
+      transform: translate3d(0, -100%, 0);
+      transition: transform ease-in .4s;
     }
   }
 
@@ -39,19 +36,19 @@
     .caseItem {
       &-images-textShadow {display:none}
 
-      &-images-mask {
-        transition: height .4s ease-out;
+      &-images {
+        &-mask {
+          transition: height .4s ease-out;
+        }
 
-        img {
-          &:nth-child(1) {
-            transform: translate3d(0%, 0%, 0);
-            transition: transform ease-out .4s;
-          }
+        &-alternate {
+          transform: translate3d(0%, 0%, 0);
+          transition: transform ease-out .4s;
+        }
 
-          &:nth-child(2) {
-            transform: translate3d(calc(25% + 20px), -100%, 0);
-            transition: transform ease-out .4s;
-          }
+        &-preview {
+          transform: translate3d(calc(25% + 20px), -100%, 0);
+          transition: transform ease-out .4s;
         }
       }
     }
