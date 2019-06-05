@@ -1,22 +1,23 @@
 <template>
-  <a :href="hpRef" rel="noreferrer noopener" class="clientItem" :style="{backgroundColor: brandColor, borderColor: contentColor}">
+  <div :style="{backgroundColor: brandColor, borderColor: contentColor}" class="clientItem">
+    <a :href="hpRef" rel="noreferrer noopener"></a>
     <div class="clientItem-info">
-      <div>
-        <h4 :style="{color: contentColor}">{{ $t(`clients.${brandName}.type`) }}</h4>
-        <p :style="{color: contentColor}">{{ $t(`clients.${brandName}.duration`) }}</p>
-        <Tags
-            class="clientItem-tags"
-            size="small"
-            :background="contentColor"
-            :color="brandColor"
-            :tags=" $t(`clients.${brandName}.projects`)"
-        />
+        <div>
+          <h4 :style="{color: contentColor}">{{ $t(`clients.${brandName}.type`) }}</h4>
+          <p :style="{color: contentColor}">{{ $t(`clients.${brandName}.duration`) }}</p>
+          <Tags
+              class="clientItem-tags"
+              size="small"
+              :background="contentColor"
+              :color="brandColor"
+              :tags=" $t(`clients.${brandName}.projects`)"
+          />
+        </div>
+        <i :style="{color: contentColor}" class="fas fa-external-link-alt"></i>
       </div>
-      <i :style="{color: contentColor}" class="fas fa-external-link-alt"></i>
-    </div>
+    <img v-parallax="0.05" class="clientItem-logo" :src="logo" alt="client" />
     <h4 :style="{color: contentColor}" class="clientItem-name">{{brandName.toUpperCase()}}</h4>
-    <img class="clientItem-logo" :src="getImg(brandName)" alt="client" />
-  </a>
+  </div>
 </template>
 
 <script>
@@ -26,8 +27,10 @@
     name: "ClientItem",
     props: [ 'brandName', 'brandColor', 'contentColor', 'hpRef' ],
     components: { Tags },
-    methods: {
-      getImg(which) {return require('../../../resources/img/clients/' + which + '.png')}
+    data() {
+      return {
+        logo: require(`../../../resources/img/clients/${this.brandName}.png`)
+      }
     }
   }
 </script>

@@ -1,22 +1,26 @@
 @import "../../../mixins";
 
 .clientItem {
-  @include size(360px, 600px);
-  @include flexGrid(center, space-between, no-wrap);
   @include setShadow(small);
   @include smooth(transform, .4s);
+  @include flexGrid(center, space-between, no-wrap);
+  @include size(360px, 600px);
+  flex-direction: column;
   text-decoration: none;
+  padding: map-get($spacing, small);
   border: 1px solid;
   border-radius: 5px;
   margin-right: map-get($spacing, large);
   margin-bottom: map-get($spacing, regular);
-  padding: map-get($spacing, small);
-  flex-direction: column;
   cursor: alias;
 
-  &:hover {
-    transform: scale3d(1.01, 1.01, 1) translateY(-5px);
+  & a {
+    position: absolute;
   }
+
+  //&:hover {
+  //  transform: scale3d(1.01, 1.01, 1);
+  //}
 
   &-info {
     @include size(100%, auto);
@@ -36,7 +40,6 @@
   }
 
   &-logo {
-    @include posAbs(50%, 50%, true, default);
     @include size(100px, auto);
   }
 

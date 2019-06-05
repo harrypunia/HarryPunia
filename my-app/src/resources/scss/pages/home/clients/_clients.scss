@@ -4,5 +4,7 @@
 .clients {
   @include wrapper();
 
-  &-items {@include flexGrid(center, center, wrap);}
+  &-items {
+    @include flexGrid(center, center, wrap);
+  }
 }
