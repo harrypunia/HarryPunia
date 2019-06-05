@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="357056fb-ffff-40bd-946f-ad4a0e293d12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-app/src/resources/scss/components/_parallax.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Parallax.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Parallax.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/about/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/pages/home/about/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemImages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemImages.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/intro/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/pages/home/intro/Intro.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_intro.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,37 +13,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemImages.vue">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/Title.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            <state relative-caret-position="30">
+              <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItemImages.scss">
+        <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/components/_title.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItem.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItem.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-325">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -86,13 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/passion/PassionItem.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/js/index.js" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/_theme.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/App.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/_mixins.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/CaseStudies.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/caseItemImages" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/caseItemContent" />
         <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemTags.vue" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItemTags.scss" />
@@ -103,17 +67,13 @@
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/work/_work.scss" />
         <option value="$PROJECT_DIR$/my-app/src/pages/home/work/Work.vue" />
         <option value="$PROJECT_DIR$/my-app/public/index.html" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clients.scss" />
         <option value="$PROJECT_DIR$/my-app/src/resources/locale/nav-lang.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/nav/NavButtons.vue" />
         <option value="$PROJECT_DIR$/my-app/src/components/tag/CaseItemTags.vue" />
         <option value="$PROJECT_DIR$/my-app/src/components/tag/Tags.vue" />
         <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItem.vue" />
         <option value="$PROJECT_DIR$/my-app/src/components/Tags.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/Clients.vue" />
         <option value="$PROJECT_DIR$/my-app/src/resources/locale/clients-lang.js" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/ClientItem.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clientItem" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_tags.scss" />
         <option value="$PROJECT_DIR$/my-app/src/resources/locale/vue-i81n.js" />
         <option value="$PROJECT_DIR$/my-app/src/pages/home/Home.vue" />
@@ -123,20 +83,31 @@
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_list.scss" />
         <option value="$PROJECT_DIR$/my-app/src/components/List.vue" />
         <option value="$PROJECT_DIR$/my-app/src/resources/locale/about-lang.js" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/about/AboutContent.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_aboutContent.scss" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/_index.scss" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_intro.scss" />
         <option value="$PROJECT_DIR$/my-app/src/main.js" />
         <option value="$PROJECT_DIR$/my-app/src/pages/home/intro/Intro.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_about.scss" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_parallax" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/about/About.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_parallax.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/components/Parallax.vue" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItem.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemImages.vue" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItemImages.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemImages.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Parallax.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/_mixins.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_about.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/about/AboutContent.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_aboutContent.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_parallax.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clientItem" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clients.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/ClientItem.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/CaseStudies.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/Clients.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/about/About.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/skills/Skills.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/locale/passion-lang.js" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/passion/Passion.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Title.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_title.scss" />
       </list>
     </option>
   </component>
@@ -174,6 +145,13 @@
               <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -191,17 +169,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="caseStudies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="caseStudies" type="462c0819:PsiDirectoryNode" />
-              <item name="caseItem" type="462c0819:PsiDirectoryNode" />
+              <item name="passion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
@@ -267,18 +235,18 @@
       <workItem from="1558760077507" duration="3000" />
       <workItem from="1558980126836" duration="271000" />
       <workItem from="1559503443505" duration="14113000" />
-      <workItem from="1559678848451" duration="12291000" />
+      <workItem from="1559678848451" duration="20042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81054000" />
+    <option name="totallyTimeSpent" value="88805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20695971" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20695971" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -291,10 +259,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26020408" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26020408" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
@@ -338,21 +306,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/components/button/_button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/_theme.scss" />
     <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/_wrapper.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -367,13 +320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/passion/Passion.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -418,24 +364,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/locale/passion-lang.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemContent.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clients.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -477,31 +409,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clientItem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/resources/locale/clients-lang.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/clients/ClientItem.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/clients/Clients.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -526,13 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_aboutContent.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -570,30 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/about/AboutContent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/node_modules/vue-parallaxy/dist/vue-parallaxy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4711">
           <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="e#1651#2010#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,13 +494,6 @@
     <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/components/_parallax.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/intro/Intro.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -628,27 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/CaseStudies.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="88" selection-start-line="32" selection-start-column="88" selection-end-line="32" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/components/_parallax.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/about/About.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -670,24 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/Parallax.vue">
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItemImages.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="58" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItem.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemImages.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        <state relative-caret-position="300">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -698,10 +540,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItemImages.scss">
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItem.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="17" column="43" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemImages.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding>
+            <element signature="e#1651#2010#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/about/AboutContent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_aboutContent.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/components/_parallax.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clientItem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/clients/ClientItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clients.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/CaseStudies.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <folding>
+            <element signature="e#283#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/locale/passion-lang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/about/About.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#281#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/skills/Skills.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="e#874#909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/clients/Clients.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#574#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Parallax.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/passion/Passion.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <folding>
+            <element signature="e#369#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Title.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/components/_title.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
