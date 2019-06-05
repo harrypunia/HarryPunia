@@ -1,6 +1,6 @@
 export const passion = {
   en: {
-    title: "Things I do for Passion",
+    title: "Passion",
     subheading: "Interaction Designing",
     item: {
       button: "Explore Skills",

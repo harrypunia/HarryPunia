@@ -1,6 +1,6 @@
 <template>
   <div class="passion">
-    <h1 title>{{ $t('passion.title') }}</h1>
+    <Title :content="$t('passion.title')"/>
     <p center faded class="subheading">{{ $t('passion.subheading') }}</p>
     <div class="outline"></div>
     <div class="grid">
@@ -14,9 +14,11 @@
 
 <script>
   import PassionItem from "./PassionItem";
+  import Title from "../../../components/Title"
+
   export default {
     name: "Passion",
-    components: { PassionItem }
+    components: { PassionItem, Title }
   }
 </script>
 

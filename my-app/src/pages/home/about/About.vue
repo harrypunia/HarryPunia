@@ -1,6 +1,6 @@
 <template>
   <div id="about" class="about">
-    <h1 title>{{ $t('about.title') }}</h1>
+    <Title :content="$t('about.title')"/>
     <div class="about-wrapper">
       <Parallax breakpoint=1400 class="about-image" speed="0.2" :src="myImg" alt="Harry Punia" />
       <AboutContent/>
@@ -11,10 +11,11 @@
 <script>
   import AboutContent from "./AboutContent"
   import Parallax from "../../../components/Parallax"
+  import Title from "../../../components/Title"
 
   export default {
     name: "About",
-    components: { AboutContent, Parallax },
+    components: { AboutContent, Parallax, Title },
     data() {
       return {
         myImg: require('../../../resources/img/about/me.png')

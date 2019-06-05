@@ -1,16 +1,17 @@
 <template>
   <div id="caseStudies" class="caseStudies">
-    <h1 title>{{ $t('caseStudies.title') }}</h1>
+    <Title :content="$t('caseStudies.title')" />
     <CaseItem :key="index" v-for="index in 2" :num="index" @click.native="changeStudy(index)" :open="selection === index" @close="closeStudy" />
   </div>
 </template>
 
 <script>
   import CaseItem from "./caseItem/CaseItem"
+  import Title from "../../../components/Title"
 
   export default {
     name: "CaseStudies",
-    components: { CaseItem },
+    components: { CaseItem, Title },
     data() {
       return {
         selection: 0,

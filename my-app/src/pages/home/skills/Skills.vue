@@ -1,6 +1,6 @@
 <template>
   <div id="skills" class="skills">
-    <h1 title>{{ $t('skills.title') }}</h1>
+    <Title :content="$t('skills.title')"/>
     <SkillItem id="skill1" num="1" :items="[
         {url: 'illustrator.svg', desc: 'Illustrator'},
         {url: 'photoshop.svg', desc: 'PhotoShop'},
@@ -25,10 +25,11 @@
 
 <script>
   import SkillItem from "./SkillItem"
+  import Title from "../../../components/Title"
 
   export default {
     name: "Skills",
-    components: { SkillItem }
+    components: { SkillItem, Title }
   }
 </script>
 

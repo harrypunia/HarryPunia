@@ -1,0 +1,30 @@
+@import "../mixins";
+
+.title {
+  @include size(100%, 200px);
+  @include flexGrid(center, flex-start, no-wrap);
+  margin-bottom: map-get($spacing, large);
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  @include view(laptop) {
+    height: 100px;
+  }
+
+  @include view(phone) {
+    height: 80px;
+  }
+
+  &-text {
+    @include setTheme('color', xMain);
+    margin: 0;
+    font-size: 200px;
+
+    @include view(laptop) {
+      font-size: 100px;
+    }
+
+    @include view(phone) {
+      font-size: 60px;
+    }
+  }
+}
