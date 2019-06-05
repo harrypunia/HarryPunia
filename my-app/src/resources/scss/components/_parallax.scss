@@ -2,12 +2,20 @@
 
 .parallax {
   @include flexGrid(center, center, no-wrap);
+  position: relative;
   overflow: hidden;
-  
+
   img {
     will-change: transform;
-    transition: none;
   }
+
+  &:after {
+    @include size(100%, 100%);
+    content: "";
+    position: absolute;
+    box-shadow: inset 0 0 10px rgba(0,0,0,.5);
+  }
+
 }
 
 .landscape {

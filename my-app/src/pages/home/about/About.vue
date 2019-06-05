@@ -2,7 +2,7 @@
   <div id="about" class="about">
     <h1 title>{{ $t('about.title') }}</h1>
     <div class="about-wrapper">
-      <Parallax class="about-image" speed="0.2" :src="myImg" alt="Harry Punia" />
+      <Parallax breakpoint=1400 class="about-image" speed="0.2" :src="myImg" alt="Harry Punia" />
       <AboutContent/>
     </div>
   </div>
@@ -23,4 +23,4 @@
   }
 </script>
 
-<style lang="scss" scoped>@import "../../../resources/scss/pages/home/about/about";</style>
+<style lang="scss">@import "../../../resources/scss/pages/home/about/about";</style>

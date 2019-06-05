@@ -9,12 +9,9 @@
 </template>
 
 <script>
-  import Parallax from "../../../../components/Parallax"
-
   export default {
     name: "CaseItemImages",
     props: [ 'num' ],
-    components: { Parallax },
     data() {
       return {
         preview: require(`../../../../resources/img/caseStudies/${this.num}/preview.jpg`),

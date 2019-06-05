@@ -56,6 +56,8 @@
     @media only screen and (max-width: 600px) {@content}
   } @else if $which == tab {
     @media only screen and (max-width: 1000px) {@content}
+  } @else if $which == laptop {
+    @media only screen and (max-width: 1400px) {@content}
   } @else {
     @media only screen and (max-width: $which) {@content}
   }
