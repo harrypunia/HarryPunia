@@ -1,27 +1,22 @@
 <template>
   <div ref="study" class="caseItem">
-    <div class="caseItem-wrapper">
-      <div class="clickToOpen"></div>
-      <i class="fas fa-times caseItem-close" @click="$emit('close')"></i>
-      <div class="caseItem-preview">
-        <h3 class="caseItem-title">{{ $t(`caseStudies.${num}.title`) }}</h3>
-        <Tags class="caseItem-tags" :tags="['Visual Design', 'Poster', 'Typography', 'Graphics']"/>
-      </div>
-      <CaseItemImages :num="num" />
-      <CaseItemContent :num="num" />
-    </div>
+    <img class="caseItem-image" :src="preview" alt="Case Study Preview">
+    <Tags />
   </div>
 </template>
 
 <script>
   import Tags from "../../../../components/Tags"
-  import CaseItemImages from "./CaseItemImages"
-  import CaseItemContent from "./CaseItemContent"
 
   export default {
     name: "CaseItem",
     props: [ 'num', 'selection' ],
-    components: { Tags, CaseItemImages, CaseItemContent }
+    components: { Tags },
+    data() {
+      return {
+        preview: require(`../../../../resources/img/caseStudies/${this.props.num}/preview.jpg`)
+      }
+    }
   }
 </script>
 

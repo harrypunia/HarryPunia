@@ -1,73 +1,13 @@
 @import "../../../mixins";
 
 .caseItem {
-  @include setTheme('background-color', main);
-  @include size(100%, 280px);
-  position: relative;
-  padding: map-get($spacing, small);
-  padding-top: map-get($spacing, regular);
-  margin-bottom: map-get($spacing, small);
-  transition: height ease-in .4s, transform ease .4s;
+  @include size(500px, 500px);
+  @include setShadow(small);
+  border-radius: 5px;
+  overflow: hidden;
 
-  &:hover {transform: scale(1.01)}
-
-  &-wrapper {
-    @include size(100%, 100%);
-    overflow: hidden;
-  }
-
-  .clickToOpen{
-    @include posAbs(0, 0, false, default);
-    @include size(100%, 100%);
-    z-index: 10;
-    cursor: pointer;
-  }
-
-  &-preview {
-    @include posAbs(map-get($spacing, large), 50%, false, default);
-    z-index: 1;
-    transition: left .4s ease-in, top .4s ease-in;
-    transform: translateY(-50%);
-  }
-
-  &-title {
-    margin-bottom: map-get($spacing, small);
-    text-shadow: 0 0 20px rgba(black, .1);
-  }
-
-  &-close {
-    @include setTheme('color', xxHigh);
-    position: absolute;
-    top: 4em;
-    right: map-get($spacing, regular);
-    font-size: 24px;
-    z-index: 0;
-    transition: top .5s ease, right .5s ease, transform .5s ease;
-    cursor: pointer;
-  }
-
-  &[open] {
-    @include setShadow(regular);
-    height: 800px;
-    transition: height ease-out .4s;
-
-    &:hover {transform: scale(1)}
-
-    .clickToOpen {display: none}
-
-    .caseItem {//prefix reset
-      &-tags {visibility: hidden}
-
-      &-preview {
-        @include posAbs(map-get($spacing, regular), -5px, false, default);
-        transform: translateY(0);
-        transition: left .4s ease-out, top .4s ease;
-      }
-
-      &-close {
-        top: 10px;
-        transition: top .5s ease;
-      }
-    }
+  &-image {
+    @include size(100%, auto);
+    object-fit: cover;
   }
 }

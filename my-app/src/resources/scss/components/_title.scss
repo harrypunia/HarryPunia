@@ -1,26 +1,24 @@
 @import "../mixins";
 
 .title {
-  @include size(100%, 200px);
+  @include size(100%, 150px);
   @include flexGrid(center, flex-start, no-wrap);
   margin-bottom: map-get($spacing, large);
-  box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
-  overflow: hidden;
   @include view(laptop) {
-    height: 100px;
+    height: 80px;
   }
 
   @include view(phone) {
-    height: 80px;
+    height: 50px;
   }
 
   &-text {
     @include setTheme('color', xMain);
     margin: 0;
-    font-size: 200px;
+    font-size: 150px;
 
     @include view(laptop) {
-      font-size: 100px;
+      font-size: 80px;
     }
 
     @include view(phone) {

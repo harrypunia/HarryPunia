@@ -1,30 +1,5 @@
 @import "../../../mixins";
 
 .caseItemContent {
-  @include size(100%, 400px);
-  @include setTheme('background-color',xxHigh);
-  @include flexGrid(center, center, no-wrap);
-  margin-top: map-get($spacing, small);
 
-  .content {
-    &-tags {margin-top: 10px}
-    &-items {width: 100%}
-
-    &-left {
-      @include flexGrid(flex-start, flex-start, wrap);
-      @include size(50%, 100%);
-      padding: map-get($spacing, regular);
-
-      &-top-title {margin-top: 0}
-      &-bot {align-self: flex-end}
-    }
-
-    &-right {
-      @include size(50%, 100%);
-      @include flexGrid(flex-start, flex-start, no-wrap);
-      @include size(50%, 100%);
-      flex-direction: column;
-      padding: map-get($spacing, regular);
-    }
-  }
 }
