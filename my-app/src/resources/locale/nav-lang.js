@@ -1,18 +1,26 @@
 export const nav = {
   en: {
     btn: {
-      1: "Intro",
-      2: "Project",
-      3: "Clients",
-      4: "About"
+      intro: "Intro",
+      project: "Project",
+      clients: "Clients",
+      about: "About",
+      home: "Home",
+      study: "Study",
+      gallery: "Gallery",
+      more: "More"
     }
   },
   fr: {
     btn: {
-      1: "Intro",
-      2: "Projets",
-      3: "Clients",
-      4: "Sur"
+      intro: "Intro",
+      projects: "Projets",
+      clients: "Clients",
+      about: "Sur",
+      home: "Home",
+      study: "Study",
+      gallery: "Gallery",
+      more: "More"
     }
   }
 };

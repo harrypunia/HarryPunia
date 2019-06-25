@@ -1,15 +1,39 @@
 <template>
   <div>
-    <Canvas :theme="theme" />
+    <Nav :state="state" :theme="theme" :buttons="buttons" @themeChanged="updateApp($event)" />
   </div>
 </template>
 
 <script>
-  import Canvas from "../home/canvas/Canvas"
+  import Nav from "../../components/nav/Nav"
 
   export default {
     name: "Home",
     props: ['theme', 'state'],
-    components: { Canvas }
+    components: { Nav },
+    data() {
+      return {
+        buttons: [{
+          value: 'home',
+          ref: '#',
+          href: '/'
+        }, {
+          value: 'study',
+          ref: 'study',
+          href: '#'
+        },{
+          value: 'gallery',
+          ref: 'gallery',
+          href: '#'
+        },{
+          value: 'more',
+          ref: 'more',
+          href: '#'
+        }]
+      }
+    },
+    methods: {
+      updateApp(newTheme) {this.$emit('themeChanged', newTheme)}
+    }
   }
 </script>

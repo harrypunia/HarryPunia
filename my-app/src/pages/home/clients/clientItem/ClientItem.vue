@@ -1,12 +1,12 @@
 <template>
-  <div :style="{backgroundColor: brandColor, borderColor: contentColor}" class="clientItem">
+  <a :href="hpRef" :style="{backgroundColor: brandColor, borderColor: contentColor}" class="clientItem">
     <div class="clientItem-info">
-        <ClientInfo :brandName="brandName" :brandColor="brandColor" :contentColor="contentColor" :hpRef="hpRef"/>
+        <ClientInfo :brandName="brandName" :brandColor="brandColor" :contentColor="contentColor"/>
         <i :style="{color: contentColor}" class="fas fa-external-link-alt"></i>
       </div>
     <img v-parallax="0.05" class="clientItem-logo" :src="logo" alt="client" />
     <h4 :style="{color: contentColor}" class="clientItem-name">{{brandName.toUpperCase()}}</h4>
-  </div>
+  </a>
 </template>
 
 <script>

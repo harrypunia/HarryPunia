@@ -23,7 +23,7 @@ export const passion = {
     }
   },
   fr: {
-    title: "Les choses que je fais par passion.",
+    title: "Passion",
     subheading: "Design d'interaction",
     item: {
       button: "Explorer les compétences",

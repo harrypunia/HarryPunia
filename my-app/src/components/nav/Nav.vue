@@ -6,7 +6,7 @@
       <p ref="fr" center small class="nav-lang-titles nav-lang-unselected">FR</p>
     </div>
     <NavTheme v-on:themeUpdated="updateApp($event)" :theme="theme"/>
-    <NavButtons/>
+    <NavButtons :buttons="buttons"/>
   </div>
 </template>
 
@@ -17,7 +17,7 @@
   export default {
     name: "Nav",
     components: { NavButtons, NavTheme },
-    props: ['theme', 'state'],
+    props: ['theme', 'state', 'buttons'],
     data() {
       return {
         animState: this.$props.state,
@@ -25,7 +25,7 @@
       }
     },
     methods: {
-      updateApp(newTheme) {this.$emit('receivedTheme', newTheme);},
+      updateApp(newTheme) {this.$emit('themeChanged', newTheme)},
       toggleLang() {
         this.activeLang !== 'FR' ? this.setLang('fr', 'en') : this.setLang('en', 'fr');
       },

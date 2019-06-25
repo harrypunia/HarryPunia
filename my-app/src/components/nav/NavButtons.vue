@@ -1,9 +1,13 @@
 <template>
   <div class="buttons">
-    <a hover href="#" class="buttons-items" @click="scrollTo('intro')">{{$t('nav.btn.1')}}</a>
-    <a hover href="#" class="buttons-items" @click="scrollTo('caseStudies')">{{$t('nav.btn.2')}}</a>
-    <a hover href="#" class="buttons-items" @click="scrollTo('clients')">{{$t('nav.btn.3')}}</a>
-    <a hover href="#" class="buttons-items" @click="scrollTo('about')">{{$t('nav.btn.4')}}</a>
+    <a  v-for="button in buttons"
+        :key="button.key"
+        hover
+        :href="button.href"
+        class="buttons-items"
+        @click="scrollTo(button.ref)">
+      {{$t(`nav.btn.${button.value}`)}}
+    </a>
   </div>
 </template>
 
@@ -12,6 +16,7 @@
 
   export default {
     name: "NavButtons",
+    props: [ 'buttons' ],
     methods: {
       scrollTo: el => jump(`.${el}`)
     }

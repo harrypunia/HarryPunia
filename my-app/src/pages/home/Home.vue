@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Nav :state="state" :theme="theme" :buttons="buttons" @themeChanged="updateApp($event)" />
     <Canvas :theme="theme" />
     <Intro :state="state" />
     <Passion/>
@@ -11,6 +12,7 @@
 </template>
 
 <script>
+  import Nav from "../../components/nav/Nav"
   import Canvas from "./canvas/Canvas"
   import Intro from "./intro/Intro"
   import Passion from "./passion/Passion"
@@ -22,6 +24,30 @@
   export default {
     name: "Home",
     props: ['theme', 'state'],
-    components: { Canvas, Intro, Passion, Skills, CaseStudies, Work, About }
+    components: { Nav, Canvas, Intro, Passion, Skills, CaseStudies, Work, About },
+    methods: {
+      updateApp(newTheme) {this.$emit('themeChanged', newTheme)}
+    },
+    data() {
+      return {
+        buttons: [{
+          value: 'intro',
+          ref: 'intro',
+          href: '#'
+        }, {
+          value: 'project',
+          ref: 'caseStudies',
+          href: '#'
+        },{
+          value: 'clients',
+          ref: 'clients',
+          href: '#'
+        },{
+          value: 'about',
+          ref: 'about',
+          href: '#'
+        }]
+      }
+    }
   }
 </script>

@@ -1,10 +1,9 @@
 <template>
-  <div>
-    <a :href="hpRef"></a>
+  <div class="clientInfo" :href="hpRef">
     <h4 :style="{color: contentColor}">{{ $t(`clients.${brandName}.type`) }}</h4>
     <p :style="{color: contentColor}">{{ $t(`clients.${brandName}.duration`) }}</p>
     <Tags
-        class="clientItem-tags"
+        class="clientInfo-tags"
         size="small"
         :background="contentColor"
         :color="brandColor"
@@ -18,7 +17,7 @@
 
   export default {
     name: "ClientItem",
-    props: [ 'brandName', 'brandColor', 'contentColor', 'hpRef' ],
+    props: [ 'brandName', 'brandColor', 'contentColor' ],
     components: { Tags }
   }
 </script>
