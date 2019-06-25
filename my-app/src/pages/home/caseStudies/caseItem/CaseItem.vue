@@ -1,20 +1,20 @@
 <template>
   <div ref="study" class="caseItem">
     <img class="caseItem-image" :src="preview" alt="Case Study Preview">
-    <Tags />
+    <CaseItemContent :num="num"/>
   </div>
 </template>
 
 <script>
-  import Tags from "../../../../components/Tags"
+  import CaseItemContent from "./CaseItemContent"
 
   export default {
     name: "CaseItem",
-    props: [ 'num', 'selection' ],
-    components: { Tags },
+    props: ['num', 'selection'],
+    components: { CaseItemContent },
     data() {
       return {
-        preview: require(`../../../../resources/img/caseStudies/${this.props.num}/preview.jpg`)
+        preview: require(`../../../../resources/img/caseStudies/${this.num}/preview.jpg`)
       }
     }
   }

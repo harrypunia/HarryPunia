@@ -3,4 +3,5 @@
 
 .caseStudies {
   @include wrapper();
+  @include flexGrid(flex-start, center, wrap);
 }

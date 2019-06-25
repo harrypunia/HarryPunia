@@ -1,7 +1,7 @@
 <template>
   <div id="caseStudies" class="caseStudies">
     <Title :content="$t('caseStudies.title')" />
-    <CaseItem :key="index" v-for="index in 1" :num="index" />
+    <CaseItem :key="index" v-for="index in 4" :num="index" />
   </div>
 </template>
 
