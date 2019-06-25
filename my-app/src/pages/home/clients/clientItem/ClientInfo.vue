@@ -1,5 +1,5 @@
 <template>
-  <div class="clientInfo" :href="hpRef">
+  <div class="clientInfo">
     <h4 :style="{color: contentColor}">{{ $t(`clients.${brandName}.type`) }}</h4>
     <p :style="{color: contentColor}">{{ $t(`clients.${brandName}.duration`) }}</p>
     <Tags

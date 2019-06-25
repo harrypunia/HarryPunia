@@ -1,13 +1,18 @@
 <template>
   <div class="header">
-    <p class="header__logo">Logo</p>
+    <img class="header-logo" :src="logo" alt="Logo" />
   </div>
 </template>
 
 <script>
 
   export default {
-    name: 'Header'
+    name: 'Header',
+    data() {
+      return {
+        logo: require('../../resources/img/logo/logo.png')
+      }
+    }
   }
 
 </script>
@@ -16,7 +21,11 @@
   @import "../../resources/scss/mixins";
 
   .header {
-    @include size(auto, 50px);
+    @include size(50px, 50px);
     @include posAbs(80px, 40px, false, default);
+
+    &-logo {
+      @include size(100%, auto);
+    }
   }
 </style>

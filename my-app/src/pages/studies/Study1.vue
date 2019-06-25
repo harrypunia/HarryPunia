@@ -16,7 +16,7 @@
         buttons: [{
           value: 'home',
           ref: '#',
-          href: '/'
+          href: '#/'
         }, {
           value: 'study',
           ref: 'study',

@@ -2,7 +2,11 @@
   <div>
     <Loader @loaded="state = 'in'" />
     <Header/>
-    <router-view :state="state" :theme="theme" @themeChanged="updateSketch($event)"></router-view>
+    <router-view
+        :state="state"
+        :theme="theme"
+        @themeChanged="updateSketch($event)"
+    />
   </div>
 </template>
 
@@ -14,7 +18,11 @@
     name: 'app',
     components: { Loader, Header },
     data() {
-      return { theme: 'Red', state: 'out' }
+      return {
+        theme: 'Red',
+        state: 'out',
+        transName: 'slide-up'
+      }
     },
     methods: {
       updateSketch(newTheme) {this.theme = newTheme},
