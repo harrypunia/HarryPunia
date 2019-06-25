@@ -1,4 +1,4 @@
-@import "../../../mixins";
+@import "../../../../mixins";
 
 .clientItem {
   @include setShadow(small);
@@ -12,15 +12,10 @@
   border-radius: 5px;
   margin-right: map-get($spacing, large);
   margin-bottom: map-get($spacing, regular);
-  cursor: alias;
 
-  & a {
-    position: absolute;
+  &:hover {
+    transform: scale3d(1.01, 1.01, 1);
   }
-
-  //&:hover {
-  //  transform: scale3d(1.01, 1.01, 1);
-  //}
 
   &-info {
     @include size(100%, auto);
@@ -31,8 +26,6 @@
     font-size: 15px;
     margin-top: .5em;
   }
-
-  &-tags {margin-top: map-get($spacing, small)}
 
   &-name {
     font-weight: 200;

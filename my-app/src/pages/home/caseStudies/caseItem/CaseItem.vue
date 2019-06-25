@@ -1,8 +1,8 @@
 <template>
-  <div ref="study" class="caseItem">
+  <a ref="study" :href="studyPage" class="caseItem">
     <img class="caseItem-image" :src="preview" alt="Case Study Preview">
     <CaseItemContent :num="num"/>
-  </div>
+  </a>
 </template>
 
 <script>
@@ -14,7 +14,8 @@
     components: { CaseItemContent },
     data() {
       return {
-        preview: require(`../../../../resources/img/caseStudies/${this.num}/preview.jpg`)
+        preview: require(`../../../../resources/img/caseStudies/${this.num}/preview.jpg`),
+        studyPage: `#/study/${this.num}`
       }
     }
   }

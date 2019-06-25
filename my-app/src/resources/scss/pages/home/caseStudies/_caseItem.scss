@@ -5,6 +5,7 @@
   @include setShadow(small);
   @include smooth(transform, .4s);
   @include setTheme('border-color', xxMain);
+  text-decoration: none;
   border: 1px solid;
   cursor: pointer;
   margin: map-get($spacing, small);

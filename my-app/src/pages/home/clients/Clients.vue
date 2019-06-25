@@ -10,7 +10,7 @@
 </template>
 
 <script>
-  import ClientItem from "./ClientItem"
+  import ClientItem from "./clientItem/ClientItem"
   import Title from "../../../components/Title"
 
   export default {

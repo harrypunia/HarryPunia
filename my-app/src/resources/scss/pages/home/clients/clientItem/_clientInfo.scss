@@ -1,0 +1,12 @@
+@import "../../../../mixins";
+
+.clientItem {
+  & a {
+    @include size(100%, 100%);
+    z-index: 999;
+    position: absolute;
+    cursor: alias;
+  }
+
+  &-tags {margin-top: map-get($spacing, small)}
+}
