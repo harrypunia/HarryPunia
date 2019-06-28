@@ -1,0 +1,12 @@
+@import '../../mixins';
+
+.buttons {
+  @include size(100%, 60%);
+  @include flexGrid(center, center, nowrap);
+  flex-direction: column;
+
+  &-items{
+    transform: rotate(-90deg);
+    margin: auto;
+  }
+}

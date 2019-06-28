@@ -1,9 +1,0 @@
-@import "mixins";
-
-@mixin wrapper {
-  padding: 80px 160px;
-
-  @include view(tab) {padding: 80px}
-
-  @include view(phone) {padding: 80px 20px}
-}
