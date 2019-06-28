@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Loader @loaded="state = 'in'" />
+    <Loader @loaded="state = 'in'" :toggle="switchRouter" />
     <Header/>
     <router-view
         :state="state"
@@ -17,11 +17,19 @@
   export default {
     name: 'app',
     components: { Loader, Header },
+    watch:{
+      $route (){
+        this.state = 'out';
+        this.switchRouter = true;
+        setTimeout(() => this.state ='in', 400);
+        setTimeout(() => this.switchRouter = false, 1000);
+      }
+    },
     data() {
       return {
         theme: 'Red',
         state: 'out',
-        transName: 'slide-up'
+        switchRouter: false
       }
     },
     methods: {

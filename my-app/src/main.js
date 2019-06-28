@@ -18,7 +18,10 @@ const routes = [
   { path: "/study/1", component: Study1}
 ];
 
-const router = new VueRouter({routes});
+const router = new VueRouter({
+  routes,
+  mode: 'history'
+});
 
 new Vue({
   router,

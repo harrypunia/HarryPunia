@@ -1,9 +1,9 @@
 const study1 = {
   en: {
-    title: "Random Phrase, GIF Poster",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet magnam nihil officia quas sit, velit?",
+    title: "VR Video Game",
+    desc: "Using AR Libraries to create an Interactive Video Game controlled with gestures.",
     created: "December, 2018, Sheridan College",
-    tags: ['One Man Army']
+    tags: ['VR', 'Video Game', 'Processing', 'Duo Project']
   },
   fr: {
     title: "Random Phrase, GIF Poster",

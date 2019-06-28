@@ -2,9 +2,9 @@
 @import "intro_animations";
 
 .container {
-  @include posAbs(50vw, 50px, true, invert);
+  @include posAbs(150px, 50px, false, invert);
   @include size(auto, 40px);
-  @include flexGrid(center, top, nowrap);
+  @include flexGrid(center, flex-end, nowrap);
 }
 
 .audio {

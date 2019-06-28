@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <img class="header-logo" :src="logo" alt="Logo" />
+    <h4>Harry Punia</h4>
   </div>
 </template>
 
@@ -21,11 +21,11 @@
   @import "../../resources/scss/mixins";
 
   .header {
-    @include size(50px, 50px);
+    @include size(200px, 50px);
     @include posAbs(80px, 40px, false, default);
 
-    &-logo {
-      @include size(100%, auto);
+    h4 {
+      font-weight: 300;
     }
   }
 </style>

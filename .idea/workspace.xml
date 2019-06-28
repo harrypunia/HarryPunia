@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="357056fb-ffff-40bd-946f-ad4a0e293d12" name="Default Changelist" comment="" />
+    <list default="true" id="357056fb-ffff-40bd-946f-ad4a0e293d12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/study/StudyIntro.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/resources/scss/components/study/_studyIntro.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/header/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/header/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/loader/Loader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/loader/Loader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/caseStudies/1/preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/resources/img/caseStudies/1/preview.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/locale/caseStudies-lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/resources/locale/caseStudies-lang.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/loader/loader" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/resources/scss/components/loader/loader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItem.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_introBottomNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_introBottomNav.scss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,14 +22,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="181">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding>
                 <element signature="e#219#266#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/CaseStudies.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <folding>
+                <element signature="e#200#242#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/nav/NavButtons.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-app/src/pages/studies/Study1.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -49,9 +93,10 @@
       <find>hpRef</find>
       <find>ref</find>
       <find>this.$ref</find>
-      <find>smooth</find>
       <find>$refs</find>
       <find>ref=&quot;</find>
+      <find>smooth</find>
+      <find>intro</find>
     </findStrings>
     <replaceStrings>
       <replace>.6s</replace>
@@ -64,11 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/about/PersonalInfo.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_list.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/components/List.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/locale/about-lang.js" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_intro.scss" />
         <option value="$PROJECT_DIR$/my-app/src/pages/home/intro/Intro.vue" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_parallax" />
         <option value="$PROJECT_DIR$/my-app/src/components/Parallax.vue" />
@@ -93,32 +133,37 @@
         <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemContent.vue" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItemContent.scss" />
         <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/CaseStudies.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/locale/caseStudies-lang.js" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clientItem" />
         <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/ClientItem.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/main.js" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItem.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItem.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/_index.scss" />
         <option value="$PROJECT_DIR$/my-app/src/components/nav/Nav.vue" />
         <option value="$PROJECT_DIR$/my-app/src/resources/locale/passion-lang.js" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/clientItem/_clientInfo.scss" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/clientItem/_clientItem" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/Home.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/components/nav/NavButtons.vue" />
         <option value="$PROJECT_DIR$/my-app/src/resources/locale/nav-lang.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/header/Header.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/studies/Study1.vue" />
         <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/clientItem/ClientInfo.vue" />
         <option value="$PROJECT_DIR$/my-app/src/components/button/RouterLoader.vue" />
         <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/clientItem/ClientItem.vue" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_routerLoader.scss" />
         <option value="$PROJECT_DIR$/my-app/src/components/RouterLoader.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/components/header/Header.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_introBottomNav.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/components/study/StudyIntro.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/_index.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/components/loader/Loader.vue" />
         <option value="$PROJECT_DIR$/my-app/src/App.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/study/_studyIntro.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/locale/caseStudies-lang.js" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItem.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/loader/loader" />
+        <option value="$PROJECT_DIR$/my-app/src/main.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/nav/NavButtons.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/Home.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItem.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/studies/Study1.vue" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -152,7 +197,7 @@
               <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
@@ -160,6 +205,7 @@
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
@@ -175,23 +221,6 @@
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,19 +240,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-app/src/resources/scss/components/study" />
+      <recent name="$PROJECT_DIR$/my-app/src/components/study" />
+      <recent name="$PROJECT_DIR$/my-app/src/resources/scss/components" />
+      <recent name="$PROJECT_DIR$/my-app/src/components/button" />
+      <recent name="$PROJECT_DIR$/my-app/src/pages/studies" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/my-app/src/components" />
       <recent name="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/clientItem" />
       <recent name="$PROJECT_DIR$/my-app/src/pages/home/clients/clientItem" />
       <recent name="$PROJECT_DIR$/my-app/src/resources/scss/components" />
       <recent name="$PROJECT_DIR$/my-app/src/components/tag" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/my-app/src/resources/scss/components" />
-      <recent name="$PROJECT_DIR$/my-app/src/components/button" />
-      <recent name="$PROJECT_DIR$/my-app/src/pages/studies" />
-      <recent name="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/clientItem" />
-      <recent name="$PROJECT_DIR$/my-app/src/pages/home/clients" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -262,7 +291,8 @@
       <workItem from="1560882842941" duration="668000" />
       <workItem from="1561419062621" duration="6115000" />
       <workItem from="1561432997045" duration="6408000" />
-      <workItem from="1561490166503" duration="134000" />
+      <workItem from="1561490166503" duration="2789000" />
+      <workItem from="1561701827848" duration="6747000" />
     </task>
     <task id="LOCAL-00001" summary="- Removed old CaseStudy components&#10;- Removed shadow from Parallax componentp">
       <created>1561420692763</created>
@@ -303,13 +333,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103770000" />
+    <option name="totallyTimeSpent" value="113172000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26434678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26739928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -322,10 +352,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.4053498" />
-      <window_info anchor="bottom" id="GraphQL" order="9" weight="0.32990867" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.4053498" />
+      <window_info anchor="bottom" id="GraphQL" order="9" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.25823045" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25823045" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
@@ -390,57 +420,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="- Minor changes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clients.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/about/About.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#281#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/skills/Skills.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="e#874#909#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/passion/Passion.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-          <folding>
-            <element signature="e#369#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/components/_list.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/locale/about-lang.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/components/List.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -497,13 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-711">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1932">
@@ -532,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/locale/caseStudies-lang.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="60" column="28" lean-forward="true" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemContent.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -546,41 +511,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItem.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItem.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/_index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/resources/locale/vue-i81n.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/canvas/Canvas.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="e#156#182#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,13 +528,6 @@
           <folding>
             <element signature="e#479#516#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/intro/Intro.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -632,37 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/CaseStudies.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#200#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="25" />
-          <folding>
-            <element signature="e#279#321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="e#11#32#0" expanded="true" />
-            <element signature="e#120#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/resources/locale/nav-lang.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -670,38 +566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/header/Header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/nav/NavButtons.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/pages/studies/Study1.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/clients/clientItem/ClientInfo.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/loader/Loader.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -724,13 +592,168 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/components/_routerLoader.scss" />
     <entry file="file://$PROJECT_DIR$/my-app/src/components/RouterLoader.vue" />
-    <entry file="file://$PROJECT_DIR$/my-app/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/canvas/sketches/sketch1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="7" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/canvas/Canvas.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#156#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/header/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/intro/Intro.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_introBottomNav.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/intro/IntroBottomNav.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="85" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="65" column="12" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/locale/caseStudies-lang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItem.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/components/study/_studyIntro.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/components/loader/loader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/study/StudyIntro.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#11#32#0" expanded="true" />
+            <element signature="e#120#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/loader/Loader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/nav/NavButtons.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="e#279#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
             <element signature="e#219#266#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/home/caseStudies/CaseStudies.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#200#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/pages/studies/Study1.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>

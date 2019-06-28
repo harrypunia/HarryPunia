@@ -1,20 +1,21 @@
 <template>
-  <div class="loader" :class="state">
-    <img class="gif" src="../../resources/img/loader/loading.gif" alt="">
+  <div class="loader" :class="{ 'loader-out' : state, 'animate' : toggle }">
+    <h1>I'm Harry Punia</h1>
   </div>
 </template>
 
 <script>
   export default {
     name: "Loader",
+    props: [ "toggle" ],
     data() {
       return {
-        state: 'loader-in',
+        state: false,
       }
     },
     created() {
       setTimeout(()=> {
-        this.state = 'loader-out';
+        this.state = true;
         this.$emit('loaded', true)
       }, 1000);
     }

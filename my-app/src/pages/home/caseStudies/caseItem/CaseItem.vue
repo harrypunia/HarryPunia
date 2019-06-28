@@ -15,7 +15,7 @@
     data() {
       return {
         preview: require(`../../../../resources/img/caseStudies/${this.num}/preview.jpg`),
-        studyPage: `#/study/${this.num}`
+        studyPage: `/study/${this.num}`
       }
     }
   }
