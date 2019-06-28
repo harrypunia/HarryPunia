@@ -1,0 +1,42 @@
+@import "../../../mixins";
+
+.container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  @include setTheme('border-color', xxMain);
+  @include flexGrid(center, space-between, no-wrap);
+  @include size(100%, auto);
+  border-bottom: 1px dashed;
+  padding: 0 40px;
+  margin-top: 10px;
+
+  @include view(phone) {padding: 0}
+
+  @include view(tab) {flex-direction: column}
+}
+
+.grid {
+  @include flexGrid(center, flex-start, wrap);
+  @include size(60%, auto);
+  @include view(tab) {
+    width: 100%;
+    justify-content: center
+  }
+}
+
+.grid-items {
+  @include flexGrid(center, center, no-wrap);
+  min-width: 100px;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.img {width: 50px}
+
+.button {
+  margin: 20px;
+  justify-self: flex-end;
+}

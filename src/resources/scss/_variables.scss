@@ -1,0 +1,106 @@
+//Theme Dark
+$theme_Dark: (
+    main: rgb(32, 44, 57),
+    xMain: rgb(21, 29, 38),
+    xxMain: rgb(12, 18, 25),
+    high: rgb(163, 139, 84),
+    xHigh: rgb(219, 193, 137),
+    xxHigh: rgb(245, 220, 164),
+    link:rgb(242, 149, 89),
+    xLink: rgb(255, 173, 120),
+    selection: rgb(199, 78, 0)
+);
+
+//Theme Dark
+$theme_Light: (
+    main: rgb(255, 255, 255),
+    xMain: rgb(220, 220, 220),
+    xxMain: rgb(200, 200, 200),
+    high: rgb(94, 94, 106),
+    xHigh: rgb(75, 75, 85),
+    xxHigh: rgb(37, 37, 41),
+    link: rgb(45, 196, 153),
+    xLink: rgb(8, 134, 99),
+    selection: rgb(255, 120, 120)
+);
+
+//Theme Dark
+$theme_Red: (
+    main: rgb(128, 44, 53),
+    xMain: rgb(95, 38, 44),
+    xxMain: rgb(64, 24, 28),
+    high: rgb(211, 131, 85),
+    xHigh: rgb(235, 156, 111),
+    xxHigh: rgb(255, 199, 166),
+    link: rgb(224, 159, 62),
+    xLink: rgb(255, 194, 103),
+    selection: rgb(51, 51, 51)
+);
+
+//Theme Dark
+$theme_Black: (
+    main: rgb(21, 21, 21),
+    xMain: rgb(30, 30, 30),
+    xxMain: rgb(59, 59, 59),
+    high: rgb(139, 59, 59),
+    xHigh: rgb(178, 80, 80),
+    xxHigh: rgb(214, 109, 109),
+    link: rgb(175, 81, 81),
+    xLink: rgb(175, 81, 81),
+    selection: rgb(0, 0, 0)
+);
+
+//Theme Purple
+$theme_Purple: (
+    main: rgb(93, 73, 84),
+    xMain: rgb(117, 79, 91),
+    xxMain: rgb(125, 97, 103),
+    high: rgb(188, 168, 150),
+    xHigh: rgb(211, 196, 182),
+    xxHigh: rgb(230, 219, 208),
+    link: rgb(246, 229, 229),
+    xLink: rgb(246, 229, 229),
+    selection: rgb(0, 0, 00)
+);
+
+//Theme Wheat
+$theme_Wheat: (
+    main: rgb(238, 241, 189),
+    xMain: rgb(185, 188, 138),
+    xxMain: rgb(164, 167, 117),
+    high: rgb(100, 69, 54),
+    xHigh: rgb(100, 69, 54),
+    xxHigh: rgb(100, 69, 54),
+    link: rgb(178, 103, 94),
+    xLink: rgb(131, 70, 63),
+    selection: rgb(109, 132, 64)
+);
+
+$shadow: (
+  small: 0 0 10px rgba(0,0,0, 0.1),
+  regular: 0 0 15px rgba(0,0,0, 0.15),
+  large: 0 0 20px rgba(0,0,0, 0.2)
+);
+
+$spacing: (
+  xxSmall: 5px,
+  xSmall: 10px,
+  small: 20px,
+  regular: 40px,
+  large: 80px
+);
+
+:export {
+  DarkMain: map-get($theme_Dark, main);
+  DarkSecondary: map-get($theme_Dark, xxMain);
+  BlackMain: map-get($theme_Black, main);
+  BlackSecondary: map-get($theme_Black, xxMain);
+  LightMain: map-get($theme_Light, main);
+  LightSecondary: map-get($theme_Light, xxMain);
+  RedMain: map-get($theme_Red, main);
+  RedSecondary: map-get($theme_Red, xxMain);
+  PurpleMain: map-get($theme_Purple, main);
+  PurpleSecondary: map-get($theme_Purple, xxMain);
+  WheatMain: map-get($theme_Wheat, main);
+  WheatSecondary: map-get($theme_Wheat, xxMain);
+}

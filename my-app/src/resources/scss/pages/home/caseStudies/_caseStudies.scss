@@ -1,7 +1,0 @@
-@import "../../../mixins";
-@import "../../../wrapper";
-
-.caseStudies {
-  @include wrapper();
-  @include flexGrid(flex-start, center, wrap);
-}

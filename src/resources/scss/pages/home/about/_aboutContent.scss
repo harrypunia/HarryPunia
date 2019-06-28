@@ -1,0 +1,40 @@
+@import "../../../mixins";
+
+.aboutContent {
+  @include size(800px, 700px);
+  padding: 0 map-get($spacing, xSmall);
+
+  @include view(laptop) {
+    @include flexGrid(center, flex-start, wrap);
+    @include size(100%, auto);
+    padding: map-get($spacing, regular) map-get($spacing, xSmall);
+  }
+
+  &-component {
+    margin-top: map-get($spacing, regular);
+    &:first-child {margin: 0}
+
+    @include view(laptop) {
+      width: 40%;
+      margin-top: map-get($spacing, xSmall) !important;
+
+      &-personal {margin-right: 10% !important;}
+      &-looking-for {margin-left: 10%}
+      &-extra {width: 100%}
+    }
+  }
+
+  &-items {
+    @include setTheme('border-color', xxMain);
+    @include flexGrid(flex-start, flex-start, wrap);
+
+    padding: map-get($spacing, xSmall) map-get($spacing, small);
+    border: 1px dashed;
+    margin-top: map-get($spacing, xSmall);
+  }
+
+  &-list-items {
+    width: 50%;
+    margin-bottom: map-get($spacing, xSmall);
+  }
+}

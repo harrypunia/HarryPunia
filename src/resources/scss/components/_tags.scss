@@ -1,0 +1,31 @@
+@import "../mixins";
+@import "../variables";
+
+.tags-container {
+  @include flexGrid(center, flex-start, wrap);
+  margin-left: -5px;
+  cursor: inherit;
+}
+
+.invert {
+  @include setTheme('background-color', main);
+  @include setTheme('color', xxHigh);
+}
+
+.tags {
+  @include setTheme('background-color', xxHigh);
+  padding: map-get($spacing, xxSmall) map-get($spacing, xSmall);
+  margin: 0 5px;
+  margin-bottom: map-get($spacing, xSmall);
+  border-radius: 20px;
+
+  &[size='small'] {
+    padding: 2px 10px;
+  }
+
+  &[stroke] {
+    @include setTheme('border-color', xxHigh);
+    border: 1px solid;
+    background: none;
+  }
+}

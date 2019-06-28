@@ -1,0 +1,22 @@
+@import "../../../mixins";
+
+.caseItemContent {
+  position: relative;
+  padding: map-get($spacing, small);
+
+  .content {
+    &-title {
+      @include setTheme('background-color', xxHigh);
+      @include setShadow(small);
+      @include posAbs(0, 0, false, default);
+      padding: map-get($spacing, xxSmall) map-get($spacing, small);
+      transform: translateY(-50%);
+      margin-left: 20px;
+      margin-top: 0;
+    }
+
+    &-tags {
+      margin-top: map-get($spacing, small);
+    }
+  }
+}

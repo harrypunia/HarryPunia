@@ -7,5 +7,5 @@ public/
 .deploy*/
 src/_drafts
 package-lock.json
-.idea/
+.idea
 babel.config.js

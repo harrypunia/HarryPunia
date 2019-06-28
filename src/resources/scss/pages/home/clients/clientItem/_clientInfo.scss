@@ -1,0 +1,7 @@
+@import "../../../../mixins";
+
+.clientInfo {
+  &-tags {
+    margin-top: map-get($spacing, small)
+  }
+}

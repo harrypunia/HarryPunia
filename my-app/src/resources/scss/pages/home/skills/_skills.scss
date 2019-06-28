@@ -1,7 +1,0 @@
-@import "../../../mixins";
-@import "../../../wrapper";
-
-.skills {
-  @include wrapper();
-  @include size(100%, auto)
-}
