@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="357056fb-ffff-40bd-946f-ad4a0e293d12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/List.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Parallax.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Tags.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Title.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/button/Button.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/header/Header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/loader/Loader.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/nav/Nav.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/nav/NavTheme.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/about/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/about/AboutContent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/canvas/Canvas.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/canvas/sketches/sketch1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/CaseStudies.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemImages.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/clients/Clients.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/intro/Intro.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/intro/IntroBottomNav.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/intro/IntroInfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/passion/Passion.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/passion/PassionItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/skills/SkillItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/skills/Skills.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/audio/1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/about/me.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/caseStudies/1/alternate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/caseStudies/2/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/clients/firmway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/clients/neoEvolution.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/clients/punias.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/loader/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/passion/passionItem1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/passion/passionItem2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/passion/passionItem3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/passion/passionItem4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/arduino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/cinema4d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/css.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/html.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/illustrator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/inDesign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/javascript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/p5js.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/photoshop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/premierpro.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/threejs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/locale/about-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/locale/clients-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/locale/intro-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/locale/passion-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/locale/skills-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/locale/vue-i81n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/_animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/_index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/_wrapper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/_parallax.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/_tags.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/_title.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/button/_button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/loader/loader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/nav/nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/nav/navButtons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/nav/navTheme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_aboutContent.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItemImages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseStudies.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clientItem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_intro.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_introBottomNav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_intro_animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/passion/_passion.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/passion/_passionItem.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/skills/_skillItem.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/skills/_skills.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cursor.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/NavButtons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/study/StudyIntro.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/caseStudies/caseItem/CaseItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/caseStudies/caseItem/CaseItemContent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/clients/clientItem/ClientInfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/clients/clientItem/ClientItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/studies/Study1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/caseStudies/1/display.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/caseStudies/1/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/caseStudies/3/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/caseStudies/4/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/logo/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/locale/caseStudies-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/locale/nav-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/components/study/_studyIntro.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/pages/home/caseStudies/_caseItem.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/pages/home/caseStudies/_caseItemContent.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/pages/home/clients/clientItem/_clientInfo.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/videos/caseStudies/1/display.mp4" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>test</find>
+      <find>overflow</find>
+      <find>scale</find>
+      <find>require</find>
+      <find>&lt;tags</find>
+      <find>contentCo</find>
+      <find>brandcolor</find>
+      <find>brandName</find>
+      <find>Tags</find>
+      <find>logo</find>
+      <find>v-for</find>
+      <find>rec</find>
+      <find>hpRef</find>
+      <find>ref</find>
+      <find>this.$ref</find>
+      <find>$refs</find>
+      <find>ref=&quot;</find>
+      <find>smooth</find>
+      <find>intro</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.6s</replace>
+      <replace>.4s</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_parallax" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Parallax.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/_mixins.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_about.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/about/AboutContent.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_aboutContent.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clients.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/Clients.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/about/About.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/skills/Skills.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/passion/Passion.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Title.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItemImages.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemImages.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemImage.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItemImage.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_parallax.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_cursor.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseStudies.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_title.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemContent.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItemContent.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/CaseStudies.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clientItem" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/ClientItem.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/components/nav/Nav.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/locale/passion-lang.js" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/clientItem/_clientInfo.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/clientItem/_clientItem" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/locale/nav-lang.js" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/clientItem/ClientInfo.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/components/button/RouterLoader.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/clientItem/ClientItem.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_routerLoader.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/components/RouterLoader.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/components/header/Header.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_introBottomNav.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/components/study/StudyIntro.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/_index.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/components/loader/Loader.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/App.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/study/_studyIntro.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/locale/caseStudies-lang.js" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItem.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/loader/loader" />
+        <option value="$PROJECT_DIR$/my-app/src/main.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/nav/NavButtons.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/Home.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItem.vue" />
+        <option value="$PROJECT_DIR$/my-app/src/pages/studies/Study1.vue" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-app" />
+      <recent name="$PROJECT_DIR$/my-app/src/components" />
+      <recent name="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/clientItem" />
+      <recent name="$PROJECT_DIR$/my-app/src/pages/home/clients/clientItem" />
+      <recent name="$PROJECT_DIR$/my-app/src/resources/scss/components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-app/src/resources/scss/components/study" />
+      <recent name="$PROJECT_DIR$/my-app/src/components/study" />
+      <recent name="$PROJECT_DIR$/my-app/src/resources/scss/components" />
+      <recent name="$PROJECT_DIR$/my-app/src/components/button" />
+      <recent name="$PROJECT_DIR$/my-app/src/pages/studies" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="357056fb-ffff-40bd-946f-ad4a0e293d12" name="Default Changelist" comment="" />
+      <created>1557797030628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557797030628</updated>
+      <workItem from="1557797034632" duration="383000" />
+      <workItem from="1557798246962" duration="48000" />
+      <workItem from="1558041360987" duration="45000" />
+      <workItem from="1558041411866" duration="3061000" />
+      <workItem from="1558131783016" duration="1579000" />
+      <workItem from="1558206735432" duration="18609000" />
+      <workItem from="1558294014969" duration="20812000" />
+      <workItem from="1558401497427" duration="178000" />
+      <workItem from="1558471220859" duration="9489000" />
+      <workItem from="1558731715863" duration="172000" />
+      <workItem from="1558760077507" duration="3000" />
+      <workItem from="1558980126836" duration="271000" />
+      <workItem from="1559503443505" duration="14113000" />
+      <workItem from="1559678848451" duration="20108000" />
+      <workItem from="1560882842941" duration="668000" />
+      <workItem from="1561419062621" duration="6115000" />
+      <workItem from="1561432997045" duration="6408000" />
+      <workItem from="1561490166503" duration="2789000" />
+      <workItem from="1561701827848" duration="7056000" />
+      <workItem from="1561749223705" duration="1506000" />
+      <workItem from="1561835636765" duration="91000" />
+    </task>
+    <task id="LOCAL-00001" summary="- Removed old CaseStudy components&#10;- Removed shadow from Parallax componentp">
+      <created>1561420692763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561420692763</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Added 4 CaseStudy Items&#10;- CSS update for CaseItem">
+      <created>1561422705913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561422705913</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Created CaseInfo&#10;- Added new router for study/1">
+      <created>1561433040807</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561433040807</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- Minor changes">
+      <created>1561490217088</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561490217089</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- Minor changes">
+      <created>1561490227249</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561490227249</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- Added toggle state to Loader for router transitions&#10;- Added history mode to router for fixed url prefix&#10;- Added Intro content to Study/1 router-view">
+      <created>1561748940806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561748940806</updated>
+    </task>
+    <task id="LOCAL-00007" summary="- Fixed Project directory order">
+      <created>1561749452908</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561749452908</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- Fixed Project directory order">
+      <created>1561749590704</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561749590704</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1561749794576</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561749794576</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="115078000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2735043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993895" weight="0.4053498" />
+      <window_info anchor="bottom" id="GraphQL" order="9" weight="0.32921812" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" visible="true" weight="0.33539096" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.501221" side_tool="true" weight="0.33539096" />
+      <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Removed old CaseStudy components&#10;- Removed shadow from Parallax componentp" />
+    <MESSAGE value="- Added 4 CaseStudy Items&#10;- CSS update for CaseItem" />
+    <MESSAGE value="- Created CaseInfo&#10;- Added new router for study/1" />
+    <MESSAGE value="- Minor changes" />
+    <MESSAGE value="- Added toggle state to Loader for router transitions&#10;- Added history mode to router for fixed url prefix&#10;- Added Intro content to Study/1 router-view" />
+    <MESSAGE value="- Fixed Project directory order" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/pages/home/intro/_intro.scss" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/components/_parallax.scss" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/Parallax.vue" />
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/components/_cursor.scss" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/Cursor.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/pages/home/caseStudies/_caseStudies.scss" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/_variables.scss" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/Tags.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/components/_title.scss" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/pages/home/caseStudies/_caseItemContent.scss" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/caseStudies/caseItem/CaseItemContent.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/locale/vue-i81n.js" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/locale/intro-lang.js" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/nav/Nav.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/locale/passion-lang.js" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/pages/home/clients/clientItem/_clientInfo.scss" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/pages/home/clients/clientItem/_clientItem" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/components/nav/navButtons.scss" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/locale/nav-lang.js" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/clients/clientItem/ClientInfo.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/clients/Clients.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/clients/clientItem/ClientItem.vue" />
+    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/components/_routerLoader.scss" />
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/RouterLoader.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/canvas/sketches/sketch1.js" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/canvas/Canvas.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/header/Header.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/intro/Intro.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/pages/home/intro/_introBottomNav.scss" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/intro/IntroBottomNav.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/_index.scss" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/_mixins.scss" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/locale/caseStudies-lang.js" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/pages/home/caseStudies/_caseItem.scss" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/components/study/_studyIntro.scss" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/components/loader/loader" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/study/StudyIntro.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/main.js" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/loader/Loader.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/nav/NavButtons.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/Home.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/App.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/caseStudies/caseItem/CaseItem.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/caseStudies/CaseStudies.vue" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/.idea/workspace.xml" />
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/studies/Study1.vue" />
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/home/about/_about.scss" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
