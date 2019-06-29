@@ -2,118 +2,124 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="357056fb-ffff-40bd-946f-ad4a0e293d12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/List.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Parallax.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Tags.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Title.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/button/Button.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/header/Header.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/loader/Loader.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/nav/Nav.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/nav/NavTheme.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/about/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/about/AboutContent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/canvas/Canvas.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/canvas/sketches/sketch1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/CaseStudies.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemImages.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/clients/Clients.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/intro/Intro.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/intro/IntroBottomNav.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/intro/IntroInfo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/passion/Passion.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/passion/PassionItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/skills/SkillItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/home/skills/Skills.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/audio/1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/about/me.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/caseStudies/1/alternate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/caseStudies/2/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/clients/firmway.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/clients/neoEvolution.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/clients/punias.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/loader/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/passion/passionItem1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/passion/passionItem2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/passion/passionItem3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/passion/passionItem4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/arduino.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/cinema4d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/css.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/github.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/html.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/illustrator.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/inDesign.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/javascript.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/p5js.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/photoshop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/premierpro.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/img/skills/threejs.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/locale/about-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/locale/clients-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/locale/intro-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/locale/passion-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/locale/skills-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/locale/vue-i81n.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/_animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/_index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/_wrapper.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/_parallax.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/_tags.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/_title.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/button/_button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/loader/loader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/nav/nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/nav/navButtons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/components/nav/navTheme.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_about.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_aboutContent.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItemImages.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseStudies.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clientItem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clients.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_intro.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_introBottomNav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/intro/_intro_animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/passion/_passion.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/passion/_passionItem.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/skills/_skillItem.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/skills/_skills.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cursor.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/NavButtons.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/study/StudyIntro.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/caseStudies/caseItem/CaseItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/caseStudies/caseItem/CaseItemContent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/clients/clientItem/ClientInfo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/clients/clientItem/ClientItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/studies/Study1.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/caseStudies/1/display.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/caseStudies/1/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/caseStudies/3/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/caseStudies/4/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/img/logo/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/locale/caseStudies-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/locale/nav-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/components/study/_studyIntro.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/pages/home/caseStudies/_caseItem.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/pages/home/caseStudies/_caseItemContent.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/pages/home/clients/clientItem/_clientInfo.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/videos/caseStudies/1/display.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/.idea 2/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/.idea 2/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/.idea 2/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/.idea 2/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/.idea 2/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/.idea 2/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/Cursor.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/List.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/Parallax.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/Tags.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/Title.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/button/Button.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/header/Header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/loader/Loader.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/nav/Nav.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/nav/NavButtons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/nav/NavTheme.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/study/StudyIntro.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/about/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/about/AboutContent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/canvas/Canvas.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/canvas/sketches/sketch1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/caseStudies/CaseStudies.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/caseStudies/caseItem/CaseItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/caseStudies/caseItem/CaseItemContent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/caseStudies/caseItem/CaseItemImages.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/clients/Clients.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/clients/clientItem/ClientInfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/clients/clientItem/ClientItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/intro/Intro.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/intro/IntroBottomNav.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/intro/IntroInfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/passion/Passion.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/passion/PassionItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/skills/SkillItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/skills/Skills.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/studies/Study1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/audio/1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/about/me.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/1/alternate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/1/display.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/1/preview 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/1/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/2/alternate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/2/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/3/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/4/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/clients/firmway.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/clients/neoEvolution.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/clients/punias.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/intro/harryPunia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/loader/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/logo/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/passion/passionItem1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/passion/passionItem2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/passion/passionItem3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/passion/passionItem4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/arduino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/cinema4d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/css.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/html.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/illustrator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/inDesign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/javascript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/p5js.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/photoshop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/premierpro.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/threejs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/about-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/caseStudies-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/clients-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/intro-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/nav-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/passion-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/skills-lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/vue-i81n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/_animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/_index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/_wrapper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/_parallax.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/_tags.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/_title.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/button/_button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/loader/loader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/nav/nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/nav/navButtons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/nav/navTheme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/study/_studyIntro.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/about/_about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/about/_aboutContent.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/caseStudies/_caseItem.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/caseStudies/_caseItemContent.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/caseStudies/_caseItemImages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/caseStudies/_caseStudies.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/clients/_clients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/clients/clientItem/_clientInfo.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/clients/clientItem/_clientItem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/intro/_intro.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/intro/_introBottomNav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/intro/_intro_animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/passion/_passion.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/passion/_passionItem.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/skills/_skillItem.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/skills/_skills.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/videos/caseStudies/1/display.mp4" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -322,7 +328,7 @@
       <workItem from="1561490166503" duration="2789000" />
       <workItem from="1561701827848" duration="7056000" />
       <workItem from="1561749223705" duration="1506000" />
-      <workItem from="1561835636765" duration="91000" />
+      <workItem from="1561835636765" duration="230000" />
     </task>
     <task id="LOCAL-00001" summary="- Removed old CaseStudy components&#10;- Removed shadow from Parallax componentp">
       <created>1561420692763</created>
@@ -391,13 +397,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115078000" />
+    <option name="totallyTimeSpent" value="115217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2735043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2735043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -413,7 +418,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993895" weight="0.4053498" />
       <window_info anchor="bottom" id="GraphQL" order="9" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" visible="true" weight="0.33539096" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" visible="true" weight="0.33539096" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.501221" side_tool="true" weight="0.33539096" />
       <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
@@ -534,7 +539,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
