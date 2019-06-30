@@ -10,6 +10,7 @@ babel.config.js
 /public/
 .deploy*/
 src/_drafts
+/dist/
 
 # IntelliJ
 /.idea

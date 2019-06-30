@@ -5,20 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="357056fb-ffff-40bd-946f-ad4a0e293d12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/Button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/NavTheme.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/NavTheme.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/app.1a6bd500.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/arduino.82b718c1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/cinema4d.a91be214.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/css.07c3991e.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/display.9be42edb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/firmway.becd0eae.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/github.f4f7d011.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/harryPunia.bac7ecbe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/html.cce23477.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/illustrator.a537fc73.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/inDesign.ebfaaf2d.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/javascript.d9ed77eb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/laurenBlack.c0e2b71c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/loading.6834a5cf.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo.151963d1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/me.5d5ceb6e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/neoEvolution.3b3d1169.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/p5js.85614ca7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/passionItem1.4113e678.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/passionItem2.dd90ee24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/passionItem3.83c53dc6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/passionItem4.dab7880e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/photoshop.26c6be38.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/premierpro.5f55c6b8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/preview.9be42edb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/preview.ac3a2d05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/punias.10624c62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/threejs.4ad98999.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.c58dcb0a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.c58dcb0a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.4615bde5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.4615bde5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/media/1.9d2300d5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/media/display.63773f69.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/NavButtons.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/NavButtons.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/intro/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/intro/Intro.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/intro/IntroBottomNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/intro/IntroBottomNav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/passion/PassionItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/passion/PassionItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/skills/SkillItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/skills/SkillItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/components/button/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/components/button/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/components/nav/navTheme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/components/nav/navTheme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/pages/home/intro/_intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/pages/home/intro/_intro.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/pages/home/intro/_introBottomNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/pages/home/intro/_introBottomNav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/pages/home/passion/_passionItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/pages/home/passion/_passionItem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/pages/home/skills/_skillItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/pages/home/skills/_skillItem.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/components/nav/navButtons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/components/nav/navButtons.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,37 +56,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/passion/PassionItem.vue">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/button/Button.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="70" lean-forward="true" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/scss/components/button/_button.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/home/intro/_intro.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="276">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -67,35 +67,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/home/intro/Intro.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="406">
+              <caret line="28" column="79" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/home/passion/_passionItem.scss">
+        <entry file="file://$PROJECT_DIR$/src/components/nav/NavButtons.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="552">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/home/intro/_intro.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/skills/SkillItem.vue">
+        <entry file="file://$PROJECT_DIR$/src/resources/scss/components/nav/navButtons.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/home/skills/_skillItem.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="207">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -154,13 +154,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/loader/loader" />
-        <option value="$PROJECT_DIR$/my-app/src/main.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/nav/NavButtons.vue" />
         <option value="$PROJECT_DIR$/my-app/src/pages/home/Home.vue" />
         <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItem.vue" />
         <option value="$PROJECT_DIR$/my-app/src/pages/studies/Study1.vue" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/resources/scss/pages/studies/study/_studyIntro.scss" />
         <option value="$PROJECT_DIR$/src/pages/studies/study/StudyIntro.vue" />
         <option value="$PROJECT_DIR$/src/pages/studies/Study1.vue" />
@@ -203,8 +200,11 @@
         <option value="$PROJECT_DIR$/src/resources/scss/pages/home/passion/_passionItem.scss" />
         <option value="$PROJECT_DIR$/src/pages/home/skills/SkillItem.vue" />
         <option value="$PROJECT_DIR$/src/resources/scss/pages/home/skills/_skillItem.scss" />
-        <option value="$PROJECT_DIR$/src/pages/home/intro/Intro.vue" />
         <option value="$PROJECT_DIR$/src/resources/scss/pages/home/intro/_intro.scss" />
+        <option value="$PROJECT_DIR$/src/resources/scss/components/nav/navButtons.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/pages/home/intro/Intro.vue" />
+        <option value="$PROJECT_DIR$/src/components/nav/NavButtons.vue" />
       </list>
     </option>
   </component>
@@ -218,6 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,7 +241,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -313,7 +313,8 @@
       <workItem from="1561701827848" duration="7056000" />
       <workItem from="1561749223705" duration="1506000" />
       <workItem from="1561835636765" duration="230000" />
-      <workItem from="1561835930490" duration="20781000" />
+      <workItem from="1561835930490" duration="21043000" />
+      <workItem from="1561862285578" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="- Removed old CaseStudy components&#10;- Removed shadow from Parallax componentp">
       <created>1561420692763</created>
@@ -403,18 +404,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135998000" />
+    <option name="totallyTimeSpent" value="136585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2765568" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2796093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32921812" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -431,6 +431,7 @@
       <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32921812" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -498,27 +499,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="- Created Body Container to manage container sizing globally" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/home/clients/Clients.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/scss/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/locale/vue-i81n.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -786,13 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/nav/NavButtons.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/nav/NavTheme.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -856,21 +829,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/scss/components/button/_button.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
+        <state relative-caret-position="230">
           <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/components/nav/navButtons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nav/NavButtons.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/intro/Intro.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="406">
+          <caret line="28" column="79" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/home/intro/_intro.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
+        <state relative-caret-position="368">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>

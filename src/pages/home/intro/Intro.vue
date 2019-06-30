@@ -2,7 +2,7 @@
   <div id="intro" class="intro">
     <Parallax :class="'myImg myImg-' + state" :src="myImg" alt="Harry Punia" speed="0.2"/>
     <IntroInfo class="info" :class="'info-' + state"/>
-    <Button action="#" class="intro-button" :class="'button-' + state" dir="horizontal" :text="$t('intro.button')" img="grin-alt" />
+    <Button action="#" class="intro-button" :class="'intro-button-' + state" dir="horizontal" :text="$t('intro.button')" img="grin-alt" />
     <a hover class="link" :class="'link-' + state">{{ $t('intro.caseStudies') }}</a>
     <IntroBottomNav class="bottomNav" :class="'bottomNav-' + state" />
   </div>

@@ -1,6 +1,6 @@
 @import '../../mixins';
 
-.buttons {
+.nav-buttons {
   @include size(100%, 60%);
   @include flexGrid(center, center, nowrap);
   flex-direction: column;

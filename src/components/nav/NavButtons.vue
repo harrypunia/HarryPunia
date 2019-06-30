@@ -1,10 +1,10 @@
 <template>
-  <div class="buttons">
+  <div class="nav-buttons">
     <a  v-for="button in buttons"
         :key="button.key"
         hover
         :href="button.href"
-        class="buttons-items"
+        class="nav-buttons-items"
         @click="scrollTo(button.ref)">
       {{$t(`nav.btn.${button.value}`)}}
     </a>
