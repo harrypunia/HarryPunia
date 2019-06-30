@@ -1,0 +1,9 @@
+@import "../../mixins";
+@import "../../wrapper";
+
+.info-container {
+  @include wrapper();
+  @include size(100%, auto);
+  @include setTheme('background-color', xxHigh);
+  position: relative;
+}

@@ -1,125 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/resources/scss/components/_studyTeam.scss" line="3" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="357056fb-ffff-40bd-946f-ad4a0e293d12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/.idea 2/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/.idea 2/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/.idea 2/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/.idea 2/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/.idea 2/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/.idea 2/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/Cursor.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/List.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/Parallax.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/Tags.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/Title.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/button/Button.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/header/Header.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/loader/Loader.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/nav/Nav.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/nav/NavButtons.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/nav/NavTheme.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/components/study/StudyIntro.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/about/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/about/AboutContent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/canvas/Canvas.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/canvas/sketches/sketch1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/caseStudies/CaseStudies.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/caseStudies/caseItem/CaseItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/caseStudies/caseItem/CaseItemContent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/caseStudies/caseItem/CaseItemImages.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/clients/Clients.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/clients/clientItem/ClientInfo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/clients/clientItem/ClientItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/intro/Intro.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/intro/IntroBottomNav.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/intro/IntroInfo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/passion/Passion.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/passion/PassionItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/skills/SkillItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/home/skills/Skills.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/pages/studies/Study1.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/audio/1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/about/me.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/1/alternate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/1/display.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/1/preview 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/1/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/2/alternate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/2/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/3/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/caseStudies/4/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/clients/firmway.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/clients/neoEvolution.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/clients/punias.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/intro/harryPunia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/loader/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/logo/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/passion/passionItem1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/passion/passionItem2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/passion/passionItem3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/passion/passionItem4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/arduino.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/cinema4d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/css.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/github.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/html.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/illustrator.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/inDesign.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/javascript.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/p5js.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/photoshop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/premierpro.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/img/skills/threejs.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/about-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/caseStudies-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/clients-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/intro-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/nav-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/passion-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/skills-lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/locale/vue-i81n.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/_animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/_index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/_wrapper.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/_parallax.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/_tags.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/_title.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/button/_button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/loader/loader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/nav/nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/nav/navButtons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/nav/navTheme.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/components/study/_studyIntro.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/about/_about.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/about/_aboutContent.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/caseStudies/_caseItem.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/caseStudies/_caseItemContent.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/caseStudies/_caseItemImages.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/caseStudies/_caseStudies.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/clients/_clients.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/clients/clientItem/_clientInfo.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/clients/clientItem/_clientItem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/intro/_intro.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/intro/_introBottomNav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/intro/_intro_animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/passion/_passion.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/passion/_passionItem.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/skills/_skillItem.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/scss/pages/home/skills/_skills.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HarryPunia 2/src/resources/videos/caseStudies/1/display.mp4" beforeDir="false" />
+    <list default="true" id="357056fb-ffff-40bd-946f-ad4a0e293d12" name="Default Changelist" comment="- Added invert functionality to Button&#10;- Added invert functionality to links&#10;- Created StudyInfoCard and StudyTeam and StudyAbout components&#10;- Added global-lang.js for global i18n text&#10;- Templated Study1 component">
+      <change afterPath="$PROJECT_DIR$/src/components/study/StudyAbout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/study/StudyInfoCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/study/StudyTeam.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/studies/1/Study1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/locale/global-lang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/scss/components/_studyTeam.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/scss/components/study/_studyInfoCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyBody.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/study/StudyIntro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/study/StudyIntro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/clients/clientItem/ClientItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/clients/clientItem/ClientItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/studies/Study1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/studies/1/StudyBody.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/caseStudies/1/alternate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/caseStudies/1/preview 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/caseStudies/1/preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/img/caseStudies/1/preview.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/img/caseStudies/2/alternate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/locale/caseStudies-lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/locale/caseStudies-lang.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/locale/vue-i81n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/locale/vue-i81n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/components/button/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/components/button/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/components/loader/loader" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/components/loader/_loader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/components/study/_studyIntro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/components/study/_studyIntro.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/pages/home/clients/clientItem/_clientItem" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/pages/home/clients/clientItem/_clientItem.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/pages/home/intro/_introBottomNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/pages/home/intro/_introBottomNav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/videos/caseStudies/1/display.mp4" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,12 +41,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/button/Button.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="46">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/study/StudyTeam.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -169,6 +91,15 @@
       <find>ref=&quot;</find>
       <find>smooth</find>
       <find>intro</find>
+      <find>noopener</find>
+      <find>www.pu</find>
+      <find>a[</find>
+      <find>a</find>
+      <find>border-radius: 50%;</find>
+      <find>what</find>
+      <find>h1</find>
+      <find>content</find>
+      <find>&lt;Button</find>
     </findStrings>
     <replaceStrings>
       <replace>.6s</replace>
@@ -181,32 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_parallax" />
-        <option value="$PROJECT_DIR$/my-app/src/components/Parallax.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/_mixins.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_about.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/about/AboutContent.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/about/_aboutContent.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clients.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/Clients.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/about/About.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/skills/Skills.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/passion/Passion.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/components/Title.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItemImages.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemImages.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemImage.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItemImage.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_parallax.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_cursor.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseStudies.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_title.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItemContent.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/caseStudies/_caseItemContent.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/CaseStudies.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/_clientItem" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/ClientItem.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/components/nav/Nav.vue" />
         <option value="$PROJECT_DIR$/my-app/src/resources/locale/passion-lang.js" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/clientItem/_clientInfo.scss" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/clientItem/_clientItem" />
@@ -232,6 +137,32 @@
         <option value="$PROJECT_DIR$/my-app/src/pages/home/caseStudies/caseItem/CaseItem.vue" />
         <option value="$PROJECT_DIR$/my-app/src/pages/studies/Study1.vue" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/resources/scss/pages/studies/study/_studyIntro.scss" />
+        <option value="$PROJECT_DIR$/src/pages/studies/study/StudyIntro.vue" />
+        <option value="$PROJECT_DIR$/src/pages/studies/Study1.vue" />
+        <option value="$PROJECT_DIR$/src/resources/scss/components/loader/loader" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/pages/studies/1/Study.vue" />
+        <option value="$PROJECT_DIR$/src/resources/scss/components/study/_studyIntro.scss" />
+        <option value="$PROJECT_DIR$/src/resources/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/components/study/StudyInfoCard.vue" />
+        <option value="$PROJECT_DIR$/src/pages/home/clients/clientItem/ClientItem.vue" />
+        <option value="$PROJECT_DIR$/src/resources/scss/pages/home/intro/_introBottomNav.scss" />
+        <option value="$PROJECT_DIR$/src/resources/scss/_mixins.scss" />
+        <option value="$PROJECT_DIR$/src/pages/studies/1/Study1.vue" />
+        <option value="$PROJECT_DIR$/src/resources/locale/vue-i81n.js" />
+        <option value="$PROJECT_DIR$/src/components/study/StudyAbout.vue" />
+        <option value="$PROJECT_DIR$/src/components/study/StudyTeam.vue" />
+        <option value="$PROJECT_DIR$/src/resources/scss/components/_studyTeam.scss" />
+        <option value="$PROJECT_DIR$/src/resources/scss/_index.scss" />
+        <option value="$PROJECT_DIR$/src/resources/locale/global-lang.js" />
+        <option value="$PROJECT_DIR$/src/resources/locale/caseStudies-lang.js" />
+        <option value="$PROJECT_DIR$/src/components/button/Button.vue" />
+        <option value="$PROJECT_DIR$/src/resources/scss/components/button/_button.scss" />
+        <option value="$PROJECT_DIR$/src/components/study/StudyIntro.vue" />
+        <option value="$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyBody.scss" />
+        <option value="$PROJECT_DIR$/src/resources/scss/components/study/_studyInfoCard.scss" />
+        <option value="$PROJECT_DIR$/src/pages/studies/1/StudyBody.vue" />
       </list>
     </option>
   </component>
@@ -245,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,11 +183,43 @@
               <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
               <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,19 +236,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/my-app" />
-      <recent name="$PROJECT_DIR$/my-app/src/components" />
-      <recent name="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/clientItem" />
-      <recent name="$PROJECT_DIR$/my-app/src/pages/home/clients/clientItem" />
-      <recent name="$PROJECT_DIR$/my-app/src/resources/scss/components" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/study" />
+      <recent name="$PROJECT_DIR$/src/resources/locale" />
+      <recent name="$PROJECT_DIR$/src/resources/scss/pages/studies/1" />
+      <recent name="$PROJECT_DIR$/src/pages/studies/1" />
       <recent name="$PROJECT_DIR$/my-app/src/resources/scss/components/study" />
-      <recent name="$PROJECT_DIR$/my-app/src/components/study" />
-      <recent name="$PROJECT_DIR$/my-app/src/resources/scss/components" />
-      <recent name="$PROJECT_DIR$/my-app/src/components/button" />
-      <recent name="$PROJECT_DIR$/my-app/src/pages/studies" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/scss/components" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/pages/studies/1" />
+      <recent name="$PROJECT_DIR$/src/resources/scss/pages/studies" />
+      <recent name="$PROJECT_DIR$/src/pages/studies" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,6 +291,7 @@
       <workItem from="1561701827848" duration="7056000" />
       <workItem from="1561749223705" duration="1506000" />
       <workItem from="1561835636765" duration="230000" />
+      <workItem from="1561835930490" duration="14412000" />
     </task>
     <task id="LOCAL-00001" summary="- Removed old CaseStudy components&#10;- Removed shadow from Parallax componentp">
       <created>1561420692763</created>
@@ -397,16 +360,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115217000" />
+    <option name="totallyTimeSpent" value="129629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2735043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2765568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32921812" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -418,11 +383,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993895" weight="0.4053498" />
       <window_info anchor="bottom" id="GraphQL" order="9" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" visible="true" weight="0.33539096" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" weight="0.22942387" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.501221" side_tool="true" weight="0.33539096" />
       <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info active="true" anchor="bottom" id="Messages" order="15" visible="true" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -483,45 +448,10 @@
     <MESSAGE value="- Added toggle state to Loader for router transitions&#10;- Added history mode to router for fixed url prefix&#10;- Added Intro content to Study/1 router-view" />
     <MESSAGE value="- Fixed Project directory order" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="- Added invert functionality to Button&#10;- Added invert functionality to links&#10;- Created StudyInfoCard and StudyTeam and StudyAbout components&#10;- Added global-lang.js for global i18n text&#10;- Templated Study1 component" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added invert functionality to Button&#10;- Added invert functionality to links&#10;- Created StudyInfoCard and StudyTeam and StudyAbout components&#10;- Added global-lang.js for global i18n text&#10;- Templated Study1 component" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/pages/home/intro/_intro.scss" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/components/_parallax.scss" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/Parallax.vue" />
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/components/_cursor.scss" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/Cursor.vue" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/pages/home/caseStudies/_caseStudies.scss" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/_variables.scss" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/Tags.vue" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/components/_title.scss" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/pages/home/caseStudies/_caseItemContent.scss" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/caseStudies/caseItem/CaseItemContent.vue" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/locale/vue-i81n.js" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/locale/intro-lang.js" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/nav/Nav.vue" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/locale/passion-lang.js" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/pages/home/clients/clientItem/_clientInfo.scss" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/pages/home/clients/clientItem/_clientItem" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/components/nav/navButtons.scss" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/locale/nav-lang.js" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/clients/clientItem/ClientInfo.vue" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/clients/Clients.vue" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/clients/clientItem/ClientItem.vue" />
-    <entry file="file://$PROJECT_DIR$/my-app/src/resources/scss/components/_routerLoader.scss" />
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/RouterLoader.vue" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/canvas/sketches/sketch1.js" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/canvas/Canvas.vue" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/header/Header.vue" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/intro/Intro.vue" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/pages/home/intro/_introBottomNav.scss" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/intro/IntroBottomNav.vue" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/_index.scss" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/_mixins.scss" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/locale/caseStudies-lang.js" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/pages/home/caseStudies/_caseItem.scss" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/components/study/_studyIntro.scss" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/resources/scss/components/loader/loader" />
     <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/study/StudyIntro.vue" />
     <entry file="file://$PROJECT_DIR$/HarryPunia/src/main.js" />
     <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/loader/Loader.vue" />
@@ -535,11 +465,275 @@
     <entry file="file://$PROJECT_DIR$/HarryPunia/.gitignore" />
     <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/studies/Study1.vue" />
     <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/home/about/_about.scss" />
-    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/js/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/home/clients/clientItem/_clientItem.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/loader/Loader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/List.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/components/loader/_loader.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="e#120#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/components/study/_studyIntro.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/sectional.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/meta.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Title.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/clients/Clients.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/home/intro/_introBottomNav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="483">
+            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/studies/1/Study1.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#266#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/locale/vue-i81n.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="e#15#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/study/StudyAbout.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/clients/clientItem/ClientItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nav/Nav.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#479#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nav/NavButtons.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/components/_studyTeam.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/locale/caseStudies-lang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/locale/global-lang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/components/button/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/study/StudyIntro.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/components/study/_studyInfoCard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/study/StudyInfoCard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyBody.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/studies/1/StudyBody.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#475#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/button/Button.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/study/StudyTeam.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
 <template>
-  <button :class="dir">
+  <button :class="[dir, {'invert' : invert}]">
     <p medium class="button__title">{{text}}</p>
     <div class="button__img">
       <i :class="'fas fa-' + img"></i>
@@ -11,7 +11,7 @@
 
   export default {
     name: 'Button',
-    props: ['dir', 'text', 'img', 'action']
+    props: ['dir', 'text', 'img', 'invert', 'action']
   }
 
 </script>

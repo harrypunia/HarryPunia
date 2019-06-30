@@ -108,18 +108,22 @@ a {
   position: relative;
   cursor: pointer;
   text-decoration: underline;
+  z-index: 0;
 
-  &[hover]:before {
-    @include size(100%, 100%);
-    @include posAbs(-10px, 0, false, default);
-    @include setTheme('background', xxMain);
-    @include smooth(transform, .2s);
-    content: "";
-    display: block;
-    z-index: -1;
-    padding: 0 10px;
-    transform: scaleX(0);
-    transform-origin: right center;
+  &[hover] {
+    text-decoration: none;
+      &:before {
+      @include size(100%, 100%);
+      @include posAbs(-10px, 0, false, default);
+      @include setTheme('background', xxMain);
+      @include smooth(transform, .2s);
+      content: "";
+      display: block;
+      z-index: -1;
+      padding: 0 10px;
+      transform: scaleX(0);
+      transform-origin: right center;
+    }
   }
 
   &:hover {
@@ -136,6 +140,22 @@ a {
     @include setTheme('color', link);
     outline: 0;
     text-decoration: underline;
+  }
+
+  &[invert] {
+    @include setTheme('color', main);
+
+    &[hover]:before {
+      @include setTheme('background', high);
+    }
+
+    &:hover {
+      @include setTheme('color', xMain);
+    }
+
+    &:focus {
+      @include setTheme('color', main);
+    }
   }
 }
 

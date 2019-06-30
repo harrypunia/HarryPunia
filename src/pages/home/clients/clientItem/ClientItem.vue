@@ -1,5 +1,5 @@
 <template>
-  <a :href="hpRef" :style="{backgroundColor: brandColor, borderColor: contentColor}" class="clientItem">
+  <a :href="hpRef" rel="noopener noreferrer" :style="{backgroundColor: brandColor, borderColor: contentColor}" class="clientItem">
     <div class="clientItem-info">
         <ClientInfo :brandName="brandName" :brandColor="brandColor" :contentColor="contentColor"/>
         <i :style="{color: contentColor}" class="fas fa-external-link-alt"></i>

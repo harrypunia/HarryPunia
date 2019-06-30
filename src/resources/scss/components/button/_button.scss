@@ -48,6 +48,13 @@ button {
   }
 }
 
+.invert {
+  @include setTheme('background', main);
+  div {@include setTheme('background', main)}
+  i {@include setTheme('color', xxHigh)}
+  p {@include setTheme('color', xxHigh)}
+}
+
 .horizontal {
   div {transform: translateX(-100%)}
   &:hover div {transform: translateX(0)}

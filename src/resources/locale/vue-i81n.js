@@ -2,9 +2,10 @@
 import Vue from "vue"
 import VueI18n from "vue-i18n"
 //Assets
-import {intro} from "./intro-lang"
+import {global} from "./global-lang";
+import {intro} from "./intro-lang";
 import {nav} from "./nav-lang";
-import {passion} from "./passion-lang"
+import {passion} from "./passion-lang";
 import {skills} from "./skills-lang";
 import {caseStudies} from "./caseStudies-lang";
 import {clients} from "./clients-lang";
@@ -16,6 +17,7 @@ export const i18n = new VueI18n({
   locale: 'en',
   messages: {
     en: {
+      g: {...global.en},
       intro: {...intro.en},
       nav: {...nav.en},
       passion: {...passion.en},
@@ -25,6 +27,7 @@ export const i18n = new VueI18n({
       about: {...about.en}
     },
     fr: {
+      g: {...global.fr},
       intro: {...intro.fr},
       nav: {...nav.fr},
       passion: {...passion.fr},

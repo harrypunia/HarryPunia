@@ -1,0 +1,15 @@
+@import "../../../mixins";
+
+.study-body {
+  @include size(80vw, 1800px);
+  position: relative;
+  margin-top: 100vh;
+  margin-left: 10vw;
+};
+
+.study {
+  &-button-try {
+    @include posAbs(100px, 100%, true, invert);
+    z-index: 100;
+  }
+}

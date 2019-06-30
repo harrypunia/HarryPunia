@@ -6,7 +6,7 @@ import VueRouter from 'vue-router'
 //Assets
 import {i18n} from "./resources/locale/vue-i81n"
 import Home from "./pages/home/Home"
-import Study1 from "./pages/studies/Study1"
+import Study1 from "./pages/studies/1/Study1"
 import VueParallaxJs from 'vue-parallax-js'
 
 Vue.config.productionTip = false;

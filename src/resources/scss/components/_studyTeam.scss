@@ -1,0 +1,62 @@
+@import "../mixins";
+
+.study-team {
+  @include size(100%, auto);
+  @include flexGrid(center, flex-start, wrap);
+
+  &-member {
+    @include size(200px, 200px);
+    @include flexGrid(center, center, wrap);
+    position: relative;
+    margin: map-get($spacing, small);
+  }
+}
+
+.member {
+  &-image {
+    @include size(200px, 200px);
+    @include createCircle();
+    @include smooth(transform, .4s);
+    object-fit: cover;
+
+    &:hover {
+      transform: rotate(-5deg);
+
+      & ~ .member-role {
+        opacity: 1 !important;
+        transform: translate3d(0, 0, 0) !important;
+        transition: transform .2s ease, opacity .2s ease;
+      }
+    }
+  }
+
+  &-name {
+    width: 100%;
+  }
+
+  &-visit {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  &-role {
+    @include posAbs(60%, -25%, false, default);
+    @include size(250px, auto);
+    @include setTheme('background-color', main);
+    @include setShadow(large);
+    padding: map-get($spacing, xSmall) map-get($spacing, small);
+    border-radius: 5px;
+    z-index: 10;
+    opacity: 0;
+    transform: translate3d(0, 25%, 0);
+    transition: transform .2s ease, opacity .2s ease;
+
+    &:after {
+      content: "";
+      border: solid transparent;
+      @include setTheme('border-top-color', main);
+      @include posAbs(10px, 100%, false, default);
+      border-width: 10px 10px 0 10px;
+    }
+  }
+}

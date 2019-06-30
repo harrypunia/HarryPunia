@@ -24,7 +24,7 @@
   &-dot {
     @include setTheme('background', high);
     @include size(4px, 4px);
-    border-radius: 50%;
+    @include createCircle();
     margin-top: 5px;
     animation: scroll-dot 2s ease infinite;
   }

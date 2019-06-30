@@ -51,6 +51,11 @@
   &:hover {transition: $prop $time ease}
 }
 
+@mixin createCircle() {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 @mixin view($which) {
   @if $which == phone {
     @media only screen and (max-width: 600px) {@content}

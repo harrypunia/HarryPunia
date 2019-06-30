@@ -1,21 +1,27 @@
 <template>
-  <div :class="`study-intro study-intro-${state}`">
+  <div :class="`study-intro study-intro-${state}`" :style="{opacity: mapOpacity}">
     <div class="study-title">
-      <h1 title>{{state}}</h1>
+      <h1 center title>{{title}}</h1>
     </div>
-    <video autoplay muted loop>
-      <source :src="video" type="video/mp4"/>
+    <video v-if="type === 'video'" class="study-intro-media" autoplay muted loop>
+      <source :src="media" type="video/mp4"/>
     </video>
+    <img v-else :src="media" class="study-intro-media" alt="Study image" />
   </div>
 </template>
 
 <script>
   export default {
     name: "Title",
-    props: [ 'src', 'title', 'state' ],
+    props: [ 'type', 'src', 'title', 'state' ],
     data() {
       return {
-        video: require(`../../resources/videos/caseStudies/${this.src}`)
+        media: require(`../../resources/${this.type}/caseStudies/${this.src}`)
+      }
+    },
+    methods: {
+      mapOpacity() {
+
       }
     }
   }

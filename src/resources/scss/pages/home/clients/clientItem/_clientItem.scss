@@ -1,0 +1,40 @@
+@import "../../../../mixins";
+
+.clientItem {
+  @include setShadow(small);
+  @include smooth(transform, .4s);
+  @include flexGrid(center, space-between, no-wrap);
+  @include size(360px, 600px);
+  flex-direction: column;
+  padding: map-get($spacing, small);
+  border: 1px solid;
+  border-radius: 5px;
+  margin-right: map-get($spacing, large);
+  margin-bottom: map-get($spacing, regular);
+  text-decoration: none;
+  cursor: alias;
+
+  &:hover {
+    transform: scale3d(1.01, 1.01, 1);
+  }
+
+  &-info {
+    @include size(100%, auto);
+    @include flexGrid(flex-start, space-between, no-wrap);
+  }
+
+  i {
+    font-size: 15px;
+    margin-top: .5em;
+  }
+
+  &-name {
+    font-weight: 200;
+    font-size: 24px;
+  }
+
+  &-logo {
+    @include size(100px, auto);
+  }
+
+}
