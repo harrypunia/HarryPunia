@@ -7,45 +7,6 @@
     <list default="true" id="357056fb-ffff-40bd-946f-ad4a0e293d12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.1a6bd500.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/arduino.82b718c1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/cinema4d.a91be214.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/css.07c3991e.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/display.9be42edb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/firmway.becd0eae.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/github.f4f7d011.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/harryPunia.bac7ecbe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/html.cce23477.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/illustrator.a537fc73.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/inDesign.ebfaaf2d.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/javascript.d9ed77eb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/laurenBlack.c0e2b71c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/loading.6834a5cf.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/logo.151963d1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/me.5d5ceb6e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/neoEvolution.3b3d1169.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/p5js.85614ca7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/passionItem1.4113e678.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/passionItem2.dd90ee24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/passionItem3.83c53dc6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/passionItem4.dab7880e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/photoshop.26c6be38.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/premierpro.5f55c6b8.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/preview.9be42edb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/preview.ac3a2d05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/punias.10624c62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/threejs.4ad98999.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.c58dcb0a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.c58dcb0a.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.4615bde5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.4615bde5.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/media/1.9d2300d5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/media/display.63773f69.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/NavButtons.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/NavButtons.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/intro/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/intro/Intro.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/components/nav/navButtons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/components/nav/navButtons.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,47 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/intro/Intro.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="28" column="79" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/nav/NavButtons.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/home/intro/_intro.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/scss/components/nav/navButtons.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="345">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -200,11 +125,11 @@
         <option value="$PROJECT_DIR$/src/resources/scss/pages/home/passion/_passionItem.scss" />
         <option value="$PROJECT_DIR$/src/pages/home/skills/SkillItem.vue" />
         <option value="$PROJECT_DIR$/src/resources/scss/pages/home/skills/_skillItem.scss" />
-        <option value="$PROJECT_DIR$/src/resources/scss/pages/home/intro/_intro.scss" />
         <option value="$PROJECT_DIR$/src/resources/scss/components/nav/navButtons.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/pages/home/intro/Intro.vue" />
         <option value="$PROJECT_DIR$/src/components/nav/NavButtons.vue" />
+        <option value="$PROJECT_DIR$/src/resources/scss/pages/home/intro/_intro.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -225,17 +150,6 @@
             <path>
               <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
               <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,7 +228,7 @@
       <workItem from="1561749223705" duration="1506000" />
       <workItem from="1561835636765" duration="230000" />
       <workItem from="1561835930490" duration="21043000" />
-      <workItem from="1561862285578" duration="325000" />
+      <workItem from="1561862285578" duration="571000" />
     </task>
     <task id="LOCAL-00001" summary="- Removed old CaseStudy components&#10;- Removed shadow from Parallax componentp">
       <created>1561420692763</created>
@@ -404,7 +318,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136585000" />
+    <option name="totallyTimeSpent" value="136831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -834,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/scss/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -871,8 +778,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/home/intro/_intro.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="345">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
