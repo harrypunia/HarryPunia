@@ -1,14 +1,14 @@
 <template>
-  <div class="container">
-    <div class="container-column container-left">
-       <div ref="Dark" class="container-item Dark" :value="theme" @click="changeTheme('Dark', $event)"></div>
-       <div ref="Red" class="container-item Red" :value="theme" @click="changeTheme('Red', $event)"></div>
-       <div ref="Light" class="container-item Light" :value="theme" @click="changeTheme('Light', $event)"></div>
+  <div class="nav-container">
+    <div class="nav-container-column nav-container-left">
+       <div ref="Dark" class="nav-container-item Dark" :value="theme" @click="changeTheme('Dark', $event)"></div>
+       <div ref="Red" class="nav-container-item Red" :value="theme" @click="changeTheme('Red', $event)"></div>
+       <div ref="Light" class="nav-container-item Light" :value="theme" @click="changeTheme('Light', $event)"></div>
     </div>
-    <div class="container-column container-right">
-       <div ref="Black" class="container-item Black" :value="theme" @click="changeTheme('Black', $event)"></div>
-       <div ref="Purple" class="container-item Purple" :value="theme" @click="changeTheme('Purple', $event)"></div>
-       <div ref="Wheat" class="container-item Wheat" :value="theme" @click="changeTheme('Wheat', $event)"></div>
+    <div class="nav-container-column nav-container-right">
+       <div ref="Black" class="nav-container-item Black" :value="theme" @click="changeTheme('Black', $event)"></div>
+       <div ref="Purple" class="nav-container-item Purple" :value="theme" @click="changeTheme('Purple', $event)"></div>
+       <div ref="Wheat" class="nav-container-item Wheat" :value="theme" @click="changeTheme('Wheat', $event)"></div>
     </div>
   </div>
 </template>

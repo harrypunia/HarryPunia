@@ -1,6 +1,7 @@
 @import "../../mixins";
 @import "../../variables";
-.container {
+
+.nav-container {
   @include size(100%, 150px);
   @include flexGrid(center, center, nowrap);
 
@@ -26,14 +27,14 @@
   }
 
   &-left {
-    .container-item:nth-child(1) {background: map-get($theme_Dark, main)}
-    .container-item:nth-child(2) {background: map-get($theme_Red, main)}
-    .container-item:nth-child(3) {background: map-get($theme_Light, main)}
+    .nav-container-item:nth-child(1) {background: map-get($theme_Dark, main)}
+    .nav-container-item:nth-child(2) {background: map-get($theme_Red, main)}
+    .nav-container-item:nth-child(3) {background: map-get($theme_Light, main)}
   }
 
   &-right {
-    .container-item:nth-child(1) {background: map-get($theme_Black, main)}
-    .container-item:nth-child(2) {background: map-get($theme_Purple, main)}
-    .container-item:nth-child(3) {background: map-get($theme_Wheat, main)}
+    .nav-container-item:nth-child(1) {background: map-get($theme_Black, main)}
+    .nav-container-item:nth-child(2) {background: map-get($theme_Purple, main)}
+    .nav-container-item:nth-child(3) {background: map-get($theme_Wheat, main)}
   }
 }

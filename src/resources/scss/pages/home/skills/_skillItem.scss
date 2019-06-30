@@ -1,6 +1,6 @@
 @import "../../../mixins";
 
-.container {
+.skill-container {
   width: 100%;
   margin-bottom: 20px;
 }
@@ -34,9 +34,9 @@
   margin: 20px;
 }
 
-.img {width: 50px}
+.skill-img {width: 50px}
 
-.button {
+.skill-button {
   margin: 20px;
   justify-self: flex-end;
 }

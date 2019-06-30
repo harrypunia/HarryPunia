@@ -1,8 +1,8 @@
 <template>
-  <button :class="[dir, {'invert' : invert}]">
-    <p medium class="button__title">{{text}}</p>
-    <div class="button__img">
-      <i :class="'fas fa-' + img"></i>
+  <button class="button" :class="[dir, {'invert' : invert}]">
+    <p medium class="button-title">{{text}}</p>
+    <div class="button-img-container">
+      <i class="button-img" :class="'fas fa-' + img"></i>
     </div>
   </button>
 </template>

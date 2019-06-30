@@ -1,7 +1,7 @@
 @import "../../../mixins";
 @import "intro_animations";
 
-.container {
+.bottom-nav-container {
   @include posAbs(150px, 50px, false, invert);
   @include size(auto, 40px);
   @include flexGrid(center, flex-end, nowrap);

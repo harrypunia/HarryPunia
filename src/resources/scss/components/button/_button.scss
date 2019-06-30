@@ -1,7 +1,7 @@
 @import "../../mixins";
 @import "../../variables";
 
-button {
+.button {
   @include setTheme('background-color', xxHigh);
   @include flexGrid(center, center, nowrap);
   @include size(auto, 50px);
@@ -26,7 +26,7 @@ button {
     transform: scale(1.05) !important;
   }
 
-  div {
+  &-img-container {
     @include setTheme('background', xxHigh);
     @include flexGrid(center, center, no-wrap);
     @include size(100%, 100%);
@@ -34,12 +34,12 @@ button {
     position: absolute;
   }
 
-  i {
+  &-img {
     @include setTheme('color', main);
     font-size: 20px;
   }
 
-  p{
+  &-title{
     @include setTheme('color', main);
     @include smooth(transform, 0.3s);
     line-height: 1em;
@@ -50,18 +50,18 @@ button {
 
 .invert {
   @include setTheme('background', main);
-  div {@include setTheme('background', main)}
-  i {@include setTheme('color', xxHigh)}
-  p {@include setTheme('color', xxHigh)}
+  .button-img-container {@include setTheme('background', main)}
+  .button-img {@include setTheme('color', xxHigh)}
+  .button-title {@include setTheme('color', xxHigh)}
 }
 
 .horizontal {
-  div {transform: translateX(-100%)}
+  .button-img-container {transform: translateX(-100%)}
   &:hover div {transform: translateX(0)}
   &:hover p {transform: translateX(80%)}
 }
 .vertical {
-  div {transform: translateY(-100%)}
+  .button-img-container {transform: translateY(-100%)}
   &:hover div {transform: translateY(0)}
   &:hover p {transform: translateY(80%)}
 }

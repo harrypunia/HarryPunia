@@ -1,6 +1,6 @@
 @import "../../../mixins";
 
-.container {
+.passion-container {
   @include size(320px, 600px);
   @include flexGrid(center, space-between, nowrap);
   flex-direction: column;
@@ -11,7 +11,7 @@
 
   p {width: 100%}
 
-  .img {width: 60%}
+  .passion-img {width: 60%}
 
-  .button {margin: 40px auto 0 auto}
+  .passion-button {margin: 40px auto 0 auto}
 }

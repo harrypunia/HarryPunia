@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="bottom-nav-container">
     <div class="scroll">
       <div class="scroll-dot"></div>
     </div>

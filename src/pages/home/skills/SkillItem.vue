@@ -1,14 +1,14 @@
 <template>
-  <div class="container">
+  <div class="skill-container">
     <p class="skill-title">{{ $t(`skills.item.${num}.title`) }}</p>
     <div class="wrapper">
       <div class="grid">
         <div :key="item.key" v-for="item in items" class="grid-items">
-          <img class="img" :src="getImg(item.url)" alt="Design Skill"/>
+          <img class="skill-img" :src="getImg(item.url)" alt="Design Skill"/>
           <p>{{item.desc}}</p>
         </div>
       </div>
-      <Button class="button" dir="vertical" :text="$t('skills.item.button')" img="arrow-down" />
+      <Button class="skill-button" dir="vertical" :text="$t('skills.item.button')" img="arrow-down" />
     </div>
   </div>
 </template>

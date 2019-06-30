@@ -1,10 +1,10 @@
 <template>
-  <div class="container">
-    <img class="img" :src="getImg()" alt="">
+  <div class="passion-container">
+    <img class="passion-img" :src="getImg()" alt="">
     <h3>{{ $t(`passion.item.${num}.title` )}}</h3>
     <p>{{ $t(`passion.item.${num}.desc`) }}</p>
     <div @click="highlightElement">
-      <Button class="button" dir="vertical" :text="$t('passion.item.button')" img="arrow-down" />
+      <Button class="passion-button" dir="vertical" :text="$t('passion.item.button')" img="arrow-down" />
     </div>
   </div>
 </template>
