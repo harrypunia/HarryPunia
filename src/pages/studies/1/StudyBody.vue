@@ -7,7 +7,7 @@
       <StudyAbout num="1" />
     </StudyInfoCard>
     <StudyInfoCard :title="$t('caseStudies.process')">
-      <div></div>
+      <StudyProcess/>
     </StudyInfoCard>
     <StudyInfoCard :title="$t('caseStudies.members')">
       <StudyTeam :members="members"/>

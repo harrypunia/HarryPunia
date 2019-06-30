@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/resources/scss/components/_studyTeam.scss" line="3" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/resources/scss/components/study/_studyTeam.scss" line="3" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="357056fb-ffff-40bd-946f-ad4a0e293d12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/studies/1/StudyFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyFooter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/study/StudyContainer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/studies/1/StudyProcess.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/scss/components/study/_studyContainer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyProcess.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/study/StudyAbout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/study/StudyAbout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/study/StudyInfoCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/study/StudyInfoCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/study/StudyTeam.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/study/StudyTeam.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/studies/1/Study1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/studies/1/Study1.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/studies/1/StudyBody.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/studies/1/StudyBody.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/locale/caseStudies-lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/locale/caseStudies-lang.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/scss/components/study/_studyInfoCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/components/study/_studyInfoCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/components/_studyTeam.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/components/study/_studyTeam.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/components/study/_studyIntro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/components/study/_studyIntro.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyBody.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyBody.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyFooter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyFooter.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +26,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/studies/1/StudyBody.vue">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/study/StudyIntro.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="391">
+              <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/scss/components/study/_studyIntro.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/study/StudyContainer.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="68" lean-forward="true" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/scss/components/study/_studyContainer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -73,6 +102,8 @@
       <find>h1</find>
       <find>content</find>
       <find>&lt;Button</find>
+      <find>%</find>
+      <find>all</find>
     </findStrings>
     <replaceStrings>
       <replace>.6s</replace>
@@ -85,10 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-app/src/resources/scss/pages/home/clients/clientItem/_clientItem" />
-        <option value="$PROJECT_DIR$/my-app/src/resources/locale/nav-lang.js" />
-        <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/clientItem/ClientInfo.vue" />
-        <option value="$PROJECT_DIR$/my-app/src/components/button/RouterLoader.vue" />
         <option value="$PROJECT_DIR$/my-app/src/pages/home/clients/clientItem/ClientItem.vue" />
         <option value="$PROJECT_DIR$/my-app/src/resources/scss/components/_routerLoader.scss" />
         <option value="$PROJECT_DIR$/my-app/src/components/RouterLoader.vue" />
@@ -114,7 +141,6 @@
         <option value="$PROJECT_DIR$/src/resources/scss/components/loader/loader" />
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/pages/studies/1/Study.vue" />
-        <option value="$PROJECT_DIR$/src/resources/scss/components/study/_studyIntro.scss" />
         <option value="$PROJECT_DIR$/src/resources/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/src/pages/home/clients/clientItem/ClientItem.vue" />
         <option value="$PROJECT_DIR$/src/resources/scss/pages/home/intro/_introBottomNav.scss" />
@@ -129,13 +155,18 @@
         <option value="$PROJECT_DIR$/src/components/study/StudyIntro.vue" />
         <option value="$PROJECT_DIR$/src/resources/locale/caseStudies-lang.js" />
         <option value="$PROJECT_DIR$/src/components/study/StudyAbout.vue" />
-        <option value="$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyBody.scss" />
-        <option value="$PROJECT_DIR$/src/pages/studies/1/Study1.vue" />
-        <option value="$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyFooter.scss" />
         <option value="$PROJECT_DIR$/src/pages/studies/1/StudyFooter.vue" />
         <option value="$PROJECT_DIR$/src/resources/scss/components/study/_studyInfoCard.scss" />
         <option value="$PROJECT_DIR$/src/components/study/StudyInfoCard.vue" />
         <option value="$PROJECT_DIR$/src/pages/studies/1/StudyBody.vue" />
+        <option value="$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyProcess.scss" />
+        <option value="$PROJECT_DIR$/src/pages/studies/1/StudyProcess.vue" />
+        <option value="$PROJECT_DIR$/src/pages/studies/1/Study1.vue" />
+        <option value="$PROJECT_DIR$/src/components/study/StudyContainer.vue" />
+        <option value="$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyBody.scss" />
+        <option value="$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyFooter.scss" />
+        <option value="$PROJECT_DIR$/src/resources/scss/components/study/_studyContainer.scss" />
+        <option value="$PROJECT_DIR$/src/resources/scss/components/study/_studyIntro.scss" />
       </list>
     </option>
   </component>
@@ -160,6 +191,19 @@
               <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
               <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HarryPunia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HarryPunia" type="b2602c69:ProjectViewProjectNode" />
@@ -205,18 +249,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pages/studies/1" />
       <recent name="$PROJECT_DIR$/src/components/study" />
+      <recent name="$PROJECT_DIR$/src/pages/studies/1" />
       <recent name="$PROJECT_DIR$/src/resources/locale" />
       <recent name="$PROJECT_DIR$/src/resources/scss/pages/studies/1" />
       <recent name="$PROJECT_DIR$/my-app/src/resources/scss/components/study" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/scss/components/study" />
       <recent name="$PROJECT_DIR$/src/resources/scss/components" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/pages/studies/1" />
       <recent name="$PROJECT_DIR$/src/resources/scss/pages/studies" />
-      <recent name="$PROJECT_DIR$/src/pages/studies" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -259,7 +303,7 @@
       <workItem from="1561701827848" duration="7056000" />
       <workItem from="1561749223705" duration="1506000" />
       <workItem from="1561835636765" duration="230000" />
-      <workItem from="1561835930490" duration="15787000" />
+      <workItem from="1561835930490" duration="17231000" />
     </task>
     <task id="LOCAL-00001" summary="- Removed old CaseStudy components&#10;- Removed shadow from Parallax componentp">
       <created>1561420692763</created>
@@ -331,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561853650278</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="- Added transparent StudyInfoCard&#10;- Inverting the entire card on invert&#10;- Added explore more section &#10;- Moved some global i18n data to local caseStudies-lang.js">
+      <created>1561855094002</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1561855094002</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131004000" />
+    <option name="totallyTimeSpent" value="132448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -355,10 +406,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993895" weight="0.4053498" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993895" visible="true" weight="0.4053498" />
       <window_info anchor="bottom" id="GraphQL" order="9" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" visible="true" weight="0.22942387" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" weight="0.22942387" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.501221" side_tool="true" weight="0.33539096" />
       <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
@@ -425,13 +476,10 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="- Added invert functionality to Button&#10;- Added invert functionality to links&#10;- Created StudyInfoCard and StudyTeam and StudyAbout components&#10;- Added global-lang.js for global i18n text&#10;- Templated Study1 component" />
     <MESSAGE value="- Added invert functionality to Button&#10;- Added invert functionality to links&#10;- Created StudyInfoCard and StudyTeam and StudyAbout components&#10;- Added global-lang.js for global i18n text&#10;- Developed Study1 component" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added invert functionality to Button&#10;- Added invert functionality to links&#10;- Created StudyInfoCard and StudyTeam and StudyAbout components&#10;- Added global-lang.js for global i18n text&#10;- Developed Study1 component" />
+    <MESSAGE value="- Added transparent StudyInfoCard&#10;- Inverting the entire card on invert&#10;- Added explore more section &#10;- Moved some global i18n data to local caseStudies-lang.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added transparent StudyInfoCard&#10;- Inverting the entire card on invert&#10;- Added explore more section &#10;- Moved some global i18n data to local caseStudies-lang.js" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/loader/Loader.vue" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/components/nav/NavButtons.vue" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/Home.vue" />
-    <entry file="file://$PROJECT_DIR$/HarryPunia/src/App.vue" />
     <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/caseStudies/caseItem/CaseItem.vue" />
     <entry file="file://$PROJECT_DIR$/HarryPunia/src/pages/home/caseStudies/CaseStudies.vue" />
     <entry file="file://$PROJECT_DIR$/HarryPunia/.idea/workspace.xml" />
@@ -494,13 +542,6 @@
           <folding>
             <element signature="e#120#168#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/scss/components/study/_studyIntro.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -607,7 +648,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/scss/components/_studyTeam.scss">
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/components/study/_studyTeam.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
@@ -632,13 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/study/StudyIntro.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -670,24 +704,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyFooter.scss">
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyProcess.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyBody.scss">
+    <entry file="file://$PROJECT_DIR$/src/pages/studies/1/StudyProcess.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/components/study/_studyInfoCard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyFooter.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="6" selection-end-column="20" />
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/studies/1/StudyBody.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/study/StudyInfoCard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/studies/1/StudyFooter.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="368">
+          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
           <folding>
             <element signature="n#style#0;n#StudyInfoCard#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
@@ -697,31 +759,45 @@
     <entry file="file://$PROJECT_DIR$/src/pages/studies/1/Study1.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding>
-            <element signature="e#286#331#0" expanded="true" />
+            <element signature="e#308#334#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/scss/components/study/_studyInfoCard.scss">
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/pages/studies/1/_studyBody.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="184">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/study/StudyInfoCard.vue">
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/components/study/_studyContainer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="184">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/studies/1/StudyBody.vue">
+    <entry file="file://$PROJECT_DIR$/src/components/study/StudyContainer.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="276">
+          <caret line="12" column="68" lean-forward="true" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/study/StudyIntro.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/scss/components/study/_studyIntro.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
         </state>
       </provider>
     </entry>

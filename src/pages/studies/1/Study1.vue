@@ -1,13 +1,14 @@
 <template>
-  <div>
+  <StudyContainer>
     <Nav :state="state" :theme="theme" :buttons="buttons" @themeChanged="updateApp($event)" />
     <StudyIntro :state="state" :title="$t('caseStudies.1.title')" src="1/display.mp4" type="video"/>
     <StudyBody />
     <StudyFooter />
-  </div>
+  </StudyContainer>
 </template>
 
 <script>
+  import StudyContainer from "../../../components/study/StudyContainer";
   import Nav from "../../../components/nav/Nav"
   import StudyIntro from "../../../components/study/StudyIntro"
   import StudyBody from "./StudyBody";
@@ -16,7 +17,7 @@
   export default {
     name: "Study1",
     props: [ 'theme', 'state' ],
-    components: { Nav, StudyIntro, StudyBody, StudyFooter },
+    components: { Nav, StudyContainer, StudyIntro, StudyBody, StudyFooter },
     data() {
       return {
         buttons: [{

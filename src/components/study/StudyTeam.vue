@@ -18,4 +18,4 @@
   }
 </script>
 
-<style lang="scss" scoped>@import "../../resources/scss/components/studyTeam";</style>
+<style lang="scss" scoped>@import "../../resources/scss/components/study/studyTeam";</style>

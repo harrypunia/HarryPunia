@@ -7,12 +7,12 @@
   overflow: hidden;
 
   @include view(tab) {
-    @include size(100vw, 80vh);
+    width: 100vw;
     left: 0;
   }
 
   @include view(phone) {
-    @include size(100vw, 100vh);
+    height: 100vh;
     top: 0;
   }
 
@@ -50,8 +50,8 @@
     @include size(80vw, 80vh);
     @include posAbs(0, 0, false, default);
     transform: scale3d(1.1, 1.1, 1) rotate(2deg);
-    transition: opacity ease 1s, transform ease 1s, filter ease 1s, height ease .2s, width ease .2s;
-    transition-delay: .8s, .8s, .8s, 0s, 0s;
+    transition: opacity ease 1s, transform ease 1s, filter ease 1s;
+    transition-delay: .8s, .8s, .8s;
     opacity: 0;
     filter: grayscale(1);
     object-fit: cover;

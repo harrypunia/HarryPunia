@@ -1,0 +1,13 @@
+@import "../../mixins";
+
+.study-container {
+  position: relative;
+  overflow: visible;
+  left: 10vw;
+  width: 80vw;
+
+  @include view(tab) {
+    width: 100vw;
+    left: 0;
+  }
+}
