@@ -13,7 +13,7 @@ src/_drafts
 /dist/
 
 # IntelliJ
-/.idea/
+.idea/
 
 Thumbs.db
 db.json
