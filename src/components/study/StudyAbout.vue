@@ -1,11 +1,11 @@
 <template>
   <div class="study-about">
     <h1 invert>{{ $t("g.what") }}</h1>
-    <h4 invert>{{ $t(`caseStudies.${num}.what`) }}</h4>
+    <p invert>{{ $t(`caseStudies.${num}.what`) }}</p>
     <h1 invert>{{ $t("g.why") }}</h1>
-    <h4 invert>{{ $t(`caseStudies.${num}.why`) }}</h4>
+    <p invert>{{ $t(`caseStudies.${num}.why`) }}</p>
     <h1 invert>{{ $t("g.how") }}</h1>
-    <h4 invert>{{ $t(`caseStudies.${num}.how`) }}</h4>
+    <p invert>{{ $t(`caseStudies.${num}.how`) }}</p>
   </div>
 </template>
 
@@ -17,8 +17,8 @@
 </script>
 
 <style lang="scss">
-  .study-about h4 {
-    padding-left: 20px;
+  .study-about p {
+    max-width: none;
   }
 </style>
 

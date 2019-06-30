@@ -6,11 +6,10 @@
       </div>
       <StudyAbout num="1" />
     </StudyInfoCard>
-    <StudyInfoCard>
-      <h1 invert>{{ $t("g.process") }}</h1>
+    <StudyInfoCard :title="$t('caseStudies.process')">
+      <div></div>
     </StudyInfoCard>
-    <StudyInfoCard>
-      <h1 invert>Study Members</h1>
+    <StudyInfoCard :title="$t('caseStudies.members')">
       <StudyTeam :members="members"/>
     </StudyInfoCard>
   </div>

@@ -3,8 +3,8 @@ const study1 = {
     title: "VR Video Game",
     desc: "Using AR Libraries to create an Interactive Video Game controlled with gestures.",
     created: "December, 2018, Sheridan College",
-    what: "A side scrolling level based game controlled with physical gestures",
-    why: "This project is supposed to be an art installation in crowded places. The assets of the game are replaceable and can evolve according to the environment",
+    what: "A side scrolling level based game controlled with physical gestures.",
+    why: "This project is supposed to be an art installation in crowded places. The assets of the game are replaceable and can evolve according to the environment.",
     how: "With help of Processing and Kinect based libraries, the project is able to detect numerous states of user gestures and allow the interaction with the game. The levels also rely on a JSON file which can be easily edited.",
     tags: ['VR', 'Video Game', 'Processing', 'Duo Project'],
     try: "Play game"
@@ -69,6 +69,8 @@ const study4 = {
 export const caseStudies = {
   en: {
     title: "Case Studies",
+    process: "Process",
+    members: "Study Members",
     1: {...study1.en},
     2: {...study2.en},
     3: {...study3.en},
@@ -76,6 +78,8 @@ export const caseStudies = {
   },
   fr: {
     title: 'Projets',
+    process: "Process",
+    members: "Study Members",
     1: {...study1.fr},
     2: {...study2.fr},
     3: {...study3.fr},

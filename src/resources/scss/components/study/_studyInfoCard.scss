@@ -5,5 +5,13 @@
   @include wrapper();
   @include size(100%, auto);
   @include setTheme('background-color', xxHigh);
+  @include setTheme('border-color', high);
+  border-bottom: 1px dashed;
   position: relative;
+}
+
+.transparent {
+  @include setTheme('background-color', main);
+  opacity: 0.9;
+  border: none;
 }

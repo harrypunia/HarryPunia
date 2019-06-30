@@ -1,7 +1,7 @@
 @import "../../../mixins";
 
 .study-body {
-  @include size(80vw, 1800px);
+  width: 80vw;
   position: relative;
   margin-top: 100vh;
   margin-left: 10vw;

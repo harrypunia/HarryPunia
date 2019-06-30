@@ -3,6 +3,7 @@
     <Nav :state="state" :theme="theme" :buttons="buttons" @themeChanged="updateApp($event)" />
     <StudyIntro :state="state" :title="$t('caseStudies.1.title')" src="1/display.mp4" type="video"/>
     <StudyBody />
+    <StudyFooter />
   </div>
 </template>
 
@@ -10,11 +11,12 @@
   import Nav from "../../../components/nav/Nav"
   import StudyIntro from "../../../components/study/StudyIntro"
   import StudyBody from "./StudyBody";
+  import StudyFooter from "./StudyFooter";
 
   export default {
     name: "Study1",
     props: [ 'theme', 'state' ],
-    components: { Nav, StudyIntro, StudyBody },
+    components: { Nav, StudyIntro, StudyBody, StudyFooter },
     data() {
       return {
         buttons: [{
