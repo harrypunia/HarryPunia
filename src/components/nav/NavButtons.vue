@@ -1,11 +1,11 @@
 <template>
   <div class="nav-buttons">
-    <a  v-for="button in buttons"
-        :key="button.key"
-        hover
-        :href="button.href"
-        class="nav-buttons-items"
-        @click="scrollTo(button.ref)">
+    <a v-for="button in buttons"
+       :key="button.key"
+       hover
+       :href="button.href"
+       class="nav-buttons-items"
+       @click="scrollTo(button.ref)">
       {{$t(`nav.btn.${button.value}`)}}
     </a>
   </div>
@@ -15,8 +15,7 @@
   import jump from "jump.js"
 
   export default {
-    name: "NavButtons",
-    props: [ 'buttons' ],
+    props: ['buttons'],
     methods: {
       scrollTo: el => jump(`.${el}`)
     }

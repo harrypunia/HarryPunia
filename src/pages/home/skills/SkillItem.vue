@@ -1,6 +1,6 @@
 <template>
   <div class="skill-container">
-    <p class="skill-title">{{ $t(`skills.item.${num}.title`) }}</p>
+    <p class="skill-title">{{this.msg(`${num}.title`)}}</p>
     <div class="wrapper">
       <div class="grid">
         <div :key="item.key" v-for="item in items" class="grid-items">
@@ -8,19 +8,22 @@
           <p>{{item.desc}}</p>
         </div>
       </div>
-      <Button class="skill-button" dir="vertical" :text="$t('skills.item.button')" img="arrow-down" />
+      <Button class="skill-button" dir="vertical" :text="this.msg('button')" img="arrow-down"/>
     </div>
   </div>
 </template>
 
 <script>
   import Button from "../../../components/button/Button"
+
   export default {
-    name: "SkillItem",
-    components: { Button },
-    props: [ 'num', 'items' ],
+    name: "skills.item",
+    components: {Button},
+    props: ['num', 'items'],
     methods: {
-      getImg(name) {return require('../../../resources/img/skills/' + name)}
+      getImg(name) {
+        return require('../../../resources/img/skills/' + name)
+      }
     }
   }
 </script>

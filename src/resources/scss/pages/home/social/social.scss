@@ -1,0 +1,28 @@
+@import "../../../mixins";
+@import "../../../wrapper";
+
+.social {
+  @include wrapper();
+
+  &-instagram {
+    @include flexGrid(flex-start, center, wrap);
+    padding: 20px;
+
+    @include view(phone) {
+      padding: 20px 0;
+    }
+
+    &-item {
+      @include view(phone) {
+        //display: flex;
+        //justify-content: center;
+        //width: 100%;
+      }
+    }
+  }
+
+  &-github {
+    @include flexGrid(center, center, nowrap);
+    padding: 20px;
+  }
+}

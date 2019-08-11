@@ -15,12 +15,24 @@
     &:first-child {margin: 0}
 
     @include view(laptop) {
-      width: 40%;
+      width: 45%;
       margin-top: map-get($spacing, xSmall) !important;
 
-      &-personal {margin-right: 10% !important;}
-      &-looking-for {margin-left: 10%}
+      &-personal {margin-right: 5% !important;}
+      &-looking-for {margin-left: 5%}
       &-extra {width: 100%}
+    }
+
+    @include view(tab) {
+      width: 47.5%;
+      &-personal {margin-right: 2.5% !important;}
+      &-looking-for {margin-left: 2.5%}
+      &-extra {width: 100%}
+    }
+
+    @include view(phone) {
+      width: 100%;
+      margin: 0 !important;
     }
   }
 
@@ -36,5 +48,9 @@
   &-list-items {
     width: 50%;
     margin-bottom: map-get($spacing, xSmall);
+
+    @include view(laptop) {
+      width: 100%;
+    }
   }
 }

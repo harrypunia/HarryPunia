@@ -1,7 +1,7 @@
 <template>
   <div id="caseStudies" class="caseStudies">
-    <Title :content="$t('caseStudies.title')" />
-    <CaseItem :key="index" v-for="index in 4" :num="index" />
+    <Title>{{this.msg('title')}}</Title>
+    <CaseItem :key="index" v-for="index in 1" :num="index" />
   </div>
 </template>
 
@@ -10,7 +10,7 @@
   import Title from "../../../components/Title"
 
   export default {
-    name: "CaseStudies",
+    name: "caseStudies",
     components: { CaseItem, Title },
     data() {
       return {

@@ -1,0 +1,94 @@
+@import "../mixins";
+
+.code-block {
+  @include size(inherit, auto);
+  @include setShadow(small);
+  display: inline-block;
+  min-width: 200px;
+  max-width: 640px;
+  position: relative;
+  padding: 20px;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, .4);
+  margin: 10px 0;
+  overflow: hidden;
+
+  &-header {
+    @include posAbs(0, 0, false, default);
+    @include size(100%, 30px);
+    border-bottom: 1px solid #555;
+
+    &-icons {
+      @include flexGrid(center, flex-start, no-wrap);
+      @include size(80px, 30px);
+      padding: 0 10px;
+
+      &:hover {
+        & div i {
+          display: block;;
+        }
+      }
+
+      & div {
+        @include flexGrid(center, center, no-wrap);
+        @include size(11px, 11px);
+        @include createCircle();
+        margin: 0 4px;
+        font-size: 6px;
+        cursor: pointer;
+
+        & i {
+          display: none;
+        }
+      }
+
+      &-close {
+        background: rgb(235, 108, 97);
+        padding-top: 1px;
+      }
+
+      &-minimize {
+        background: rgb(242, 190, 76);
+        padding-bottom: 3px;
+      }
+
+      &-maximize {
+        background: rgb(103, 202, 87);
+        padding-top: 1px;
+      }
+    }
+  }
+
+  &-body {
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 300;
+    max-height: 0;
+    @include smooth(max-height, .2s);
+
+    &-open {
+      max-height: 500px;
+    }
+
+    &-img {
+      @include size(100%, auto);
+      @include smooth(width, .2s);
+      margin-top: 20px;
+    }
+  }
+}
+
+.code-block-theme {
+  &-intellij {
+    background: rgb(53, 58, 67);
+  }
+
+  &-brackets {
+    background: rgb(43, 41, 39);
+  }
+
+  &-processing {
+    background: white;
+  }
+}

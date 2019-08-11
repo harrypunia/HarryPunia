@@ -1,30 +1,27 @@
 //Template
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import VueParallaxJs from 'vue-parallax-js';
 //Dependencies
-import VueRouter from 'vue-router'
+import VueRouter from 'vue-router';
+import App from './App.vue';
 //Assets
-import {i18n} from "./resources/locale/vue-i81n"
-import Home from "./pages/home/Home"
-import Study1 from "./pages/studies/1/Study1"
-import VueParallaxJs from 'vue-parallax-js'
+import {i18n} from "./resources/locale/vue-i81n";
+import mixin from "./mixins/mixins";
+import routes from "./routes";
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter);
 Vue.use(VueParallaxJs);
 
-const routes = [
-  { path: '/', component: Home },
-  { path: "/study/1", component: Study1}
-];
-
 const router = new VueRouter({
   routes,
-  mode: 'history'
+  mode: "history"
 });
 
+Vue.mixin(mixin);
+
 new Vue({
-  router,
   i18n,
+  router,
   render: h => h(App),
 }).$mount('#app');

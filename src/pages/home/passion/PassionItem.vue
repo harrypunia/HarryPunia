@@ -1,26 +1,32 @@
 <template>
   <div class="passion-container">
     <img class="passion-img" :src="getImg()" alt="">
-    <h3>{{ $t(`passion.item.${num}.title` )}}</h3>
-    <p>{{ $t(`passion.item.${num}.desc`) }}</p>
+
+    <h3>{{ this.msg(`${num}.title`) }}</h3>
+    <p>{{ this.msg(`${num}.desc`) }}</p>
     <div @click="highlightElement">
-      <Button class="passion-button" dir="vertical" :text="$t('passion.item.button')" img="arrow-down" />
+      <Button class="passion-button" dir="vertical" :text="this.msg('button')" img="arrow-down"/>
     </div>
   </div>
 </template>
 
 <script>
   import Button from "../../../components/button/Button"
-  import { highlightDiv } from "../../../resources/js"
+  import {highlightDiv} from "../../../resources/js"
   import jump from "jump.js"
 
   export default {
-    name: "PassionItem",
-    components: { Button },
+    name: "passion.item",
+    components: {Button},
     props: ['num'],
     methods: {
-      getImg() {return require('../../../resources/img/passion/passionItem' + this.num + '.png')},
-      highlightElement() {highlightDiv(`skill${this.$props.num}`); jump(`#skill${this.num}`)}
+      getImg() {
+        return require('../../../resources/img/passion/passionItem' + this.num + '.png')
+      },
+      highlightElement() {
+        highlightDiv(`skill${this.$props.num}`);
+        jump(`#skill${this.num}`)
+      }
     }
   }
 </script>

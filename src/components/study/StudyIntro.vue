@@ -6,17 +6,18 @@
     <video v-if="type === 'video'" class="study-intro-media" autoplay muted loop>
       <source :src="media" type="video/mp4"/>
     </video>
-    <img v-else :src="media" class="study-intro-media" alt="Study image" />
+    <img v-else :src="media" class="study-intro-media" alt="Study image"/>
   </div>
 </template>
 
 <script>
   export default {
     name: "Title",
-    props: [ 'type', 'src', 'title', 'state' ],
+    props: ['type', 'src', 'fallbackImage', 'title', 'state'],
     data() {
       return {
-        media: require(`../../resources/${this.type}/caseStudies/${this.src}`)
+        media: require(`../../resources/${this.type}/caseStudies/${this.src}`),
+        fallback: require(`../../resources/img/caseStudies/${this.fallbackImage}`)
       }
     },
     methods: {

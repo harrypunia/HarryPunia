@@ -1,5 +1,6 @@
 @import "mixins";
 @import "animations";
+
 @include bodyTheme();
 
 * {
@@ -7,7 +8,9 @@
   transition: background .2s, color .2s;
 }
 
-body, html {font-size: 62.5%}
+body, html {
+  font-size: 62.5%
+}
 
 body {
   margin: 0;
@@ -16,27 +19,43 @@ body {
   will-change: background-color;
 }
 
-h1, h2, h3, h4, p, a, q {
+h1, h2, h3, h4, p, a, q, li {
   display: block;
   line-height: 1.5em;
   margin: 0;
   margin-top: .5em;
 }
 
-h1[center], h2[center], h3[center], h4[center], p[center], a[center], q[center] {text-align: center}
+h1[center], h2[center], h3[center], h4[center], p[center], a[center], q[center] li[center] {
+  text-align: center
+}
 
-h1[title] {margin-bottom: map-get($spacing, large)}
+h1[bold], h2[bold], h3[bold], h4[bold], p[bold], a[bold], q[bold] li[bold] {
+  font-weight: 800
+}
+
+h1[semiBold], h2[semiBold], h3[semiBold], h4[semiBold], p[semiBold], a[semiBold], q[semiBold] li[semiBold] {
+  font-weight: 600
+}
+
+h1[title] {
+  margin-top: 100px;
+  margin-bottom: map-get($spacing, large)
+}
 
 h1, h2, h3, h4 {
   @include setTheme('color', xxHigh);
-  &[invert] {@include setTheme('color', main)}
+
+  &[invert] {
+    @include setTheme('color', main)
+  }
 }
 
 h2, h3, h4 {
   font-family: 'Poppins';
 }
 
-p, a, q {
+p, a, q, li {
   font-family: 'Roboto';
 }
 
@@ -112,7 +131,8 @@ a {
 
   &[hover] {
     text-decoration: none;
-      &:before {
+
+    &:before {
       @include size(100%, 100%);
       @include posAbs(-10px, 0, false, default);
       @include setTheme('background', xxMain);
@@ -169,10 +189,25 @@ q {
   }
 }
 
-::selection {@include setTheme('background-color', selection)}
+li {
+  @include setTheme('color', high);
+  font-weight: 200;
+  font-size: 1.6rem;
+  font-size: 16px;
+  max-width: 500px;
+
+  &[invert] {
+    @include setTheme('color', xxMain);
+  }
+}
+
+::selection {
+  @include setTheme('background-color', selection)
+}
 
 div[highlightDiv] {
   position: relative;
+
   &::after {
     @include posAbs(0, 0, false, default);
     @include setTheme('background-color', xMain);

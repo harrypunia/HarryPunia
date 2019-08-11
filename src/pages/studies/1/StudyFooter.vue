@@ -1,7 +1,6 @@
 <template>
   <div class="study-footer">
-    <StudyInfoCard :invert="true" title="Explore more" style="height: 100vh">
-    </StudyInfoCard>
+    <StudyInfoCard :invert="true" title="Explore more" style="height: 100vh"></StudyInfoCard>
   </div>
 </template>
 
@@ -10,7 +9,7 @@
 
   export default {
     name: "StudyFooter",
-    components: { StudyInfoCard }
+    components: {StudyInfoCard}
   }
 </script>
 

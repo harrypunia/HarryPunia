@@ -10,7 +10,6 @@
 
 <script>
   export default {
-    name: "CaseItemImages",
     props: [ 'num' ],
     data() {
       return {

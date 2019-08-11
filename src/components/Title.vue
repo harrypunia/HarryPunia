@@ -1,13 +1,14 @@
 <template>
   <div class="title">
-    <h1 v-parallax="0.05" class="title-text">{{content}}</h1>
+    <h1 v-parallax="0.05" class="title-text">
+      <slot></slot>
+    </h1>
   </div>
 </template>
 
 <script>
   export default {
-    name: "Title",
-    props: [ 'content' ]
+    name: "Title"
   }
 </script>
 

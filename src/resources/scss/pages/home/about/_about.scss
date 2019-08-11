@@ -3,12 +3,15 @@
 
 .about {
   @include wrapper();
+  height: auto;
 
   &-image {
     @include size(400px, 700px);
+    margin-right: 60px;
 
     @include view(1600px) {
       @include size(350px, 700px);
+      margin-right: 40px;
     }
 
     @include view(1500px) {
@@ -17,7 +20,7 @@
 
     @include view(laptop) {
       @include size(100%, 200px);
-      
+
       .parallax-img {
         @include size(100% !important, auto !important);
       }
@@ -25,7 +28,12 @@
   }
 
   &-wrapper {
-    @include size(100%, 700px);
-    @include flexGrid(center, space-between, wrap);
+    @include size(100%, auto);
+    @include flexGrid(center, center, wrap);
+
+    @include view(1600px) {
+      justify-content: flex-start !important;
+      align-items: flex-start !important;
+    }
   }
 }

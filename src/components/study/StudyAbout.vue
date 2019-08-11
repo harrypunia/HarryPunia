@@ -1,24 +1,36 @@
 <template>
   <div class="study-about">
-    <h1 invert>{{ $t("g.what") }}</h1>
-    <p invert>{{ $t(`caseStudies.${num}.what`) }}</p>
-    <h1 invert>{{ $t("g.why") }}</h1>
-    <p invert>{{ $t(`caseStudies.${num}.why`) }}</p>
-    <h1 invert>{{ $t("g.how") }}</h1>
-    <p invert>{{ $t(`caseStudies.${num}.how`) }}</p>
+    <div class="study-about-item">
+      <h2 bold invert>{{this.msgd("what")}}</h2>
+      <p bold invert>{{ this.msg(`${num}.what`) }}</p>
+    </div>
+    <div class="study-about-item">
+      <h2 invert>{{this.msgd("why")}}</h2>
+      <p bold invert>{{ this.msg(`${num}.why`) }}</p>
+    </div>
+    <div class="study-about-item">
+      <h2 bold invert>{{this.msgd("how")}}</h2>
+      <p bold invert>{{ this.msg(`${num}.how`) }}</p>
+    </div>
   </div>
 </template>
 
 <script>
   export default {
-    name: "StudyAbout",
-    props: [ 'num' ]
+    name: "caseStudies",
+    props: ['num']
   }
 </script>
 
 <style lang="scss">
-  .study-about p {
-    max-width: none;
+  @import "../../resources/scss/mixins";
+
+  .study-about {
+    @include flexGrid(flex-start, flex-start, wrap);
+
+    &-item {
+      margin-right: 40px;
+    }
   }
 </style>
 

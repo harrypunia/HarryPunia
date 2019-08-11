@@ -9,13 +9,26 @@
   padding: map-get($spacing, small);
   border: 1px solid;
   border-radius: 5px;
-  margin-right: map-get($spacing, large);
+  margin: 0 map-get($spacing, regular);
   margin-bottom: map-get($spacing, regular);
   text-decoration: none;
   cursor: alias;
 
+  @include view(phone) {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
   &:hover {
     transform: scale3d(1.01, 1.01, 1);
+  }
+
+  &NoLink {
+    cursor: default;
+
+    &:hover {
+      transform: none;
+    }
   }
 
   &-info {

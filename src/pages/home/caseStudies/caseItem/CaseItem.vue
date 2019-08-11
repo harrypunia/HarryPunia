@@ -9,7 +9,7 @@
   import CaseItemContent from "./CaseItemContent"
 
   export default {
-    name: "CaseItem",
+    name: "caseStudies.item",
     props: ['num', 'selection'],
     components: { CaseItemContent },
     data() {

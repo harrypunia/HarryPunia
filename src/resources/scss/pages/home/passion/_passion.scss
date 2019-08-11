@@ -7,19 +7,6 @@
   @include size(100%, auto);
 }
 
-.subheading {
-  margin: auto;
-}
-
-.outline {
-  @include setTheme('border-color', xxMain);
-  @include size(100%, 30px);
-  border-top: 1px dashed;
-  border-left: 1px dashed;
-  border-right: 1px dashed;
-  margin: 40px auto 0 auto;
-}
-
 .grid {
   @include size(100%, auto);
   @include flexGrid(flex-start, center, wrap);

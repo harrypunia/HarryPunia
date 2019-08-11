@@ -1,6 +1,6 @@
 <template>
   <div class="info-container" :class="{'transparent' : invert}">
-    <h1 :invert="!invert">{{title}}</h1>
+    <h2 :invert="!invert">{{title}}</h2>
     <slot></slot>
   </div>
 </template>

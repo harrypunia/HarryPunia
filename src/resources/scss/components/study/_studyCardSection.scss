@@ -1,0 +1,27 @@
+@import "../../mixins";
+
+.study-card-section {
+  margin: 20px 40px 20px 0;
+  max-width: 600px;
+  //display: inline-block;
+
+  h3 {
+    max-width: 500px;
+  }
+
+  h4 {
+    max-width: 500px;
+  }
+
+  p {
+    margin: 40px 0 40px 0;
+  }
+
+  ol {
+    padding: 20px 0 40px 0;
+  }
+
+  ul {
+    padding: 0 0 20px 40px;
+  }
+}
