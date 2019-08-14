@@ -1,9 +1,9 @@
 <template>
   <div id="clients" class="clients">
-    <Title>{{this.msg('title')}}</Title>
+    <Title>{{msg('title')}}</Title>
     <div class="clients-items">
       <ClientItem brandName="neoEvolution" brandColor="#191335" contentColor="#9b30ce"
-                  hpRef="https://www.neoevolution.ai/"/>
+                  hpRef="http://www.neoevolution.ai/"/>
       <ClientItem brandName="punias" brandColor="#ffffff" contentColor="#151515" hpRef="https://www.punias.com/"/>
       <ClientItem brandName="firmway" brandColor="#23552a" contentColor="#ffffff" hpRef="https://firmway.in/"/>
       <ClientItem brandName="meraki" brandColor="#323239" contentColor="#84E8A7"/>

@@ -2,6 +2,7 @@
 import Vue from 'vue';
 import VueParallaxJs from 'vue-parallax-js';
 //Dependencies
+import VueClipboard from 'vue-clipboard2';
 import VueRouter from 'vue-router';
 import App from './App.vue';
 //Assets
@@ -11,6 +12,7 @@ import routes from "./routes";
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter);
+Vue.use(VueClipboard);
 Vue.use(VueParallaxJs);
 
 const router = new VueRouter({

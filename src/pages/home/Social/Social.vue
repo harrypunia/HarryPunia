@@ -1,13 +1,13 @@
 <template>
   <div class="social">
-    <Title>{{this.msg("title")}}</Title>
-    <BorderTitle>{{this.msg("instagram")}}</BorderTitle>
+    <Title>{{msg("title")}}</Title>
+    <BorderTitle>{{msg("instagram")}}</BorderTitle>
     <div class="social-instagram">
       <div class="social-instagram-item" :key="post" v-for="post in instaPosts">
         <InstagramPost :href="post" width="300px"/>
       </div>
     </div>
-    <BorderTitle>{{this.msg("github")}}</BorderTitle>
+    <BorderTitle>{{msg("github")}}</BorderTitle>
     <div class="social-github">
       <GithubCalendar/>
     </div>

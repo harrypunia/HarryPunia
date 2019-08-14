@@ -11,6 +11,7 @@ import {caseStudies} from "./caseStudies-lang";
 import {clients} from "./clients-lang";
 import {social} from "./social-lang";
 import {about} from "./about-lang";
+import {footer} from "./footer-lang";
 
 Vue.use(VueI18n);
 
@@ -26,7 +27,8 @@ export const i18n = new VueI18n({
       caseStudies: {...caseStudies.en},
       clients: {...clients.en},
       social: {...social.en},
-      about: {...about.en}
+      about: {...about.en},
+      footer: {...footer.en}
     },
     fr: {
       ...global.fr,
@@ -37,7 +39,8 @@ export const i18n = new VueI18n({
       caseStudies: {...caseStudies.fr},
       clients: {...clients.fr},
       social: {...social.fr},
-      about: {...about.fr}
+      about: {...about.fr},
+      footer: {...footer.fr}
     }
   }
 });

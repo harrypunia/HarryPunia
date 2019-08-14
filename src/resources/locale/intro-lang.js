@@ -4,7 +4,7 @@ export const intro = {
     caseStudies: "Explore Case Studies",
     name: "Harry Punia",
     location: "Toronto, CA",
-    quote: "Design is a mix of different opinions, that revolve around our psychology."
+    quote: "Designer who got introduced to Development"
   },
   fr: {
     button: "Parlons",

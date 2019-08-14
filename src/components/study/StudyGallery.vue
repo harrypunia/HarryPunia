@@ -1,13 +1,13 @@
 <template>
   <div class="study-gallery">
+    <img :key="image" v-for="image in images" :src="image" alt="Study Gallery Image">
   </div>
 </template>
 
 <script>
   export default {
     name: "studyGallery",
-    props: [],
-    methods: {}
+    props: ['images'],
   }
 </script>
 

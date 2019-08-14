@@ -7,7 +7,8 @@ export const nav = {
       about: "About",
       home: "Home",
       study: "Study",
-      gallery: "Gallery",
+      process: "Process",
+      members: "Members",
       more: "More"
     }
   },
@@ -20,6 +21,7 @@ export const nav = {
       home: "Home",
       study: "Study",
       gallery: "Gallery",
+      members: "Members",
       more: "More"
     }
   }

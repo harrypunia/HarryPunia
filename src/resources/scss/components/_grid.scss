@@ -1,0 +1,18 @@
+@import "../mixins";
+
+.grid {
+  @include flexGrid(flex-start, flex-start, nowrap);
+
+  &-center {
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-column {
+    flex-direction: column;
+  }
+
+  &-wrap {
+    flex-wrap: wrap;
+  }
+}

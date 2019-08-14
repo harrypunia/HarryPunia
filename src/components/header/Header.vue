@@ -1,6 +1,8 @@
 <template>
   <div class="header">
-    <h4>Harry Punia</h4>
+    <router-link to="/" :style="{textDecoration: 'none'}">
+      <h4 bold>Harry Punia</h4>
+    </router-link>
   </div>
 </template>
 
@@ -21,11 +23,24 @@
   @import "../../resources/scss/mixins";
 
   .header {
-    @include size(200px, 50px);
-    @include posAbs(80px, 40px, false, default);
+    @include posFix(0, 0, false, default);
+    @include size(100vw, 50px);
+    z-index: 99999;
+
+    @include view(1600px) {
+      @include setTheme("background-color", main);
+    }
 
     h4 {
+      @include size(130px, auto);
+      margin-left: 40px;
+      padding: 5px 10px;
       font-weight: 300;
+      cursor: pointer;
+
+      @include view(phone) {
+        margin-left: 20px;
+      }
     }
   }
 </style>

@@ -1,0 +1,62 @@
+@import "../mixins";
+
+.contact-card {
+  @include size(400px, auto);
+  @include setTheme("background-color", xHigh);
+  position: relative;
+  border-radius: 5px;
+  padding: 40px;
+  overflow: hidden;
+
+  &-close {
+    @include setTheme("color", main);
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    @include smooth(transform, .2s);
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &-phone {
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  &-clipboard {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  &-copied {
+    @include setTheme("background-color", main);
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    padding: 3px 5px;
+    transform: translateX(-100%);
+
+    &-success {
+      animation: slide-in 2s ease;
+    }
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%)
+  }
+  15% {
+    transform: translateX(0);
+  }
+  85% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

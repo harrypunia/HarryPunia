@@ -1,16 +1,16 @@
 <template>
   <div class="study-body">
     <StudyInfoCard>
-      <div class="study-button-try">
-        <Button :invert="true" dir="horizontal" :text="this.msg('try')" img="arrow-right"/>
-      </div>
+      <a rel="noreferrer noopener" href="https://www.youtube.com/watch?v=UjFoAkkEugs" class="study-button-try">
+        <Button :invert="true" dir="horizontal" :text="msg('try')" img="arrow-right"/>
+      </a>
       <StudyAbout num="1"/>
-    </StudyInfoCard>
-    <StudyInfoCard :title="this.msgd('caseStudies.gallery')">
-      <StudyGallery/>
     </StudyInfoCard>
     <StudyInfoCard :title="this.msgd('caseStudies.process')">
       <StudyProcess/>
+    </StudyInfoCard>
+    <StudyInfoCard :title="this.msgd('caseStudies.links')">
+      <StudyLink icon="github" link="https://github.com/harrypunia/Kinect_game"/>
     </StudyInfoCard>
     <StudyInfoCard :title="this.msgd('caseStudies.members')">
       <StudyTeam :members="members"/>
@@ -21,14 +21,14 @@
 <script>
   import Button from "../../../../components/button/Button";
   import StudyInfoCard from "../../../../components/study/StudyInfoCard";
-  import StudyGallery from "../../../../components/study/StudyGallery";
+  import StudyLink from "../../../../components/study/StudyLink";
   import StudyProcess from "./process/StudyProcess";
   import StudyTeam from "../../../../components/study/StudyTeam";
   import StudyAbout from "../../../../components/study/StudyAbout";
 
   export default {
     name: "caseStudies.1",
-    components: {Button, StudyInfoCard, StudyGallery, StudyProcess, StudyTeam, StudyAbout},
+    components: {Button, StudyInfoCard, StudyProcess, StudyTeam, StudyLink, StudyAbout},
     data() {
       return {
         members: [{
@@ -46,4 +46,4 @@
   }
 </script>
 
-<style lang="scss" scoped>@import "../../../../resources/scss/pages/studies/1/studyBody";</style>
+<style lang="scss" scoped>@import "../../../../resources/scss/pages/studies/studyBody";</style>

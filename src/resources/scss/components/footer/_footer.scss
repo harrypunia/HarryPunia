@@ -1,0 +1,10 @@
+@import "../../mixins";
+@import "../../variables";
+
+.footer {
+  @include flexGrid(center, space-around, nowrap);
+  @include size(100%, 60px);
+  @include setTheme("border-color", high);
+  @include setTheme("background-color", main);
+  border-top: 1px dashed;
+}

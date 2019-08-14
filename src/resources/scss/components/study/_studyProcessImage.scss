@@ -1,0 +1,33 @@
+@import "../../mixins";
+@import "../../wrapper";
+
+.study-process-image {
+  @include size(60%, auto);
+
+  @include view(laptop) {
+    width: 100%;
+  }
+
+  & img {
+    @include size(100%, 500px);
+    object-fit: cover;
+    overflow: hidden;
+    cursor: url(/src/resources/img/cursors/inspect.svg), auto;
+    @include smooth(object-position, .2s);
+
+    @include view(laptop) {
+      height: 450px;
+    }
+    @include view(tab) {
+      height: 350px;
+    }
+    @include view(phone) {
+      height: 300px;
+    }
+  }
+
+  &-title {
+    opacity: .75;
+    font-size: 16px;
+  }
+}

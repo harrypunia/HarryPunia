@@ -1,7 +1,7 @@
 <template>
   <div class="passion">
-    <Title>{{this.msg('title')}}</Title>
-    <BorderTitle>{{this.msg('subheading')}}</BorderTitle>
+    <Title>{{msg('title')}}</Title>
+    <BorderTitle>{{msg('subheading')}}</BorderTitle>
     <div class="grid">
       <PassionItem num="1"/>
       <PassionItem num="2"/>

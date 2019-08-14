@@ -1,6 +1,6 @@
 <template>
   <div class="skill-container">
-    <p class="skill-title">{{this.msg(`${num}.title`)}}</p>
+    <p class="skill-title">{{msg(`${num}.title`)}}</p>
     <div class="wrapper">
       <div class="grid">
         <div :key="item.key" v-for="item in items" class="grid-items">
@@ -8,13 +8,15 @@
           <p>{{item.desc}}</p>
         </div>
       </div>
-      <Button class="skill-button" dir="vertical" :text="this.msg('button')" img="arrow-down"/>
+      <Button @click.native="scrollTo('caseStudies')" class="skill-button" dir="vertical" :text="msg('button')"
+              img="arrow-down"/>
     </div>
   </div>
 </template>
 
 <script>
   import Button from "../../../components/button/Button"
+  import jump from "jump.js"
 
   export default {
     name: "skills.item",
@@ -23,7 +25,8 @@
     methods: {
       getImg(name) {
         return require('../../../resources/img/skills/' + name)
-      }
+      },
+      scrollTo: el => jump(`.${el}`)
     }
   }
 </script>

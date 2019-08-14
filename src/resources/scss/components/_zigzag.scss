@@ -1,0 +1,19 @@
+@import "../mixins";
+
+.zigzag {
+  @include size(100%, auto);
+  @include flexGrid(flex-start, flex-start, nowrap);
+  flex-direction: column;
+  margin: 0 0 80px 0;
+
+  & * {
+    margin: 20px 0;
+    @include view(tab) {
+      align-self: center !important;
+    }
+  }
+
+  & *:nth-child(even) {
+    align-self: flex-end;
+  }
+}

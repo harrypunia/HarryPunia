@@ -5,7 +5,7 @@
       <p selected ref="en" center small class="nav-lang-titles nav-lang-selected">EN</p>
       <p ref="fr" center small class="nav-lang-titles nav-lang-unselected">FR</p>
     </div>
-    <NavTheme v-on:themeUpdated="updateApp($event)" :theme="theme"/>
+    <NavTheme @themeUpdated="updateApp($event)" :theme="theme"/>
     <NavButtons :buttons="buttons"/>
   </div>
 </template>

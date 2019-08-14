@@ -1,7 +1,7 @@
 <template>
   <div id="caseStudies" class="caseStudies">
-    <Title>{{this.msg('title')}}</Title>
-    <CaseItem :key="index" v-for="index in 1" :num="index" />
+    <Title>{{msg('title')}}</Title>
+    <CaseItem :key="index" v-for="index in 4" :num="index" />
   </div>
 </template>
 

@@ -3,13 +3,11 @@
     <Nav :state="state" :theme="theme" :buttons="buttons" @themeChanged="updateApp($event)"/>
     <StudyIntro
         :state="state"
-        :title="this.msg('title')"
+        :title="msg('title')"
         type="video"
         src="1/display.mp4"
-        fallbackImage="1/code-modular.png"
     />
     <StudyBody/>
-    <StudyFooter/>
   </StudyContainer>
 </template>
 
@@ -18,12 +16,11 @@
   import Nav from "../../../components/nav/Nav"
   import StudyIntro from "../../../components/study/StudyIntro"
   import StudyBody from "./studyBody/StudyBody";
-  import StudyFooter from "./StudyFooter";
 
   export default {
     name: "caseStudies.1",
     props: ['theme', 'state'],
-    components: {Nav, StudyContainer, StudyIntro, StudyBody, StudyFooter},
+    components: {Nav, StudyContainer, StudyIntro, StudyBody},
     data() {
       return {
         buttons: [{
@@ -31,14 +28,17 @@
           ref: '',
           href: '/'
         }, {
-          value: 'study',
-          ref: 'study'
+          value: 'about',
+          ref: 'study-about',
+          href: ""
         }, {
-          value: 'gallery',
-          ref: 'gallery'
+          value: 'process',
+          ref: 'study-process',
+          href: ""
         }, {
-          value: 'more',
-          ref: 'more'
+          value: 'members',
+          ref: 'study-team',
+          href: ""
         }]
       }
     },

@@ -36,16 +36,20 @@
       return {
         buttons: [{
           value: 'intro',
-          ref: 'intro'
+          ref: 'intro',
+          href: ""
         }, {
           value: 'project',
-          ref: 'caseStudies'
+          ref: 'caseStudies',
+          href: ""
         }, {
           value: 'clients',
-          ref: 'clients'
+          ref: 'clients',
+          href: ""
         }, {
           value: 'about',
-          ref: 'about'
+          ref: 'about',
+          href: ""
         }]
       }
     }

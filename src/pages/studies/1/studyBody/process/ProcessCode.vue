@@ -1,38 +1,38 @@
 <template>
   <div class="study-process-code">
-    <StudyCardSection :title="this.msg('explanation.title')" :desc="this.msg('explanation.desc')">
-      <p invert>{{this.msg("explanation.info")}}</p>
+    <StudyCardSection :title="msg('explanation.title')" :desc="msg('explanation.desc')">
+      <p invert>{{msg("explanation.info")}}</p>
       <StudyCardSection :title="'Code Practices'">
         <div class="study-process-code-grid">
           <div class="study-process-code-items">
-            <h4 invert>{{this.msg("practices.1")}}</h4>
+            <h4 invert>{{msg("practices.1")}}</h4>
             <CodeBlock type="brackets" src="1/code-modular.png"/>
           </div>
           <div class="study-process-code-items">
-            <h4 invert>{{this.msg("practices.2")}}</h4>
+            <h4 invert>{{msg("practices.2")}}</h4>
             <CodeBlock type="brackets" src="1/code-assets.png"/>
           </div>
         </div>
       </StudyCardSection>
     </StudyCardSection>
-    <StudyCardSection :title="this.msg('management.title')" :desc="this.msg('management.desc')">
+    <StudyCardSection :title="msg('management.title')" :desc="msg('management.desc')">
       <ol invert>
-        <li invert><strong>1. Sketch: </strong>{{ this.msg("management.1") }}</li>
-        <li invert><strong>2. Game: </strong>{{ this.msg("management.2") }}</li>
-        <li invert><strong>3. Player: </strong>{{ this.msg("management.3") }}</li>
+        <li invert><strong>1. Sketch: </strong>{{ msg("management.1") }}</li>
+        <li invert><strong>2. Game: </strong>{{ msg("management.2") }}</li>
+        <li invert><strong>3. Player: </strong>{{ msg("management.3") }}</li>
         <li invert>
-          <strong>4. Floor: </strong>{{ this.msg("management.4.0") }}
+          <strong>4. Floor: </strong>{{ msg("management.4.0") }}
           <ul>
-            <li invert><strong>a. Active Bar: </strong>{{ this.msg("management.4.1") }}</li>
-            <li invert><strong>b. Neighbouring Bars: </strong>{{ this.msg("management.4.2") }}
+            <li invert><strong>a. Active Bar: </strong>{{ msg("management.4.1") }}</li>
+            <li invert><strong>b. Neighbouring Bars: </strong>{{ msg("management.4.2") }}
             </li>
           </ul>
         </li>
         <li invert>
-          <strong>5. Obstacles: </strong>{{ this.msg("management.5.0") }}
+          <strong>5. Obstacles: </strong>{{ msg("management.5.0") }}
           <ul>
-            <li invert><strong>a. Spikes: </strong>{{ this.msg("management.5.1") }}</li>
-            <li invert><strong>b. Doors: </strong>{{ this.msg("management.5.2") }}</li>
+            <li invert><strong>a. Spikes: </strong>{{ msg("management.5.1") }}</li>
+            <li invert><strong>b. Doors: </strong>{{ msg("management.5.2") }}</li>
           </ul>
         </li>
       </ol>

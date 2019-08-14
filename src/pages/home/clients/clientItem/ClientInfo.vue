@@ -1,13 +1,13 @@
 <template>
   <div class="clientInfo">
-    <h4 :style="{color: contentColor}">{{ this.msg(`${brandName}.type`) }}</h4>
-    <p :style="{color: contentColor}">{{ this.msg(`${brandName}.duration`) }}</p>
+    <h4 :style="{color: contentColor}">{{ msg(`${brandName}.type`) }}</h4>
+    <p :style="{color: contentColor}">{{ msg(`${brandName}.duration`) }}</p>
     <Tags
         class="clientInfo-tags"
         size="small"
         :background="contentColor"
         :color="brandColor"
-        :tags=" this.msg(`${brandName}.projects`)"
+        :tags=" msg(`${brandName}.projects`)"
     />
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div id="about" class="about">
-    <Title>{{this.msg('title')}}</Title>
+    <Title>{{msg('title')}}</Title>
     <div class="about-wrapper">
       <Parallax breakpoint=1400 class="about-image" speed="0.2" :src="myImg" alt="Harry Punia"/>
       <AboutContent/>

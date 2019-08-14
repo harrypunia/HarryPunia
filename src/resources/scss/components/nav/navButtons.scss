@@ -5,7 +5,8 @@
   @include flexGrid(center, center, nowrap);
   flex-direction: column;
 
-  &-items{
+  &-items {
+    @include setTheme("color", high);
     transform: rotate(-90deg);
     margin: auto;
   }

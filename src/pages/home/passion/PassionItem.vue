@@ -2,10 +2,10 @@
   <div class="passion-container">
     <img class="passion-img" :src="getImg()" alt="">
 
-    <h3>{{ this.msg(`${num}.title`) }}</h3>
-    <p>{{ this.msg(`${num}.desc`) }}</p>
+    <h3>{{ msg(`${num}.title`) }}</h3>
+    <p>{{ msg(`${num}.desc`) }}</p>
     <div @click="highlightElement">
-      <Button class="passion-button" dir="vertical" :text="this.msg('button')" img="arrow-down"/>
+      <Button class="passion-button" dir="vertical" :text="msg('button')" img="arrow-down"/>
     </div>
   </div>
 </template>

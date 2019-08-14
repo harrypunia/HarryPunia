@@ -1,6 +1,6 @@
 <template>
   <div id="skills" class="skills">
-    <Title>{{this.msg('title')}}</Title>
+    <Title>{{msg('title')}}</Title>
     <SkillItem id="skill1" num="1" :items="[
         {url: 'illustrator.svg', desc: 'Illustrator'},
         {url: 'photoshop.svg', desc: 'PhotoShop'},

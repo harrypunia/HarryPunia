@@ -1,8 +1,8 @@
 <template>
   <div class="caseItemContent">
-    <h4 invert class="content-title">{{ this.msg(`${num}.title`) }}</h4>
-    <p>{{ this.msg(`${num}.desc`) }}</p>
-    <Tags class="content-tags" size="small" :tags="this.msg(`${num}.tags`)"/>
+    <h4 invert class="content-title">{{ msg(`${num}.title`) }}</h4>
+    <p>{{ msg(`${num}.desc`) }}</p>
+    <Tags class="content-tags" size="small" :tags="msg(`${num}.tags`)"/>
   </div>
 </template>
 

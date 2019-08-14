@@ -5,6 +5,10 @@
   @include posAbs(150px, 50px, false, invert);
   @include size(auto, 40px);
   @include flexGrid(center, flex-end, nowrap);
+
+  @include view(phone) {
+    display: none;
+  }
 }
 
 .audio {

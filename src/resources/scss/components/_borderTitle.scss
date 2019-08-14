@@ -6,7 +6,7 @@
   }
 
   &-outline {
-    @include setTheme('border-color', xxMain);
+    @include setTheme('border-color', xMain);
     @include size(100%, 30px);
     border-top: 1px dashed;
     border-left: 1px dashed;

@@ -1,16 +1,16 @@
 <template>
   <div class="study-about">
     <div class="study-about-item">
-      <h2 bold invert>{{this.msgd("what")}}</h2>
-      <p bold invert>{{ this.msg(`${num}.what`) }}</p>
-    </div>
-    <div class="study-about-item">
       <h2 invert>{{this.msgd("why")}}</h2>
-      <p bold invert>{{ this.msg(`${num}.why`) }}</p>
+      <p bold invert>{{ msg(`${num}.why`) }}</p>
     </div>
     <div class="study-about-item">
       <h2 bold invert>{{this.msgd("how")}}</h2>
-      <p bold invert>{{ this.msg(`${num}.how`) }}</p>
+      <p bold invert>{{ msg(`${num}.how`) }}</p>
+    </div>
+    <div class="study-about-item">
+      <h2 bold invert>{{this.msgd("what")}}</h2>
+      <p bold invert>{{ msg(`${num}.what`) }}</p>
     </div>
   </div>
 </template>

@@ -1,7 +1,9 @@
 export default {
   created() {
-    const fullName = this.$vnode.tag;
-    this.name = fullName.substring(fullName.lastIndexOf("-") + 1, fullName.length);
+    if (this.$vnode) {
+      const fullName = this.$vnode.tag;
+      this.name = fullName.substring(fullName.lastIndexOf("-") + 1, fullName.length);
+    }
   },
   methods: {
     msg(path) {

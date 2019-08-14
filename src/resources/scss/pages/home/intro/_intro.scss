@@ -10,22 +10,43 @@
 
 .myImg {
   @include introAnimation(-100px, 0, .2s);
-  @include size(300px, 300px)
+  @include size(300px, 300px);
+  border-radius: 5px;
+  @include view(phone) {
+    margin: 0 auto;
+  }
 }
 
-.info {@include introAnimation(-120px, 0, .3s)}
+.info {
+  @include introAnimation(-120px, 0, .3s);
+  @include view(phone) {
+    margin: 0 auto;
+  }
+}
 
 .intro-button {
   @include introAnimation(-120px, 0, .4s);
   margin: 20px 0 20px -10px;
 
-  &:hover {@include smooth(transform, .2s !important)/*reset animation delays and transitions*/}
+  @include view(phone) {
+    margin: 20px auto;
+  }
+
+  &:hover {
+    @include smooth(transform, .2s !important) /*reset animation delays and transitions*/
+  }
 }
 
 .link {
   @include introAnimation(-125px, 0, .5s);
   text-align: left;
   margin: 20px 0 20px 0;
+
+  @include view(phone) {
+    margin: 20px auto;
+  }
 }
 
-.bottomNav {@include introAnimation(0, 100px, .6s)}
+.bottomNav {
+  @include introAnimation(0, 100px, .6s)
+}

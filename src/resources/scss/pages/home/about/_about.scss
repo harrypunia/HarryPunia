@@ -25,6 +25,10 @@
         @include size(100% !important, auto !important);
       }
     }
+
+    @include view(phone) {
+      margin: 0;
+    }
   }
 
   &-wrapper {

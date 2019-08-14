@@ -13,11 +13,10 @@
 <script>
   export default {
     name: "Title",
-    props: ['type', 'src', 'fallbackImage', 'title', 'state'],
+    props: ['type', 'src', 'title', 'state'],
     data() {
       return {
-        media: require(`../../resources/${this.type}/caseStudies/${this.src}`),
-        fallback: require(`../../resources/img/caseStudies/${this.fallbackImage}`)
+        media: require(`../../resources/${this.type}/caseStudies/${this.src}`)
       }
     },
     methods: {

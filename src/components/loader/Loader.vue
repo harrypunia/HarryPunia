@@ -1,5 +1,5 @@
 <template>
-  <div class="loader" :class="{ 'loader-out' : state, 'animate' : toggle }">
+  <div class="loader" :class="{ 'loader-out' : state}">
     <h1>I'm Harry Punia</h1>
   </div>
 </template>

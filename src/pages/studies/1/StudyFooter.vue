@@ -1,6 +1,6 @@
 <template>
   <div class="study-footer">
-    <StudyInfoCard :invert="true" title="Explore more" style="height: 100vh"></StudyInfoCard>
+    <StudyInfoCard :invert="true" title="Explore more" style="height: 500px"></StudyInfoCard>
   </div>
 </template>
 

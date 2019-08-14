@@ -2,12 +2,20 @@
 @import "../../wrapper";
 
 .info-container {
-  @include wrapper();
   @include size(100%, auto);
   @include setTheme('background-color', xxHigh);
   @include setTheme('border-color', high);
+  padding: 40px 80px;
   border-bottom: 1px dashed;
   position: relative;
+
+  &-title {
+    margin-bottom: 40px;
+  }
+
+  @include view(tab) {
+    padding: 40px;
+  }
 }
 
 .transparent {

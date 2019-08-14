@@ -1,8 +1,8 @@
 <template>
-  <a ref="study" :href="studyPage" class="caseItem">
+  <router-link :to="studyPage" class="caseItem">
     <img class="caseItem-image" :src="preview" alt="Case Study Preview">
     <CaseItemContent :num="num"/>
-  </a>
+  </router-link>
 </template>
 
 <script>
@@ -11,7 +11,7 @@
   export default {
     name: "caseStudies.item",
     props: ['num', 'selection'],
-    components: { CaseItemContent },
+    components: {CaseItemContent},
     data() {
       return {
         preview: require(`../../../../resources/img/caseStudies/${this.num}/preview.jpg`),
