@@ -13,7 +13,7 @@
   }
 
   &-text {
-    @include setTheme('color', xxMain);
+    @include setTheme('color', high);
     margin: 0;
     font-size: 150px;
 

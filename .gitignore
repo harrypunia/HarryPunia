@@ -11,7 +11,7 @@ babel.config.js
 .deploy*/
 src/_drafts
 /dist/
-vue.config.js
+webpack.config.js
 
 # IntelliJ
 .idea/

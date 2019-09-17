@@ -1,0 +1,32 @@
+@import "../../mixins";
+@import "../../wrapper";
+
+.paragraph-image {
+  @include size(55%, 500px);
+  position: relative;
+  margin-right: 40px;
+
+  @include view(tab) {
+    width: 100%;
+  }
+
+  &-container {
+    @include size(100%, 500px);
+    @include flexGrid(flex-start, flex-start, nowrap);
+    position: relative;
+
+    @include view(tab) {
+      flex-direction: column;
+    }
+  }
+
+  &-content {
+    @include size(45%, 500px);
+    @include flexGrid(flex-start, flex-start, wrap);
+    flex-direction: column;
+
+    @include view(tab) {
+      width: 100%;
+    }
+  }
+}

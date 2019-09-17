@@ -1,4 +1,4 @@
-class S {
+class S1 {
   constructor(sk) {
     this.particles = [];
     for (let i = 0; i < 200; i++) {
@@ -69,4 +69,4 @@ class Particle {
   }
 }
 
-export default S;
+export default S1;

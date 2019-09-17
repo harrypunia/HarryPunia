@@ -13,14 +13,18 @@
   padding: 0 40px;
   margin-top: 10px;
 
-  @include view(phone) {padding: 0}
+  @include view(phone) {
+    padding: 0
+  }
 
-  @include view(tab) {flex-direction: column}
+  @include view(tab) {
+    flex-direction: column
+  }
 }
 
 .grid {
   @include flexGrid(center, flex-start, wrap);
-  @include size(60%, auto);
+  @include size(100%, auto);
   @include view(tab) {
     width: 100%;
     justify-content: center
@@ -34,7 +38,11 @@
   margin: 20px;
 }
 
-.skill-img {width: 50px}
+.skill-img {
+  @include setTheme("fill", high);
+  width: 50px;
+  height: 50px;
+}
 
 .skill-button {
   margin: 20px;

@@ -3,11 +3,11 @@
     <Nav :state="state" :theme="theme" :buttons="buttons" @themeChanged="updateApp($event)"/>
     <Canvas :theme="theme"/>
     <Intro :state="state"/>
+    <CaseStudies/>
+    <About/>
     <Passion/>
     <Skills/>
-    <CaseStudies/>
     <Work/>
-    <About/>
     <Social/>
   </div>
 </template>

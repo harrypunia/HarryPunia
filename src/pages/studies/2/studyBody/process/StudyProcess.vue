@@ -19,7 +19,7 @@
   import ProcessCode from "./ProcessCode";
   import BorderTitle from "../../../../../components/BorderTitle";
   import ZigZag from "../../../../../components/ZigZag";
-  import StudyProcessImage from "../../../../../components/study/StudyProcessImage";
+  import StudyProcessImage from "../../../../../components/study/DescriptionImage";
 
   export default {
     name: "caseStudies.2.process",

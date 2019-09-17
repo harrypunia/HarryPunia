@@ -1,7 +1,10 @@
 <template>
   <div id="caseStudies" class="caseStudies">
     <Title>{{msg('title')}}</Title>
-    <CaseItem :key="index" v-for="index in 4" :num="index" />
+    <CaseItem :num="1"/>
+    <CaseItem :num="2"/>
+    <CaseItem :num="3"/>
+    <CaseItem :num="4"/>
   </div>
 </template>
 
@@ -11,7 +14,7 @@
 
   export default {
     name: "caseStudies",
-    components: { CaseItem, Title },
+    components: {CaseItem, Title},
     data() {
       return {
         selection: 0,

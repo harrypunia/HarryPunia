@@ -1,12 +1,12 @@
 <template>
-  <div class="footer">
+  <div class="hp-footer">
     <p small>{{msg("copyright")}}</p>
   </div>
 </template>
 
 <script>
   export default {
-    name: "footer"
+    name: "hpFooter"
   }
 </script>
 

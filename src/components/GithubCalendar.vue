@@ -1,7 +1,5 @@
 <template>
-  <a rel="noopener noreferrer" href="https://github.com/harrypunia" class="github-calendar-customContainer">
-    <div class="github-calendar" :style="customCSS"></div>
-  </a>
+  <div class="github-calendar" :style="customCSS"></div>
 </template>
 
 <script>
@@ -12,7 +10,8 @@
     props: ["customCSS"],
     mounted() {
       new GithubCalendar(".github-calendar", "harrypunia", {
-        summary_text: "@harrypunia"
+        summary_text: "@harrypunia",
+        responsive: true
       });
     }
   }

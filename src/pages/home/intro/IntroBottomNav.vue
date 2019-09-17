@@ -3,7 +3,7 @@
     <div class="scroll">
       <div class="scroll-dot"></div>
     </div>
-    <i class="audio fas" :class="audioStatus" @click="mute = !mute"></i>
+    <i v-if="false" class="audio fas" :class="audioStatus" @click="mute = !mute"></i>
   </div>
 </template>
 

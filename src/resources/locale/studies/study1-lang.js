@@ -100,12 +100,14 @@ export default {
     }
   },
   fr: {
-    what: "A side scrolling level based game controlled with physical gestures.",
-    why: "This project is an art installation in crowded places. The assets of the game are replaceable and can adjust according to" +
-      " the environment.",
-    how: "With help of Processing and Kinect based libraries, the project is able to detect numerous states of user gestures and allow the interaction" +
-      " with the game. The game uses flexible methods like JSON imports for level designs and very simple asset structuring which are easily" +
-      " replaceable. The game is also accessible from a keyboard as a fallback for situations where kinect is unavailable.",
+    what: "Un jeu basé sur le niveau de défilement latéral contrôlé avec des gestes physiques.",
+    why: "Ce projet est une installation artistique dans des lieux très fréquentés. Les atouts du jeu sont remplaçables" +
+      " et peuvent s’adapter en fonction de l’environnement.",
+    how: "Avec l'aide de Processing et de bibliothèques basées sur Kinect, le projet est capable de détecter de nombreux" +
+      " états de gestes d'utilisateur et de permettre une interaction avec le jeu. Le jeu utilise des méthodes flexibles" +
+      " telles que les importations JSON pour les conceptions de niveau et une structuration très simple des ressources," +
+      " facilement remplaçables. Le jeu est également accessible à partir d’un clavier en guise de solution de rechange " +
+      "dans les cas où Kinect n’est pas disponible.",
     tags: ['Kinect', 'Video Game', 'Processing', 'Duo Project', 'College'],
     try: "Watch Gameplay",
     process: {

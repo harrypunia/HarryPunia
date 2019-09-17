@@ -2,27 +2,28 @@
 @import "../../wrapper";
 
 .study-process-image {
-  @include size(60%, auto);
+  @include size(45%, auto);
+   margin: 20px 0;
 
   @include view(laptop) {
     width: 100%;
   }
 
   & img {
-    @include size(100%, 500px);
+    @include size(100%, 300px);
     object-fit: cover;
     overflow: hidden;
     cursor: url(/src/resources/img/cursors/inspect.svg), auto;
     @include smooth(object-position, .2s);
 
     @include view(laptop) {
-      height: 450px;
+      height: 300px;
     }
     @include view(tab) {
-      height: 350px;
+      height: 250px;
     }
     @include view(phone) {
-      height: 300px;
+      height: 200px;
     }
   }
 

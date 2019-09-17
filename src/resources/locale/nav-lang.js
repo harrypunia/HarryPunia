@@ -15,14 +15,14 @@ export const nav = {
   fr: {
     btn: {
       intro: "Intro",
-      projects: "Projets",
+      project: "Projets",
       clients: "Clients",
       about: "Sur",
-      home: "Home",
-      study: "Study",
-      gallery: "Gallery",
-      members: "Members",
-      more: "More"
+      home: "Maison",
+      study: "Étude",
+      process: "Processus",
+      members: "Membres",
+      more: "Plus"
     }
   }
 };

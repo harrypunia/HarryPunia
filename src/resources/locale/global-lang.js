@@ -8,9 +8,9 @@ export const global = {
   },
   fr: {
     what: "Que?",
-    how: "How?",
-    why: "why?",
-    process: "Process",
-    visit: "Visit"
+    how: "Comment?",
+    why: "Pourquoi?",
+    process: "Processus",
+    visit: "Visiti"
   }
 };

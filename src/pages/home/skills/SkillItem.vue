@@ -4,30 +4,18 @@
     <div class="wrapper">
       <div class="grid">
         <div :key="item.key" v-for="item in items" class="grid-items">
-          <img class="skill-img" :src="getImg(item.url)" alt="Design Skill"/>
+          <div class="skill-img" :style="{backgroundImage: `url(${item.svg})`}"></div>
           <p>{{item.desc}}</p>
         </div>
       </div>
-      <Button @click.native="scrollTo('caseStudies')" class="skill-button" dir="vertical" :text="msg('button')"
-              img="arrow-down"/>
     </div>
   </div>
 </template>
 
 <script>
-  import Button from "../../../components/button/Button"
-  import jump from "jump.js"
-
   export default {
     name: "skills.item",
-    components: {Button},
-    props: ['num', 'items'],
-    methods: {
-      getImg(name) {
-        return require('../../../resources/img/skills/' + name)
-      },
-      scrollTo: el => jump(`.${el}`)
-    }
+    props: ['num', 'items']
   }
 </script>
 

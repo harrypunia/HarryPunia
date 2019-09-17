@@ -5,8 +5,7 @@ export const skills = {
       button: "Explore Case Studies",
       1: {title: "Web Design"},
       2: {title: "Web Development"},
-      3: {title: "Physical Computing"},
-      4: {title: "Motion Graphics"},
+      3: {title: "Additional"},
     }
   },
   fr: {
@@ -16,7 +15,6 @@ export const skills = {
       1: {title: "Conception Web"},
       2: {title: "Développement web"},
       3: {title: "Calcul physique"},
-      4: {title: "Motion Graphics"},
     }
   }
 };

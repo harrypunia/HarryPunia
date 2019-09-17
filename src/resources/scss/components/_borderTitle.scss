@@ -3,14 +3,23 @@
 .border-title {
   &-text {
     margin: auto;
+    @include setTheme('color', xxHigh);
+
+    &-invert {
+      @include setTheme('color', xxMain);
+    }
   }
 
   &-outline {
-    @include setTheme('border-color', xMain);
+    @include setTheme('border-color', xxHigh);
     @include size(100%, 30px);
     border-top: 1px dashed;
     border-left: 1px dashed;
     border-right: 1px dashed;
     margin: 40px auto 0 auto;
+
+    &-invert {
+      @include setTheme('border-color', xxMain);
+    }
   }
 }

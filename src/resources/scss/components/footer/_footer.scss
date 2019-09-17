@@ -1,7 +1,7 @@
 @import "../../mixins";
 @import "../../variables";
 
-.footer {
+.hp-footer {
   @include flexGrid(center, space-around, nowrap);
   @include size(100%, 60px);
   @include setTheme("border-color", high);

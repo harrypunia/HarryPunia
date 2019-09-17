@@ -1,14 +1,10 @@
 <template>
-  <div class="study-process-image">
-    <h4 invert bold class="study-process-image-title">{{title}}</h4>
-    <img :src="src" alt="Process Image" @mousemove="panImage" @mouseout="resetImage"/>
-    <p invert small class="study-process-image-desc">{{desc}}</p>
-  </div>
+  <img class="pan-image" :src="src" :alt="alt" @mousemove="panImage" @mouseout="resetImage"/>
 </template>
 
 <script>
   export default {
-    props: ['src', 'title', 'desc'],
+    props: ['src', 'alt'],
     methods: {
       panImage(e) {
         const relX = e.clientX - e.target.getBoundingClientRect().left;
@@ -24,5 +20,11 @@
   }
 </script>
 
-<style scoped lang="scss">@import "../../resources/scss/components/study/studyProcessImage";</style>
-
+<style scoped lang="scss">
+  .pan-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
