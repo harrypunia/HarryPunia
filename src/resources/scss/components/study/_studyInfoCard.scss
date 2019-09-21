@@ -9,18 +9,23 @@
   border-bottom: 1px dashed;
   position: relative;
 
-  &-title {
-    margin-bottom: 40px;
+  @include view(tab) {
+    padding: 60px 40px;
   }
 
-  @include view(tab) {
-    padding: 40px;
+  @include view(phone) {
+    padding: 30px 20px;
+  }
+
+  &-title {
+    margin: 0;
   }
 }
 
 .pressed {
-  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.12);
   @include setTheme('background-color', xxHigh);
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.7);
+  border: none;
 }
 
 .transparent {

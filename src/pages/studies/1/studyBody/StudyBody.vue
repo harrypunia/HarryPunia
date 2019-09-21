@@ -15,7 +15,7 @@
     <StudyInfoCard :title="this.msgd('caseStudies.links')">
       <StudyLink icon="github" link="https://github.com/harrypunia/Kinect_game"/>
     </StudyInfoCard>
-    <StudyInfoCard :title="this.msgd('caseStudies.members')">
+    <StudyInfoCard :pressed="true" :title="this.msgd('caseStudies.members')">
       <StudyTeam :members="members"/>
     </StudyInfoCard>
   </div>
