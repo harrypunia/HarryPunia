@@ -3,7 +3,9 @@
 @mixin wrapper {
   padding: 80px 160px;
 
-  @include view(tab) {padding: 80px}
+  @include view(laptop) {padding: 80px 60px}
 
-  @include view(phone) {padding: 80px 20px}
+  @include view(tab) {padding: 80px 40px}
+
+  @include view(phone) {padding: 80px 10px}
 }

@@ -25,14 +25,14 @@
   .header {
     @include posFix(0, 0, false, default);
     @include size(100vw, 50px);
+    @include setTheme("background-color", main);
     z-index: 99999;
 
     @include view(1600px) {
-      @include setTheme("background-color", main);
     }
 
     h4 {
-      @include size(130px, auto);
+      @include size(160px, auto);
       margin-left: 40px;
       padding: 5px 10px;
       font-weight: 300;

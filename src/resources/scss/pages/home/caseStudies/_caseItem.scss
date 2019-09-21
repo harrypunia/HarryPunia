@@ -1,7 +1,7 @@
 @import "../../../mixins";
 
 .caseItem {
-  @include size(500px, 500px);
+  @include size(100%, 500px);
   @include setShadow(small);
   @include smooth(transform, .4s);
   @include setTheme('border-color', xxMain);
@@ -11,6 +11,38 @@
   margin: map-get($spacing, small);
   border-radius: 5px;
   overflow: hidden;
+  max-width: 500px;
+
+  @include view(1200px) {
+    max-width: 100%;
+  }
+
+  &-lg {
+    @include size(100%, 600px);
+    max-width: 650px;
+
+    .caseItem {
+      @include view(1200px) {
+        max-width: 100%;
+      }
+
+      &-image {
+        height: 400px;
+      }
+    }
+  }
+
+  &-xlg {
+    @include size(100%, 600px);
+    max-width: 1040px;
+
+    .caseItem {
+
+      &-image {
+        height: 400px;
+      }
+    }
+  }
 
   &:hover {
     transform: scale3d(1.01, 1.01, 1);

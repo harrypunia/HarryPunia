@@ -2,7 +2,7 @@
   <div class="study-process-image">
     <h4 invert bold class="study-process-image-title">{{title}}</h4>
     <PanImage :src="src" alt="Process Image"/>
-    <p invert small class="study-process-image-desc">{{desc}}</p>
+    <p invert class="study-process-image-desc">{{desc}}</p>
   </div>
 </template>
 
@@ -15,5 +15,5 @@
   }
 </script>
 
-<style scoped lang="scss">@import "../../resources/scss/components/study/studyProcessImage";</style>
+<style scoped lang="scss">@import "../../resources/scss/components/study/descriptionImage";</style>
 

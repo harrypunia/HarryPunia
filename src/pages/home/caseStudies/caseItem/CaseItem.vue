@@ -1,5 +1,5 @@
 <template>
-  <router-link :to="studyPage" class="caseItem">
+  <router-link :to="studyPage" class="caseItem" :class="'caseItem-' + size">
     <img class="caseItem-image" :src="preview" alt="Case Study Preview">
     <CaseItemContent :num="num"/>
   </router-link>
@@ -10,7 +10,7 @@
 
   export default {
     name: "caseStudies.item",
-    props: ['num', 'selection'],
+    props: ['num', 'selection', 'size'],
     components: {CaseItemContent},
     data() {
       return {

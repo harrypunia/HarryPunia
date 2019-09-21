@@ -2,9 +2,12 @@
   <div class="study-body">
     <StudyInfoCard>
       <a rel="noreferrer noopener" href="https://www.youtube.com/watch?v=UjFoAkkEugs" class="study-button-try">
-        <Button :invert="true" dir="horizontal" :text="msg('try')" img="arrow-right"/>
+        <Button dir="horizontal" :text="msg('try')" img="arrow-right"/>
       </a>
       <StudyAbout num="1"/>
+    </StudyInfoCard>
+    <StudyInfoCard :pressed="true">
+      <StudyProblem num="1" />
     </StudyInfoCard>
     <StudyInfoCard :title="this.msgd('caseStudies.process')">
       <StudyProcess/>
@@ -21,6 +24,7 @@
 <script>
   import Button from "../../../../components/button/Button";
   import StudyInfoCard from "../../../../components/study/StudyInfoCard";
+  import StudyProblem from "../../../../components/study/StudyProblem";
   import StudyLink from "../../../../components/study/StudyLink";
   import StudyProcess from "./process/StudyProcess";
   import StudyTeam from "../../../../components/study/StudyTeam";
@@ -28,7 +32,7 @@
 
   export default {
     name: "caseStudies.1",
-    components: {Button, StudyInfoCard, StudyProcess, StudyTeam, StudyLink, StudyAbout},
+    components: {Button, StudyInfoCard, StudyProcess, StudyTeam, StudyLink, StudyAbout, StudyProblem},
     data() {
       return {
         members: [{

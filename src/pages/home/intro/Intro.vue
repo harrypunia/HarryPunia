@@ -5,11 +5,10 @@
         :onClose="closeContact">
       <ContactCard @close="closeContact"/>
     </Dialog>
-    <Parallax :class="'myImg myImg-' + state" :src="myImg" alt="Harry Punia" speed="0.2"/>
+    <h1 bold>Harry Punia</h1>
     <div class="info" :class="'info-' + state">
-      <h1>{{ this.msg('name') }}</h1>
-      <h3>{{ this.msg('location') }}</h3>
-      <p>{{ this.msg('quote') }}</p>
+      <p center>{{ this.msg('quote') }}</p>
+      <p bold center>{{ this.msg('location') }}</p>
     </div>
     <Button
         action="#"
@@ -20,21 +19,23 @@
         @click.native="openContact"
     />
     <a @click="scrollTo('caseStudies')" hover class="link" :class="'link-' + state">{{msg("caseStudies")}}</a>
-    <IntroBottomNav class="bottomNav" :class="'bottomNav-' + state"/>
+    <ScrollPrompt class="prompt" :class="'prompt-' + state"/>
   </div>
 </template>
 
 <script>
+  import CaseItem from "../../../pages/home/caseStudies/caseItem/CaseItem";
   import Dialog from "../../../components/Dialog";
   import ContactCard from "../../../components/ContactCard";
-  import Parallax from "../../../components/Parallax"
-  import Button from "../../../components/button/Button"
+  import Parallax from "../../../components/Parallax";
+  import Button from "../../../components/button/Button";
+  import ScrollPrompt from "../../../components/ScrollPrompt";
   import IntroBottomNav from "./IntroBottomNav"
   import jump from "jump.js"
 
   export default {
     name: "intro",
-    components: {Dialog, ContactCard, Button, IntroBottomNav, Parallax},
+    components: {Dialog, ContactCard, Button, ScrollPrompt, IntroBottomNav, Parallax, CaseItem},
     props: ['state'],
     data() {
       return {

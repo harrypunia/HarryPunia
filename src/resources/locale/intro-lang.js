@@ -1,6 +1,6 @@
 export const intro = {
   en: {
-    button: "Lets Talk",
+    button: "Ping me",
     caseStudies: "Explore Case Studies",
     name: "Harry Punia",
     location: "Toronto, CA",

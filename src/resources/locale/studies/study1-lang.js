@@ -1,11 +1,8 @@
 export default {
   en: {
-    what: "A side scrolling level based game controlled with physical gestures.",
-    why: "This project is an art installation in crowded places. The assets of the game are replaceable and can adjust according to" +
-      " the environment.",
-    how: "With help of Processing and Kinect based libraries, the project is able to detect numerous states of user gestures and allow the interaction" +
-      " with the game. The game uses flexible methods like JSON imports for level designs and very simple asset structuring which are easily" +
-      " replaceable. The game is also accessible from a keyboard as a fallback for situations where kinect is unavailable.",
+    problem: "Creating an art installation to allow users to have an interactive experience in different public environments",
+    solution: "The solution was to create a Kinect-Game with replaceable assets that requires users to play with " +
+      "physical gestures. Replaceable assets allow the game to be flexible and be cohesive with multiple environments",
     tags: ['Kinect', 'Video Game', 'Processing', 'Duo Project', 'College'],
     try: "Watch Gameplay",
     process: {

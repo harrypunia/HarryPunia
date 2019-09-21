@@ -3,13 +3,17 @@
 .study-body {
   width: 100%;
   position: relative;
-  margin-top: 100vh;
+  margin-top: calc(100vh - 100px);
+
+  &-grid {
+    @include flexGrid(flex-start, flex-start, wrap);
+  }
 };
 
 .study {
   &-button-try {
     @include posAbs(20px, 100%, false, invert);
-    transform: translate(0, 50%);
+    transform: translate(0, calc(100% + 25px));
     text-decoration: none !important;
     z-index: 100;
   }

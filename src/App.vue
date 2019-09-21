@@ -29,7 +29,7 @@
     },
     data() {
       return {
-        theme: 'Red',
+        theme: 'Light',
         state: 'out'
       }
     },

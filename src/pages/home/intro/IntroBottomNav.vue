@@ -1,17 +1,18 @@
 <template>
   <div class="bottom-nav-container">
-    <div class="scroll">
-      <div class="scroll-dot"></div>
-    </div>
+    <ScrollPrompt/>
     <i v-if="false" class="audio fas" :class="audioStatus" @click="mute = !mute"></i>
   </div>
 </template>
 
 <script>
+  import ScrollPrompt from "../../../components/ScrollPrompt";
+
   export default {
     name: "IntroBottomNav",
+    components: {ScrollPrompt},
     data() {
-      return{
+      return {
         mute: false
       }
     },

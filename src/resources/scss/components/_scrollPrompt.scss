@@ -1,0 +1,41 @@
+@import "../mixins";
+
+.scroll {
+  @include setTheme('border-color', high);
+  @include flexGrid(flex-start, center, nowrap);
+  @include size(22px, 36px);
+  position: relative;
+  border: 1px solid;
+  border-radius: 15px;
+
+  &-dot {
+    @include setTheme('background', high);
+    @include size(4px, 4px);
+    @include createCircle();
+    margin-top: 5px;
+    animation: scroll-dot 2s ease infinite;
+  }
+
+  &-invert {
+    @include setTheme('border-color', main);
+
+    &-dot {
+      @include setTheme('background', main);
+    }
+  }
+}
+
+@keyframes scroll-dot {
+  0% {
+    transform: translateY(-3px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(3px);
+    opacity: 0;
+  }
+}

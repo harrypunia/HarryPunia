@@ -1,24 +1,24 @@
 <template>
   <div class="study-about">
-    <div class="study-about-item">
-      <h2 invert>{{this.msgd("why")}}</h2>
-      <p bold invert>{{ msg(`${num}.why`) }}</p>
+    <div class="study-about-scroll">
+      <ScrollPrompt/>
     </div>
-    <div class="study-about-item">
-      <h2 bold invert>{{this.msgd("how")}}</h2>
-      <p bold invert>{{ msg(`${num}.how`) }}</p>
-    </div>
-    <div class="study-about-item">
-      <h2 bold invert>{{this.msgd("what")}}</h2>
-      <p bold invert>{{ msg(`${num}.what`) }}</p>
+    <div class="study-about-title">
+      <h1>{{this.msg(`${num}.title`)}}</h1>
+      <h4>{{this.msg(`${num}.desc`)}}</h4>
+      <Tags class="study-about-tags" size="small" :tags="msg(`${num}.tags`)"/>
     </div>
   </div>
 </template>
 
 <script>
+  import Tags from "../../components/Tags";
+  import ScrollPrompt from "../../components/ScrollPrompt";
+
   export default {
     name: "caseStudies",
-    props: ['num']
+    props: ['num'],
+    components: {Tags, ScrollPrompt}
   }
 </script>
 
@@ -28,8 +28,20 @@
   .study-about {
     @include flexGrid(flex-start, flex-start, wrap);
 
-    &-item {
+    &-scroll {
+      @include flexGrid(center, center, nowrap);
+      transform: translateY(-25px);
+      width: 100%;
+    }
+
+    &-title {
+      width: calc(60% - 40px);
       margin-right: 40px;
+    }
+
+    &-tags {
+      width: 100%;
+      margin-top: 20px;
     }
   }
 </style>

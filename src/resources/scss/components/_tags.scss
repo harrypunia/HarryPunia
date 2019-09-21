@@ -7,11 +7,6 @@
   cursor: inherit;
 }
 
-.invert {
-  @include setTheme('background-color', main);
-  @include setTheme('color', xxHigh);
-}
-
 .tags {
   @include setTheme('background-color', xxHigh);
   padding: map-get($spacing, xxSmall) map-get($spacing, xSmall);
@@ -28,4 +23,9 @@
     border: 1px solid;
     background: none;
   }
+}
+
+.invert {
+  @include setTheme('color', xxHigh);
+  @include setTheme('background-color', xxMain);
 }

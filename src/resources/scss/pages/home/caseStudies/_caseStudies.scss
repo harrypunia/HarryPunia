@@ -2,6 +2,13 @@
 @import "../../../wrapper";
 
 .caseStudies {
-  @include wrapper();
-  @include flexGrid(flex-start, flex-start, wrap);
+  @include flexGrid(flex-start, center, wrap);
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
+
+  &-container {
+    @include wrapper();
+    @include size(100%, auto);
+  }
 }

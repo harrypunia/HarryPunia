@@ -2,30 +2,38 @@
 @import "../../../wrapper";
 
 .intro {
-  @include wrapper();
-  @include size(100%, 100vh);
-  @include flexGrid(flex-start, center, nowrap);
+  @include flexGrid(center, center, nowrap);
+  position: relative;
+  padding-top: 80px;
   flex-direction: column;
+  width: 100%;
+  height: 60vh;
 }
 
 .myImg {
-  @include introAnimation(-100px, 0, .2s);
-  @include size(300px, 300px);
-  border-radius: 5px;
+  @include size(0, 300px);
+  margin-top: 40px;
+  transition: width 1s ease;
+  transition-delay: .4s;
+
   @include view(phone) {
     margin: 0 auto;
+  }
+
+  &-in {
+    width: 300px;
   }
 }
 
 .info {
-  @include introAnimation(-120px, 0, .3s);
+  @include introAnimation(-60px, 0, .5s);
   @include view(phone) {
     margin: 0 auto;
   }
 }
 
 .intro-button {
-  @include introAnimation(-120px, 0, .4s);
+  @include introAnimation(-60px, 0, .6s);
   margin: 20px 0 20px -10px;
 
   @include view(phone) {
@@ -38,7 +46,7 @@
 }
 
 .link {
-  @include introAnimation(-125px, 0, .5s);
+  @include introAnimation(-65px, 0, .7s);
   text-align: left;
   margin: 20px 0 20px 0;
 
@@ -47,6 +55,7 @@
   }
 }
 
-.bottomNav {
-  @include introAnimation(0, 100px, .6s)
+.prompt {
+  @include posAbs(50%, 100%, true, deafult);
+  @include introAnimation(0, 60px, .8s)
 }

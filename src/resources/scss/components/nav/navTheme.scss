@@ -27,13 +27,13 @@
   }
 
   &-left {
-    .nav-container-item:nth-child(1) {background: map-get($theme_Dark, main)}
+    .nav-container-item:nth-child(1) {background: map-get($theme_Black, main)}
     .nav-container-item:nth-child(2) {background: map-get($theme_Red, main)}
     .nav-container-item:nth-child(3) {background: map-get($theme_Light, main)}
   }
 
   &-right {
-    .nav-container-item:nth-child(1) {background: map-get($theme_Black, main)}
+    .nav-container-item:nth-child(1) {background: map-get($theme_Dark, main)}
     .nav-container-item:nth-child(2) {background: map-get($theme_Purple, main)}
     .nav-container-item:nth-child(3) {background: map-get($theme_Wheat, main)}
   }

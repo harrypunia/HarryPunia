@@ -67,6 +67,8 @@ const study4 = {
 export const caseStudies = {
   en: {
     title: "Case Studies",
+    problem: "Problem",
+    solution: "Solution",
     about: "About",
     process: "Process",
     members: "Study Members",
@@ -78,6 +80,8 @@ export const caseStudies = {
   },
   fr: {
     title: 'Projets',
+    problem: "Problem",
+    solution: "Solution",
     gallery: "Gallery",
     process: "Process",
     members: "Study Members",

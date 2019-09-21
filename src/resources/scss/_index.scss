@@ -30,12 +30,26 @@ h1[center], h2[center], h3[center], h4[center], p[center], a[center], q[center] 
   text-align: center
 }
 
+h1[fillWidth], h2[fillWidth], h3[fillWidth], h4[fillWidth], p[fillWidth], a[fillWidth], q[fillWidth] li[fillWidth] {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1[bold], h2[bold], h3[bold], h4[bold], p[bold], a[bold], q[bold] li[bold] {
   font-weight: 800
 }
 
 h1[semiBold], h2[semiBold], h3[semiBold], h4[semiBold], p[semiBold], a[semiBold], q[semiBold] li[semiBold] {
   font-weight: 600
+}
+
+h1[invert], h2[invert], h3[invert], h4[invert], p[invert], a[invert], q[invert] li[invert] {
+  @include setTheme('color', main);
+
+  &::selection {
+    @include setTheme('background-color', xxHigh)
+  }
 }
 
 h1[title] {
@@ -45,10 +59,6 @@ h1[title] {
 
 h1, h2, h3, h4 {
   @include setTheme('color', xxHigh);
-
-  &[invert] {
-    @include setTheme('color', main)
-  }
 }
 
 h2, h3, h4 {
@@ -66,10 +76,10 @@ a, q {
 }
 
 h1 {
-  font-family: 'Cormorant Garamond';
+  font-family: 'Ubuntu';
   font-weight: 300;
-  font-size: 32px;
-  font-size: 3.2rem;
+  font-size: 42px;
+  font-size: 4.2rem;
 }
 
 h2 {
@@ -81,22 +91,22 @@ h2 {
 
 h3 {
   font-weight: 400;
-  font-size: 24px;
-  font-size: 2.4rem;
+  font-size: 26px;
+  font-size: 2.6rem;
 }
 
 h4 {
   font-weight: 400;
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 22px;
+  font-size: 2.2rem;
 }
 
 
 p {
   @include setTheme('color', high);
   font-weight: 200;
-  font-size: 1.6rem;
-  font-size: 16px;
+  font-size: 1.9rem;
+  font-size: 19px;
   max-width: 500px;
 
   &[bold] {
@@ -115,10 +125,6 @@ p {
   }
 
   &[faded] {
-    @include setTheme('color', xxMain);
-  }
-
-  &[invert] {
     @include setTheme('color', xxMain);
   }
 }
@@ -164,7 +170,6 @@ a {
   }
 
   &[invert] {
-    @include setTheme('color', main);
 
     &[hover]:before {
       @include setTheme('background', high);
@@ -184,10 +189,6 @@ q {
   @include setTheme('color', high);
   font-style: italic;
   max-width: 300px;
-
-  &[invert] {
-    @include setTheme('color', xxMain);
-  }
 }
 
 li {
@@ -196,10 +197,6 @@ li {
   font-size: 1.6rem;
   font-size: 16px;
   max-width: 500px;
-
-  &[invert] {
-    @include setTheme('color', xxMain);
-  }
 }
 
 ::selection {
