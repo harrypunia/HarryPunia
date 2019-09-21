@@ -1,6 +1,6 @@
 <template>
   <div class="info-container" :class="[{'transparent' : invert}, {'pressed' : pressed}]">
-    <h1 resetMargin v-if="title" :invert="!invert" class="info-container-title">{{title}}</h1>
+    <h1 resetMargin v-if="title" :invert="!invert">{{title}}</h1>
     <slot></slot>
   </div>
 </template>

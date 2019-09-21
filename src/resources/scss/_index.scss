@@ -45,6 +45,10 @@ h1[fillWidth], h2[fillWidth], h3[fillWidth], h4[fillWidth], p[fillWidth], a[fill
   margin-right: auto;
 }
 
+h1[resetMargin], h2[resetMargin], h3[resetMargin], h4[resetMargin], p[resetMargin], a[resetMargin], q[resetMargin] li[resetMargin] {
+  margin: 0;
+}
+
 h1[bold], h2[bold], h3[bold], h4[bold], p[bold], a[bold], q[bold] li[bold] {
   font-weight: 800
 }

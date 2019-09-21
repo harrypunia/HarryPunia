@@ -5,6 +5,8 @@ export default {
       "adapt to different environments. ",
     tags: ['Kinect', 'Game', 'Processing', 'Team of 2'],
     try: "Watch Gameplay",
+    duration: "6 Months",
+    roles: ["Lead Developer", "Game Conceptualization", "Design Support/Guidance"],
     process: {
       concept: {
         title: "Conceptualization",

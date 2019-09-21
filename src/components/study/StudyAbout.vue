@@ -4,9 +4,23 @@
       <ScrollPrompt/>
     </div>
     <div class="study-about-title">
-      <h1>{{this.msg(`${num}.title`)}}</h1>
+      <h1 resetMargin="">{{this.msg(`${num}.title`)}}</h1>
       <h4>{{this.msg(`${num}.desc`)}}</h4>
       <Tags class="study-about-tags" size="small" :tags="msg(`${num}.tags`)"/>
+    </div>
+    <div class="study-about-other">
+      <div class="study-about-other-item">
+        <h2 resetMargin>My Role</h2>
+        <p>
+          <span :key="index" v-for="(role, index) in this.msg(`${num}.roles`)">
+            {{role}} <br/>
+          </span>
+        </p>
+      </div>
+      <div class="study-about-other-item">
+        <h2 resetMargin>Duration</h2>
+        <p>{{this.msg(`${num}.duration`)}}</p>
+      </div>
     </div>
   </div>
 </template>
@@ -26,17 +40,40 @@
   @import "../../resources/scss/mixins";
 
   .study-about {
-    @include flexGrid(flex-start, flex-start, wrap);
+    @include flexGrid(flex-start, space-between, wrap);
 
     &-scroll {
       @include flexGrid(center, center, nowrap);
+      margin-bottom: 40px;
       transform: translateY(-25px);
       width: 100%;
     }
 
     &-title {
-      width: calc(60% - 40px);
+      width: calc(50% - 40px);
       margin-right: 40px;
+
+      @include view(tab) {
+        width: 100%;
+        margin-bottom: 40px;
+      }
+    }
+
+    &-other {
+      @include flexGrid(flex-start, flex-start, wrap);
+      width: 50%;
+
+      @include view(tab) {
+        width: 500px;
+      }
+
+      &-item {
+        margin: 15px 40px 15px 0;
+
+        @include view(tab) {
+          margin: 10px 20px 10px 0;
+        }
+      }
     }
 
     &-tags {

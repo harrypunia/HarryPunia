@@ -9,16 +9,12 @@
   border-bottom: 1px dashed;
   position: relative;
 
-  @include view(tab) {
+  @include view(laptop) {
     padding: 60px 40px;
   }
 
   @include view(phone) {
     padding: 30px 20px;
-  }
-
-  &-title {
-    margin: 0;
   }
 }
 
