@@ -10,7 +10,7 @@
     </div>
     <div class="study-about-other">
       <div class="study-about-other-item">
-        <h2 resetMargin>My Role</h2>
+        <h4 resetMargin>MY ROLE</h4>
         <p>
           <span :key="index" v-for="(role, index) in this.msg(`${num}.roles`)">
             {{role}} <br/>
@@ -18,7 +18,7 @@
         </p>
       </div>
       <div class="study-about-other-item">
-        <h2 resetMargin>Duration</h2>
+        <h4 resetMargin>DURATION</h4>
         <p>{{this.msg(`${num}.duration`)}}</p>
       </div>
     </div>
@@ -60,7 +60,7 @@
     }
 
     &-other {
-      @include flexGrid(flex-start, flex-start, wrap);
+      @include flexGrid(flex-start, flex-end, wrap);
       width: 50%;
 
       @include view(tab) {

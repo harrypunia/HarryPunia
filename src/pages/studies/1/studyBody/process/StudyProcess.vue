@@ -1,8 +1,8 @@
 <template>
   <div class="study-process">
     <div style="display: flex; flex-wrap: wrap; justify-content: space-between">
-      <h4 bold center invert fillWidth>How did we come up with this?</h4>
-      <p bold center invert fillWidth>The Ideas that helped us reach here</p>
+      <h2>Generating Ideas for Art Installations</h2>
+      <p></p>
       <DescriptionImage
           :src="getImg('c1.jpg')"
           :title="msg('concept.1.title')"

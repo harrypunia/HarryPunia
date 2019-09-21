@@ -4,8 +4,8 @@
       <PanImage :src="src" alt="Process Image"/>
     </div>
     <div class="paragraph-image-content">
-      <h4 invert bold class="paragraph-image-title">{{title}}</h4>
-      <p invert class="paragraph-image-desc">{{desc}}</p>
+      <h4 bold class="paragraph-image-title">{{title}}</h4>
+      <p resetMargin fillWidth class="paragraph-image-desc">{{desc}}</p>
     </div>
   </div>
 </template>

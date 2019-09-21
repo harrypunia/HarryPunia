@@ -1,8 +1,8 @@
 <template>
   <div class="study-process-image">
-    <h4 bold class="study-process-image-title">{{title}}</h4>
     <PanImage class="study-process-image-media" :src="src" alt="Process Image"/>
-    <p invert class="study-process-image-desc">{{desc}}</p>
+    <h4 bold class="study-process-image-title">{{title}}</h4>
+    <p resetMargin fillWidth class="study-process-image-desc">{{desc}}</p>
   </div>
 </template>
 

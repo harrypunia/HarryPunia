@@ -12,8 +12,8 @@ export default {
         title: "Conceptualization",
         1: {
           title: "Brain Storming",
-          desc: "To begin with, a lot of ideas were brainstormed was done for places/locations the installations could" +
-            " be done in"
+          desc: "The crux of the project was to find create an art installation that would impose interaction " +
+            "in different locations. Multiple locations and ideas were listed and discussed among the team."
         },
         2: {
           title: "Idea",

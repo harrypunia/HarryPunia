@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="header" :class="{'header-shadow': shadow}">
     <router-link class="header-logo" to="/" :style="{textDecoration: 'none'}">
       <h4 bold>Harry Punia</h4>
     </router-link>
@@ -12,8 +12,14 @@
     name: 'Header',
     data() {
       return {
-        logo: require('../../resources/img/logo/logo.png')
+        logo: require('../../resources/img/logo/logo.png'),
+        shadow: false
       }
+    },
+    mounted() {
+      window.addEventListener("scroll", _ => {
+        this.shadow = window.scrollY > 250;
+      })
     }
   }
 
@@ -26,18 +32,26 @@
     @include posFix(0, 0, false, default);
     @include size(100vw, 50px);
     @include setTheme("background-color", main);
+    @include smooth(box-shadow, .6s);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.06);
+    padding: 5px;
     z-index: 99999;
 
-    @include view(1600px) {
+    &-shadow {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
     }
 
     &-logo {
+      float: left;
+      margin: 0;
       width: 200px;
     }
 
     h4 {
       @include size(160px, auto);
       margin-left: 40px;
+      margin-top: 0;
+      font-size: 1.3em;
       padding: 5px 10px;
       font-weight: 300;
       cursor: pointer;

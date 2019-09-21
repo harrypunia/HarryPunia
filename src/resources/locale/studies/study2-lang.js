@@ -1,12 +1,7 @@
 export default {
   en: {
-    what: "A Massive multi-player browser game, that allows users to join in for a session with 99 other players. " +
-      "Players can select unique characters to enter the session, farm form gold to get stronger meanwhile fighting" +
-      " other players.",
-    why: "This project is a browser multi-player gaming experience for users with not powerful enough machines " +
-      "to run modern day AAA-games.",
-    how: "With help of Web Sockets, Mongo DB, NodeJS, ES6 & Canvas(P5), the project is able to create a 2D gaming " +
-      "experience that is capable of being played over different machines over the internet.",
+    roles: ["Project Manager", "Lead Front-end Developer", ""],
+    durations: "5 Months and In Progress",
     tags: ['Web Sockets', 'Video Game', 'Canvas', 'Team Project', 'Personal', 'Multi-player'],
     try: "Contribute",
     process: {

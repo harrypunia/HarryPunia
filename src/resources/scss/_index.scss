@@ -41,6 +41,7 @@ h1[center], h2[center], h3[center], h4[center], p[center], a[center], q[center] 
 
 h1[fillWidth], h2[fillWidth], h3[fillWidth], h4[fillWidth], p[fillWidth], a[fillWidth], q[fillWidth] li[fillWidth] {
   width: 100%;
+  max-width: none;
   margin-left: auto;
   margin-right: auto;
 }

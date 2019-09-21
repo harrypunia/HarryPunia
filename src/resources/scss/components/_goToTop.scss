@@ -1,0 +1,35 @@
+@import "../mixins";
+
+.go-to-top {
+  @include posFix(30px, 30px, false, invert);
+  @include size(50px, 50px);
+  @include setTheme('border-color', xxHigh);
+  @include flexGrid(center, center, nowrap);
+  @include setTheme("background-color", main);
+  opacity: 0;
+  transform: translate(0, 100px);
+  transition: background-color .2s ease, background-color.2s ease, transform .2s ease, opacity .2s ease;
+  border-radius: 50%;
+  z-index: 100;
+  border: 1px solid;
+  cursor: pointer;
+
+  @include view(tab) {
+    right: 50%;
+    transform: translate(50%, 100px);
+  }
+
+  &:hover {
+    @include setTheme("background-color", xxHigh);
+    @include setTheme("color", main);
+  }
+
+  &-display {
+    transform: translateY(0);
+    opacity: 1;
+
+    @include view(tab) {
+      transform: translate(50%, 0);
+    }
+  }
+}

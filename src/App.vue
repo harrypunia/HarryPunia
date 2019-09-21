@@ -10,18 +10,20 @@
           @themeChanged="updateSketch($event)"
       />
     </transition>
+    <GoToTop :onClick="goToTop" />
     <Footer/>
   </div>
 </template>
 
 <script>
+  import GoToTop from "./components/GoToTop";
   import Loader from "./components/loader/Loader";
   import Header from "./components/header/Header";
   import Footer from "./components/footer/Footer";
   import jump from "jump.js";
 
   export default {
-    components: {Loader, Header, Footer},
+    components: {Loader, Header, Footer, GoToTop},
     watch: {
       $route() {
         jump("._scroll");
@@ -37,6 +39,9 @@
       updateSketch(newTheme) {
         this.theme = newTheme
       },
+      goToTop() {
+        jump("._scroll");
+      }
     }
   }
 </script>

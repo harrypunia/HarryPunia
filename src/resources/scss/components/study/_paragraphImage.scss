@@ -2,30 +2,58 @@
 @import "../../wrapper";
 
 .paragraph-image {
-  @include size(55%, 500px);
+  @include size(55%, auto);
   position: relative;
   margin-right: 40px;
 
-  @include view(tab) {
+  & img {
+    max-height: 500px;
+
+    @include view(tab) {
+      max-height: 500px;
+    }
+
+    @include view(phone) {
+      max-height: 350px;
+    }
+  }
+
+  &-title {
+    position: relative;
+    opacity: .75;
+    margin-bottom: 20px;
+
+    &:after {
+      content: "";
+      z-index: -1;
+      @include posAbs(0, 100%, false, default);
+      @include size(120px, 10px);
+      @include setTheme(background-color, xMain);
+    }
+  }
+
+  @include view(laptop) {
     width: 100%;
   }
 
   &-container {
-    @include size(100%, 500px);
+    @include size(100%, auto);
     @include flexGrid(flex-start, flex-start, nowrap);
     position: relative;
+    padding: 20px;
 
-    @include view(tab) {
+    @include view(laptop) {
       flex-direction: column;
+      height: auto;
     }
   }
 
   &-content {
-    @include size(45%, 500px);
+    @include size(45%, auto);
     @include flexGrid(flex-start, flex-start, wrap);
     flex-direction: column;
 
-    @include view(tab) {
+    @include view(laptop) {
       width: 100%;
     }
   }
