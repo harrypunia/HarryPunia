@@ -74,7 +74,7 @@
 
   &-in {
     transform: translate3d(0, 0, 0);
-    transition: transform 1s ease, opacity 1s ease;
+    transition: transform .6s ease, opacity .6s ease;
     transition-delay: $d, $d;
     opacity: 1;
   }

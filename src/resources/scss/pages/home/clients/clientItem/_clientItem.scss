@@ -9,8 +9,7 @@
   padding: map-get($spacing, small);
   border: 1px solid;
   border-radius: 5px;
-  margin: 0 map-get($spacing, regular);
-  margin-bottom: map-get($spacing, regular);
+  margin: 0 map-get($spacing, regular) map-get($spacing, regular) 0;
   text-decoration: none;
   cursor: alias;
 

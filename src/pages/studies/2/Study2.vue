@@ -1,6 +1,5 @@
 <template>
   <StudyContainer>
-    <Nav :state="state" :theme="theme" :buttons="buttons" @themeChanged="updateApp($event)"/>
     <StudyIntro
         :state="state"
         :title="msg('title')"
@@ -13,14 +12,13 @@
 
 <script>
   import StudyContainer from "../../../components/study/StudyContainer";
-  import Nav from "../../../components/nav/Nav"
   import StudyIntro from "../../../components/study/StudyIntro"
   import StudyBody from "./studyBody/StudyBody";
 
   export default {
     name: "caseStudies.2",
     props: ['theme', 'state'],
-    components: {Nav, StudyContainer, StudyIntro, StudyBody},
+    components: {StudyContainer, StudyIntro, StudyBody},
     data() {
       return {
         buttons: [{

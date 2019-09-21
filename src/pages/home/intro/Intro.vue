@@ -8,12 +8,13 @@
     <h1 bold>Harry Punia</h1>
     <div class="info" :class="'info-' + state">
       <p center>{{ this.msg('quote') }}</p>
-      <p bold center>{{ this.msg('location') }}</p>
+      <p bold center>{{ this.msg('location') }} <i class="fab fa-canadian-maple-leaf"></i></p>
     </div>
     <Button
         action="#"
         class="intro-button"
-        :class="'intro-button-' + state" dir="horizontal"
+        :class="'intro-button-' + state"
+        dir="vertical"
         :text="msg('button')"
         img="grin-alt"
         @click.native="openContact"

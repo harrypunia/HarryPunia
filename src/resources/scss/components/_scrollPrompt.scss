@@ -8,6 +8,10 @@
   border: 1px solid;
   border-radius: 15px;
 
+  @include view(tab) {
+    display: none;
+  }
+
   &-dot {
     @include setTheme('background', high);
     @include size(4px, 4px);

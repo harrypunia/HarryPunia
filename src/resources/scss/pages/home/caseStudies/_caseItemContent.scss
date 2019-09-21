@@ -2,6 +2,7 @@
 
 .caseItemContent {
   position: relative;
+  height: 190px;
   padding: map-get($spacing, small);
 
   .content {
@@ -17,6 +18,11 @@
 
     &-tags {
       margin-top: map-get($spacing, small);
+    }
+
+    &-type {
+      @include posAbs(10px, 10px, false, invert);
+      @include setTheme("color", high);
     }
   }
 }

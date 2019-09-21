@@ -3,12 +3,22 @@
 .study-body {
   width: 100%;
   position: relative;
-  margin-top: calc(100vh - 100px);
+  margin-top: calc(100vh - 190px);
+
+  @include view(tab) {
+    margin-top: calc(100vh - 25vh);
+  }
+
+  @include view(phone) {
+    margin-top: calc(100vh - 50vh);
+  }
 
   &-grid {
     @include flexGrid(flex-start, flex-start, wrap);
   }
-};
+}
+
+;
 
 .study {
   &-button-try {
@@ -16,5 +26,10 @@
     transform: translate(0, calc(100% + 25px));
     text-decoration: none !important;
     z-index: 100;
+
+    @include view(tab) {
+      right: 50%;
+      transform: translate(50%, 50%);
+    }
   }
 }

@@ -1,11 +1,12 @@
 @import "../../mixins";
 
 .study-problem {
-  @include flexGrid(flex-start, flex-start, wrap);
+  @include flexGrid(flex-start, space-between, wrap);
   width: 100%;
 
   &-item {
-    width: 50%;
+    width: 500px;
+    margin: 10px auto;
     padding: 10px 20px;
   }
 

@@ -1,10 +1,10 @@
 <template>
   <div id="caseStudies" class="caseStudies-container">
     <div class="caseStudies">
-      <CaseItem size="xlg" :num="1" :featured="true"/>
-      <CaseItem :num="2"/>
-      <CaseItem :num="3"/>
-      <CaseItem :num="4"/>
+      <CaseItem size="xlg" :num="2" type="personal"/>
+      <CaseItem :num="1" type="school"/>
+      <CaseItem :num="3" type="school"/>
+      <CaseItem :num="4" type="school"/>
     </div>
   </div>
 </template>

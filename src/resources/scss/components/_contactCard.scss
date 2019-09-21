@@ -2,7 +2,7 @@
 
 .contact-card {
   @include size(400px, auto);
-  @include setTheme("background-color", xHigh);
+  @include setTheme("background-color", xxHigh);
   position: relative;
   border-radius: 5px;
   padding: 40px;

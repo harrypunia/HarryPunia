@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <router-link to="/" :style="{textDecoration: 'none'}">
+    <router-link class="header-logo" to="/" :style="{textDecoration: 'none'}">
       <h4 bold>Harry Punia</h4>
     </router-link>
   </div>
@@ -29,6 +29,10 @@
     z-index: 99999;
 
     @include view(1600px) {
+    }
+
+    &-logo {
+      width: 200px;
     }
 
     h4 {

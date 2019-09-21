@@ -3,8 +3,8 @@
     <Intro :state="state"/>
     <CaseStudies/>
     <About/>
-    <Passion/>
-    <Skills/>
+<!--    <Passion/>-->
+<!--    <Skills/>-->
     <Work/>
   </div>
 </template>

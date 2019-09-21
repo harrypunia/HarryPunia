@@ -1,9 +1,9 @@
 export default {
   en: {
     problem: "Creating an art installation to allow users to have an interactive experience in different public environments",
-    solution: "The solution was to create a Kinect-Game with replaceable assets that requires users to play with " +
-      "physical gestures. Replaceable assets allow the game to be flexible and be cohesive with multiple environments",
-    tags: ['Kinect', 'Video Game', 'Processing', 'Duo Project', 'College'],
+    solution: "A gesture based Kinect Game with easily replaceable assets that allows the game to " +
+      "adapt to different environments. ",
+    tags: ['Kinect', 'Game', 'Processing', 'Team of 2'],
     try: "Watch Gameplay",
     process: {
       concept: {

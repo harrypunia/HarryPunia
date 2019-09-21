@@ -1,10 +1,14 @@
 @import "../../mixins";
 
 .study-intro {
-  @include posFix(10vw, 10vh, false, default);
   @include size(80vw, 80vh);
+  position: fixed;
+  top: 15vh;
   z-index: -1;
   overflow: hidden;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 
   @include view(tab) {
     width: 100vw;
@@ -29,26 +33,31 @@
     }
   }
 
-  .study-title {
-    @include posAbs(50%, 50%, true, default);
-    @include setShadow(large);
-    transition: opacity ease 1s, transform ease 1s;
-    transform: scale3d(1.1, 1.1, 1.1) translate(-50%, -50%) rotate(4deg);
-    transition-delay: .8s, .8s;
-    opacity: 0;
-    z-index: 9;
-
-    h1 {
-      @include setTheme('background-color', xxHigh);
-      @include setTheme('color', main);
-      padding: map-get($spacing, xxSmall) map-get($spacing, regular);
-      margin: 0;
-    }
-  }
+  //.study-title {
+  //  @include posAbs(50%, 50%, true, default);
+  //  @include setShadow(large);
+  //  transition: opacity ease 1s, transform ease 1s;
+  //  transform: scale3d(1.1, 1.1, 1.1) translate(-50%, -50%) rotate(4deg);
+  //  transition-delay: .8s, .8s;
+  //  opacity: 0;
+  //  z-index: 9;
+  //
+  //  h1 {
+  //    @include setTheme('background-color', xxHigh);
+  //    @include setTheme('color', main);
+  //    padding: map-get($spacing, xxSmall) map-get($spacing, regular);
+  //    margin: 0;
+  //  }
+  //
+  //  @include view(tab) {
+  //    top: 25vh;
+  //  }
+  //}
 
   .study-intro-media {
-    @include size(80vw, 80vh);
-    @include posAbs(0, 0, false, default);
+    @include size(80vw, 70vh);
+    position: absolute;
+    max-width: 1600px;
     transform: scale3d(1.1, 1.1, 1) rotate(2deg);
     transition: opacity ease 1s, transform ease 1s, filter ease 1s;
     transition-delay: .8s, .8s, .8s;
@@ -57,13 +66,12 @@
     object-fit: cover;
 
     @include view(tab) {
-      @include size(100vw, 70vh);
-      top: 5vh;
+      @include size(100vw, 50vh);
     }
 
     @include view(phone) {
-      @include size(100vw, 100vh);
-      top: 0;
+      @include size(100vw, 30vh);
+      top: 10vh;
       z-index: -1;
     }
   }

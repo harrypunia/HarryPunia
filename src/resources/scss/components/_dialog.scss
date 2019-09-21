@@ -6,7 +6,7 @@
   @include flexGrid(center, center, nowrap);
   z-index: 999999;
   display: none;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, .5);
 
   &-container {
     @include posAbs(0, 0, false, default);

@@ -6,7 +6,7 @@ import study4Page from "./studies/study4-lang";
 const study1 = {
   en: {
     title: "Kinect Video Game",
-    desc: "Using Kinect Libraries to create an Interactive Video Game controlled with gestures.",
+    desc: "Level based Kinect game, which is controlled by physical gestures",
     created: "December, 2018, Sheridan College",
     ...study1Page.en
   },
@@ -21,7 +21,7 @@ const study1 = {
 const study2 = {
   en: {
     title: "Mage Royale",
-    desc: "Using Web Sockets and ES6 to create a hybrid MMO Battle Royale & MOBA game.",
+    desc: "Massive Multi-player io game which is a hybrid of Battle Royale and MOBA genre.",
     created: "August, 2019",
     ...study2Page.en
   },
@@ -36,7 +36,7 @@ const study2 = {
 const study3 = {
   en: {
     title: "Kinetic Typography",
-    desc: "Using after effects express visual typography from a speech",
+    desc: "Motion Type to visually express a speech on Plato's philosophies",
     created: "August, 2019",
     ...study3Page.en
   },
@@ -51,8 +51,8 @@ const study3 = {
 
 const study4 = {
   en: {
-    title: "3D Motion Artifact",
-    desc: "Using Physical computing technologies like Arduino to generate dynamic Motion in a 3D object",
+    title: "3D Motion Box",
+    desc: "A Motion box creates motion by moving multiple boxes in 3D space",
     created: "August, 2019",
     ...study4Page.en
   },

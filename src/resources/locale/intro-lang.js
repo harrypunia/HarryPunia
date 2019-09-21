@@ -3,7 +3,7 @@ export const intro = {
     button: "Ping me",
     caseStudies: "Explore Case Studies",
     name: "Harry Punia",
-    location: "Toronto, CA",
+    location: "Toronto, ",
     quote: "Designer who got introduced to Development"
   },
   fr: {
