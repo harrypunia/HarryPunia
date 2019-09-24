@@ -1,10 +1,6 @@
 <template>
   <div id="intro" class="intro">
-    <Dialog
-        :open="isContact"
-        :onClose="closeContact">
-      <ContactCard @close="closeContact"/>
-    </Dialog>
+    <Canvas theme="Light"/>
     <h1 bold>Harry Punia</h1>
     <div class="info" :class="'info-' + state">
       <p center>{{ this.msg('quote') }}</p>
@@ -19,15 +15,14 @@
 </template>
 
 <script>
+  import Canvas from "../canvas/Canvas";
   import ContactMe from "../../../components/ContactMe";
-  import Dialog from "../../../components/Dialog";
-  import ContactCard from "../../../components/ContactCard";
   import ScrollPrompt from "../../../components/ScrollPrompt";
   import jump from "jump.js"
 
   export default {
     name: "intro",
-    components: {Dialog, ContactCard, ScrollPrompt, ContactMe},
+    components: {ScrollPrompt, ContactMe, Canvas},
     props: ['state'],
     data() {
       return {
@@ -36,13 +31,7 @@
       }
     },
     methods: {
-      scrollTo: el => jump(`.${el}`),
-      openContact() {
-        this.isContact = true
-      },
-      closeContact() {
-        this.isContact = false
-      }
+      scrollTo: el => jump(`.${el}`)
     }
   }
 </script>

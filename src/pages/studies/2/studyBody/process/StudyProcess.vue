@@ -1,29 +1,73 @@
 <template>
   <div class="study-process">
-    <BorderTitle>{{msg("design.title")}}</BorderTitle>
-    <ZigZag>
-      <StudyProcessImage
-          v-for="i in 10"
-          :key="i"
-          :src="getImg(`d${i}.jpg`)"
-          :title="msg(`design.${i}.title`)"
-          :desc="msg(`design.${i}.desc`)"
+    <Grid column center>
+      <h1 bold>Branding</h1>
+      <DescriptionImage
+          :src="getImg(`d1.jpg`)"
+          :title="msg(`design.1.title`)"
+          :desc="msg(`design.1.desc`)"
       />
-    </ZigZag>
-    <BorderTitle>{{msg("code.title")}}</BorderTitle>
-    <ProcessCode/>
+      <ParagraphImage
+          :src="getImg(`d2.jpg`)"
+          :title="msg(`design.2.title`)"
+          :desc="msg(`design.2.desc`)"
+      />
+      <DescriptionImage
+          :src="getImg(`d3.jpg`)"
+          :title="msg(`design.3.title`)"
+          :desc="msg(`design.3.desc`)"
+      />
+      <ParagraphImage
+          :right="true"
+          :src="getImg(`d4.jpg`)"
+          :title="msg(`design.4.title`)"
+          :desc="msg(`design.4.desc`)"
+      />
+      <ParagraphImage
+          :src="getImg(`d5.jpg`)"
+          :title="msg(`design.5.title`)"
+          :desc="msg(`design.5.desc`)"
+      />
+      <DescriptionImage
+          :src="getImg(`d6.jpg`)"
+          :title="msg(`design.6.title`)"
+          :desc="msg(`design.6.desc`)"
+      />
+      <ParagraphImage
+          :right="true"
+          :src="getImg(`d7.jpg`)"
+          :title="msg(`design.7.title`)"
+          :desc="msg(`design.7.desc`)"
+      />
+      <ParagraphImage
+          :src="getImg(`d8.jpg`)"
+          :title="msg(`design.8.title`)"
+          :desc="msg(`design.8.desc`)"
+      />
+      <DescriptionImage
+          :src="getImg(`d9.jpg`)"
+          :title="msg(`design.9.title`)"
+          :desc="msg(`design.9.desc`)"
+      />
+      <DescriptionImage
+          :src="getImg(`d10.jpg`)"
+          :title="msg(`design.10.title`)"
+          :desc="msg(`design.10.desc`)"
+      />
+      <ProcessCode/>
+    </Grid>
   </div>
 </template>
 
 <script>
   import ProcessCode from "./ProcessCode";
-  import BorderTitle from "../../../../../components/BorderTitle";
-  import ZigZag from "../../../../../components/ZigZag";
-  import StudyProcessImage from "../../../../../components/study/DescriptionImage";
+  import Grid from "../../../../../components/Grid";
+  import DescriptionImage from "../../../../../components/study/DescriptionImage";
+  import ParagraphImage from "../../../../../components/study/ParagraphImage";
 
   export default {
     name: "caseStudies.2.process",
-    components: {ZigZag, StudyProcessImage, ProcessCode, BorderTitle},
+    components: {DescriptionImage, ParagraphImage, ProcessCode, Grid},
     methods: {
       getImg(img) {
         return require(`../../../../../resources/img/caseStudies/2/process/${img}`)

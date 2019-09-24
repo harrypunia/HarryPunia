@@ -43,7 +43,7 @@
     z-index: 99999;
 
     &-shadow {
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     &-logo {
