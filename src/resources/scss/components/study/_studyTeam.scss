@@ -2,14 +2,14 @@
 
 .study-team {
   @include size(100%, auto);
-  @include flexGrid(center, flex-start, wrap);
-  padding-bottom: 40px;
+  @include flexGrid(center, center, wrap);
 
   &-member {
     @include size(200px, 200px);
     @include flexGrid(center, center, wrap);
     position: relative;
     margin: 30px map-get($spacing, small);
+    margin-bottom: 100px;
   }
 }
 

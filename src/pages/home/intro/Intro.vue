@@ -10,33 +10,24 @@
       <p center>{{ this.msg('quote') }}</p>
       <p bold center>{{ this.msg('location') }} <i class="fab fa-canadian-maple-leaf"></i></p>
     </div>
-    <Button
-        action="#"
-        class="intro-button"
-        :class="'intro-button-' + state"
-        dir="vertical"
-        :text="msg('button')"
-        img="grin-alt"
-        @click.native="openContact"
-    />
+    <div class="intro-button" :class="'intro-button-' + state">
+      <ContactMe/>
+    </div>
     <a @click="scrollTo('caseStudies')" hover class="link" :class="'link-' + state">{{msg("caseStudies")}}</a>
     <ScrollPrompt class="prompt" :class="'prompt-' + state"/>
   </div>
 </template>
 
 <script>
-  import CaseItem from "../../../pages/home/caseStudies/caseItem/CaseItem";
+  import ContactMe from "../../../components/ContactMe";
   import Dialog from "../../../components/Dialog";
   import ContactCard from "../../../components/ContactCard";
-  import Parallax from "../../../components/Parallax";
-  import Button from "../../../components/button/Button";
   import ScrollPrompt from "../../../components/ScrollPrompt";
-  import IntroBottomNav from "./IntroBottomNav"
   import jump from "jump.js"
 
   export default {
     name: "intro",
-    components: {Dialog, ContactCard, Button, ScrollPrompt, IntroBottomNav, Parallax, CaseItem},
+    components: {Dialog, ContactCard, ScrollPrompt, ContactMe},
     props: ['state'],
     data() {
       return {

@@ -6,7 +6,7 @@
   margin: 20px;
 
   &-icon {
-    @include setTheme("color", main);
+    @include setTheme("color", xxHigh);
     font-size: 54px;
     cursor: pointer;
     @include smooth(transform, .2s);

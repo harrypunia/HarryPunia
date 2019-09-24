@@ -1,15 +1,20 @@
 <template>
-  <div class="header" :class="{'header-shadow': shadow}">
+  <Grid justify="space-between" class="header" :class="{'header-shadow': shadow}">
     <router-link class="header-logo" to="/" :style="{textDecoration: 'none'}">
       <h4 bold>Harry Punia</h4>
     </router-link>
-  </div>
+    <a href="../../resources/img/resume.pdf" target="_new" class="header-resume">
+      <p resetMargin bold>Resume</p>
+    </a>
+  </Grid>
 </template>
 
 <script>
+  import Grid from "../Grid";
 
   export default {
     name: 'Header',
+    components: {Grid},
     data() {
       return {
         logo: require('../../resources/img/logo/logo.png'),
@@ -30,7 +35,7 @@
 
   .header {
     @include posFix(0, 0, false, default);
-    @include size(100vw, 50px);
+    @include size(100vw, 60px);
     @include setTheme("background-color", main);
     @include smooth(box-shadow, .6s);
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.06);
@@ -59,6 +64,10 @@
       @include view(phone) {
         margin-left: 20px;
       }
+    }
+
+    &-resume {
+      margin-right: 40px;
     }
   }
 </style>

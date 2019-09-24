@@ -1,11 +1,11 @@
-@import "../mixins";
-
 .grid {
-  @include flexGrid(flex-start, flex-start, nowrap);
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 10px;
 
-  &-center {
-    justify-content: center;
-    align-items: center;
+  &-row {
+    flex-direction: row;
   }
 
   &-column {
@@ -14,5 +14,69 @@
 
   &-wrap {
     flex-wrap: wrap;
+  }
+
+  &-align {
+    &-flex-start {
+      align-items: flex-start;
+    }
+
+    &-flex-end {
+      align-items: flex-end;
+    }
+
+    &-baseline {
+      align-items: baseline;
+    }
+
+    &-initial {
+      align-items: initial;
+    }
+
+    &-unset {
+      align-items: unset;
+    }
+
+    &-stretch {
+      align-items: stretch;
+    }
+
+    &-center {
+      align-items: center;
+    }
+  }
+
+  &-justify {
+    &-center {
+      justify-content: center;
+    }
+
+    &-flex-start {
+      justify-content: flex-start;
+    }
+
+    &-flex-end {
+      justify-content: flex-end;
+    }
+
+    &-space-between {
+      justify-content: space-between;
+    }
+
+    &-space-around {
+      justify-content: space-around;
+    }
+
+    &-space-evenly {
+      justify-content: space-evenly;
+    }
+
+    &-initial {
+      justify-content: initial;
+    }
+
+    &-unset {
+      justify-content: unset;
+    }
   }
 }

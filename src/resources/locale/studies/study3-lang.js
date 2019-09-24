@@ -1,10 +1,8 @@
 export default {
   en: {
-    what: "Create a Visual Kinetic Typography video for a persuasive speech. The speech must be around 20 seconds and " +
-      "mustn't contain any music.",
-    why: "The motive is to amplify the message being conveyed in the speech with help of just text and no graphics.",
-    how: "After effects was the main software to create this project. But the main challenge was to be creative and " +
-      "expressive. A lot of research & experimentation was done to achieve the outcome.",
+    solution: "Hello",
+    roles: ["Project Lead"],
+    duration: "5 Weeks",
     tags: ['Typography', 'After Effects', 'Visual Design', 'Solo Project', 'College'],
     try: "Watch",
     process: {

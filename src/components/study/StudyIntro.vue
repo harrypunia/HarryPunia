@@ -1,8 +1,5 @@
 <template>
   <div :class="`study-intro study-intro-${state}`" :style="{opacity: mapOpacity}">
-<!--    <div class="study-title">-->
-<!--      <h1 center title>{{title}}</h1>-->
-<!--    </div>-->
     <video v-if="type === 'video'" class="study-intro-media" autoplay muted loop>
       <source :src="media" type="video/mp4"/>
     </video>

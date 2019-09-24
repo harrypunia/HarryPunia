@@ -14,6 +14,7 @@ Vue.config.productionTip = false;
 Vue.use(VueRouter);
 Vue.use(VueClipboard);
 Vue.use(VueParallaxJs);
+Vue.prototype.$totalStudies = 4;
 
 const router = new VueRouter({
   routes,

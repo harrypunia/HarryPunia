@@ -1,15 +1,14 @@
 <template>
-  <Grid center="true" column="true" class="contact-card">
+  <Grid :center="true" direction="column" class="contact-card">
     <i class="fas fa-times contact-card-close" @click="closeDialog"></i>
     <p ref="copy-success" bold class="contact-card-copied">
       <i class="fas fa-check"></i>&nbsp;&nbsp;Copied to Clipboard
     </p>
-    <h4 bold invert>
-      +1 (905) 467-8671
-      &nbsp;&nbsp;
-      <i class="fas fa-clipboard contact-card-phone" @click="copy('+19054678671')"></i>
-    </h4>
-    <Grid>
+    <Grid justify="space-between" align="center" style="width: 100%">
+      <p bold invert>+1 (905) 467-8671</p>
+      <p invert><i class="fas fa-clipboard contact-card-phone" @click="copy('+19054678671')"></i></p>
+    </Grid>
+    <Grid justify="space-between" align="center" style="width: 100%">
       <a href="mailto:harry@punias.com" hover invert>harry@punias.com</a>
       <h4 class="contact-card-clipboard" invert>
         <i class="fas fa-clipboard contact-card-phone" @click="copy('harry@punias.com')"></i>

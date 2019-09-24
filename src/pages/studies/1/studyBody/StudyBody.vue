@@ -9,20 +9,27 @@
     <StudyInfoCard :pressed="true">
       <StudyProblem num="1" />
     </StudyInfoCard>
-    <StudyInfoCard :title="this.msgd('caseStudies.process')">
+    <StudyInfoCard>
+      <StudyTeam :members="members"/>
+    </StudyInfoCard>
+    <StudyInfoCard :invert="true" :title="this.msgd('caseStudies.process')">
       <StudyProcess/>
     </StudyInfoCard>
-    <StudyInfoCard :title="this.msgd('caseStudies.links')">
+    <StudyInfoCard :invert="true" :title="this.msgd('caseStudies.links')">
       <StudyLink icon="github" link="https://github.com/harrypunia/Kinect_game"/>
     </StudyInfoCard>
-    <StudyInfoCard :pressed="true" :title="this.msgd('caseStudies.members')">
-      <StudyTeam :members="members"/>
+    <StudyInfoCard>
+      <hr>
+    </StudyInfoCard>
+    <StudyInfoCard :invert="true" :title="'Other Projects'">
+      <StudyMore :num="1"/>
     </StudyInfoCard>
   </div>
 </template>
 
 <script>
   import Button from "../../../../components/button/Button";
+  import StudyMore from "../../../../components/study/StudyMore";
   import StudyInfoCard from "../../../../components/study/StudyInfoCard";
   import StudyProblem from "../../../../components/study/StudyProblem";
   import StudyLink from "../../../../components/study/StudyLink";
@@ -32,16 +39,18 @@
 
   export default {
     name: "caseStudies.1",
-    components: {Button, StudyInfoCard, StudyProcess, StudyTeam, StudyLink, StudyAbout, StudyProblem},
+    components: {Button, StudyInfoCard, StudyProcess, StudyTeam, StudyLink, StudyAbout, StudyProblem, StudyMore},
     data() {
       return {
         members: [{
           name: "Harry Punia",
           img: "harryPunia.jpg",
+          position: "Developer",
           role: "I developed & conceptualised the game"
         }, {
           name: "Lauren Black",
           img: "laurenBlack.jpg",
+          position: "Designer",
           role: "I designed the graphics and conceptualized the game",
           visit: "http://www.laurenblackdesign.com"
         }]

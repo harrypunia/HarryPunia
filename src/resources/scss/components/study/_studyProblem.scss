@@ -4,6 +4,13 @@
   @include flexGrid(flex-start, space-between, wrap);
   width: 100%;
 
+  &-noGoal {
+    .study-problem-item {
+      width: 100%;
+      margin: 10px;
+    }
+  }
+
   &-item {
     width: 500px;
     margin: 10px auto;

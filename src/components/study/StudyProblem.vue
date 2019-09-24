@@ -1,6 +1,6 @@
 <template>
-  <div class="study-problem">
-    <div class="study-problem-item">
+  <div class="study-problem" :class="{'study-problem-noGoal' : isGoal}">
+    <div v-if="!isGoal" class="study-problem-item">
       <h4 bold invert>
         <i class="fas fa-mountain study-problem-icon"></i>
         {{this.msg('problem')}}
@@ -9,9 +9,12 @@
     </div>
     <div class="study-problem-item">
       <h4 bold invert>
-        <i class="fas fa-bullseye study-problem-icon"></i>{{this.msg('solution')}}
+        <i class="fas fa-bullseye study-problem-icon"></i>
+        <span v-if="!isGoal">{{this.msg('solution')}}</span>
+        <span v-else>{{this.msg('goal')}}</span>
       </h4>
-      <p invert>{{this.msg(`${num}.solution`)}}</p>
+      <p v-if="!isGoal" invert>{{this.msg(`${num}.solution`)}}</p>
+      <h4 v-else invert fillWidth>{{this.msg(`${num}.solution`)}}</h4>
     </div>
   </div>
 </template>
@@ -20,7 +23,7 @@
 
   export default {
     name: "caseStudies",
-    props: ["num"]
+    props: ["num", "isGoal"]
   }
 </script>
 

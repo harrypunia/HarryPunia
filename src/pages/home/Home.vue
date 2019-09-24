@@ -3,24 +3,22 @@
     <Intro :state="state"/>
     <CaseStudies/>
     <About/>
-<!--    <Passion/>-->
-<!--    <Skills/>-->
     <Work/>
+    <SocialLinks />
   </div>
 </template>
 
 <script>
   import Intro from "./intro/Intro"
-  import Passion from "./passion/Passion"
-  import Skills from "./skills/Skills"
   import CaseStudies from "./caseStudies/CaseStudies"
+  import SocialLinks from "../../components/SocialLinks";
   import Work from "./clients/Clients"
   import About from "./about/About"
 
   export default {
     name: "Home",
     props: ['theme', 'state'],
-    components: {Intro, Passion, Skills, CaseStudies, Work, About},
+    components: {Intro, CaseStudies, Work, About, SocialLinks},
     methods: {
       updateApp(newTheme) {
         this.$emit('themeChanged', newTheme)

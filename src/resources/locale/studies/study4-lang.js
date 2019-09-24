@@ -1,9 +1,8 @@
 export default {
   en: {
-    what: "3D-Artifact with 4 boxes that move back on forth with gears",
-    why: "To create an artifact that would create visual interest with motion.",
-    how: "With help of Laser cutting machines and physical computing, we were able to create this product. A lot " +
-      "tiny measurements went into this for it to fit perfectly and generate this motion.",
+    solution: "Hello",
+    roles: ["Product Designer", "Physical Computing", "Development"],
+    duration: "5 Weeks",
     tags: ['Laser Cutting', '3D', 'Arduino', 'Physical Computing', 'Duo Project', 'College'],
     try: "Watch",
     process: {

@@ -1,7 +1,7 @@
 <template>
   <div class="study-card-section">
-    <h3 invert>{{title}}</h3>
-    <h4 semiBold invert>{{desc}}</h4>
+    <h3>{{title}}</h3>
+    <p bold>{{desc}}</p>
     <slot></slot>
   </div>
 </template>

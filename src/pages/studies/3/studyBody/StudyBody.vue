@@ -6,25 +6,33 @@
       </a>
       <StudyAbout num="3"/>
     </StudyInfoCard>
+    <StudyInfoCard :pressed="true">
+      <StudyProblem num="3" :isGoal="true"/>
+    </StudyInfoCard>
     <StudyInfoCard :title="this.msgd('caseStudies.process')">
       <StudyProcess/>
     </StudyInfoCard>
-    <StudyInfoCard :title="this.msgd('caseStudies.members')">
-      <StudyTeam :members="members"/>
+    <StudyInfoCard>
+      <hr>
+    </StudyInfoCard>
+    <StudyInfoCard :invert="true" :title="'Other Projects'">
+      <StudyMore :num="3"/>
     </StudyInfoCard>
   </div>
 </template>
 
 <script>
+  import StudyMore from "../../../../components/study/StudyMore";
   import Button from "../../../../components/button/Button";
   import StudyInfoCard from "../../../../components/study/StudyInfoCard";
+  import StudyProblem from "../../../../components/study/StudyProblem";
   import StudyProcess from "./process/StudyProcess";
   import StudyTeam from "../../../../components/study/StudyTeam";
   import StudyAbout from "../../../../components/study/StudyAbout";
 
   export default {
     name: "caseStudies.3",
-    components: {Button, StudyInfoCard, StudyProcess, StudyTeam, StudyAbout},
+    components: {Button, StudyInfoCard, StudyProcess, StudyTeam, StudyAbout, StudyMore, StudyProblem},
     data() {
       return {
         members: [{

@@ -1,7 +1,10 @@
 export default {
   en: {
-    roles: ["Project Manager", "Lead Front-end Developer", ""],
-    durations: "5 Months and In Progress",
+    solution: "Mage Royale is a massive multi-player game designer and developed for browsers. The purpose of the " +
+      "game is to allow users to enjoy popular game genres like MOBA and Battle Royale on their browsers without having " +
+      "the hassle to get appropriate tech for it.",
+    roles: ["Project Manager", "Lead Front-end Developer", "UI Designer"],
+    duration: "5 Months and In Progress",
     tags: ['Web Sockets', 'Video Game', 'Canvas', 'Team Project', 'Personal', 'Multi-player'],
     try: "Contribute",
     process: {
