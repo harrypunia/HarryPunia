@@ -3,7 +3,7 @@
     <router-link class="header-logo" to="/" :style="{textDecoration: 'none'}">
       <h4 bold>Harry Punia</h4>
     </router-link>
-    <a href="../../resources/img/resume.pdf" target="_new" class="header-resume">
+    <a href="./resume.pdf" target="_new" class="header-resume">
       <p resetMargin bold>Resume</p>
     </a>
   </Grid>
@@ -22,7 +22,7 @@
       }
     },
     mounted() {
-      window.addEventListener("scroll", _ => {
+      window.addEventListener("scroll", () => {
         this.shadow = window.scrollY > 250;
       })
     }

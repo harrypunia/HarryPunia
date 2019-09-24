@@ -13,7 +13,7 @@
       }
     },
     mounted() {
-      window.addEventListener("scroll", _ => this.display = window.scrollY > 250);
+      window.addEventListener("scroll", () => this.display = window.scrollY > 250);
     }
   }
 </script>
