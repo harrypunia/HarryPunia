@@ -3,7 +3,7 @@ export default {
     solution: "Hello",
     roles: ["Product Designer", "Physical Computing", "Development"],
     duration: "5 Weeks",
-    tags: ['Laser Cutting', '3D', 'Arduino', 'Physical Computing', 'Duo Project', 'College'],
+    tags: ['Laser Cutting', '3D', 'Arduino', 'Physical Computing', 'Team of 2'],
     try: "Watch",
     process: {
       concept: {

@@ -15,7 +15,7 @@
     object-fit: cover;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, .25);
-    max-height: 750px;
+    max-height: 650px;
     cursor: all-scroll;
     @include smooth(object-position, .2s);
   }

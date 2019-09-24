@@ -5,7 +5,7 @@ export default {
       "the hassle to get appropriate tech for it.",
     roles: ["Project Manager", "Lead Front-end Developer", "UI Designer"],
     duration: "5 Months and In Progress",
-    tags: ['Web Sockets', 'Video Game', 'Canvas', 'Team Project', 'Personal', 'Multi-player'],
+    tags: ['Game', 'Multi-player', 'Personal', 'Team Project'],
     try: "Contribute",
     process: {
       design: {

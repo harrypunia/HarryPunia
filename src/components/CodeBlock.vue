@@ -1,23 +1,25 @@
 <template>
-  <div class="code-block" :class="type ? `code-block-theme-${type}` : 'code-block-theme-intellij'">
-    <div class="code-block-header">
-      <div class="code-block-header-icons">
-        <div class="code-block-header-icons-close" @click="close">
-          <i class="fas fa-times"></i>
-        </div>
-        <div class="code-block-header-icons-minimize" @click="minimize">
-          <i class="fas fa-window-minimize"></i>
-        </div>
-        <div class="code-block-header-icons-maximize" @click="maximize">
-          <i class="far fa-window-maximize"></i>
+  <div class="code-block-container">
+    <div class="code-block" :class="type ? `code-block-theme-${type}` : 'code-block-theme-intellij'">
+      <div class="code-block-header">
+        <div class="code-block-header-icons">
+          <div class="code-block-header-icons-close" @click="close">
+            <i class="fas fa-times"></i>
+          </div>
+          <div class="code-block-header-icons-minimize" @click="minimize">
+            <i class="fas fa-window-minimize"></i>
+          </div>
+          <div class="code-block-header-icons-maximize" @click="maximize">
+            <i class="far fa-window-maximize"></i>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="code-block-body" :class="{'code-block-body-open' : isOpen}">
-      <img class="code-block-body-img"
-           :src="image" alt="Code Preview"
-           :style="isMaxSize ? {width: '600px'} :imageCSS"
-      />
+      <div class="code-block-body" :class="{'code-block-body-open' : isOpen}">
+        <img class="code-block-body-img"
+             :src="image" alt="Code Preview"
+             :style="isMaxSize ? {width: '600px'} :imageCSS"
+        />
+      </div>
     </div>
   </div>
 </template>

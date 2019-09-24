@@ -3,7 +3,7 @@ export default {
     solution: "Hello",
     roles: ["Project Lead"],
     duration: "5 Weeks",
-    tags: ['Typography', 'After Effects', 'Visual Design', 'Solo Project', 'College'],
+    tags: ['Typography', 'After Effects', 'Visual Design', 'Solo Project'],
     try: "Watch",
     process: {
       concept: {

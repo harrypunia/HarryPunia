@@ -12,7 +12,7 @@
     <StudyInfoCard>
       <StudyTeam :members="members"/>
     </StudyInfoCard>
-    <StudyInfoCard :invert="true" :title="this.msgd('caseStudies.process')">
+    <StudyInfoCard>
       <StudyProcess/>
     </StudyInfoCard>
     <StudyInfoCard :invert="true" :title="this.msgd('caseStudies.links')">

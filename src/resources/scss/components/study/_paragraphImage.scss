@@ -6,6 +6,16 @@
   position: relative;
   margin-right: 40px;
 
+  &-right {
+    margin-right: 0;
+    margin-left: 40px;
+  }
+
+  @include view(laptop) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   & img {
     max-height: 500px;
 
@@ -39,8 +49,13 @@
   &-container {
     @include size(100%, auto);
     @include flexGrid(flex-start, flex-start, nowrap);
+    margin: 20px 0;
     position: relative;
     padding: 20px;
+
+    &-right {
+      flex-direction: row-reverse;
+    }
 
     @include view(laptop) {
       flex-direction: column;

@@ -1,6 +1,6 @@
 <template>
-  <div class="paragraph-image-container">
-    <div class="paragraph-image">
+  <div class="paragraph-image-container" :class="{'paragraph-image-container-right' : right}">
+    <div class="paragraph-image" :class="{'paragraph-image-right' : right}">
       <PanImage :src="src" alt="Process Image"/>
     </div>
     <div class="paragraph-image-content">
@@ -14,7 +14,7 @@
   import PanImage from "../PanImage";
 
   export default {
-    props: ['src', 'title', 'desc'],
+    props: ['src', 'title', 'desc', 'right'],
     components: {PanImage}
   }
 </script>

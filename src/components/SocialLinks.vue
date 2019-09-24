@@ -36,6 +36,7 @@
 
       &:hover {
         @include setTheme("background-color", xxHigh);
+        @include setTheme("color", main);
       }
     }
   }
