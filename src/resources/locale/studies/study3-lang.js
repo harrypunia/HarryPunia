@@ -1,6 +1,7 @@
 export default {
   en: {
-    solution: "Hello",
+    solution: "Create an expressing video from a speech, which amplies and expresses the meaning with just the use of" +
+      "typography and motion.",
     roles: ["Project Lead"],
     duration: "5 Weeks",
     tags: ['Typography', 'After Effects', 'Visual Design', 'Solo Project'],

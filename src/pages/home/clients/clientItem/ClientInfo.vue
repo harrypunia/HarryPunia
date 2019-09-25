@@ -17,7 +17,7 @@
 
   export default {
     name: "clients",
-    props: ['brandName', 'brandColor', 'contentColor'],
+    props: ['name', 'brandName', 'brandColor', 'contentColor'],
     components: {Tags}
   }
 </script>

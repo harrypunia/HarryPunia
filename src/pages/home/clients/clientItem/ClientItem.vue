@@ -10,7 +10,7 @@
       <i v-else :style="{color: contentColor}" class="fas fa-ban"></i>
     </div>
     <img class="clientItem-logo" :src="logo" alt="client"/>
-    <h4 :style="{color: contentColor}" class="clientItem-name">{{brandName.toUpperCase()}}</h4>
+    <h4 :style="{color: contentColor}" class="clientItem-name">{{msgd(`ClientItem.${brandName}.type`)}}</h4>
   </a>
 </template>
 

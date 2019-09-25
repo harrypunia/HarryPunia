@@ -18,8 +18,12 @@ class Particle {
   }
 
   collission() {
-    (this.pos.x < 0 || this.pos.x > this.s.width) && (this.vel.x *= -1);
-    (this.pos.y < 0 || this.pos.y > this.s.height) && (this.vel.y += -1);
+    this.pos.x <= 0 && (this.pos.x = 0);
+    this.pos.x >= this.s.width && (this.pos.x = this.s.width);
+    this.pos.y <= 0 && (this.pos.y = 0);
+    this.pos.y >= this.s.height && (this.pos.y = this.s.height);
+    (this.pos.x <= 0 || this.pos.x >= this.s.width) && (this.vel.x *= -1);
+    (this.pos.y <= 0 || this.pos.y >= this.s.height) && (this.vel.y *= -1);
   }
 
   inRange(neighbour) {
