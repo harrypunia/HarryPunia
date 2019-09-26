@@ -6,19 +6,16 @@
     <StudyInfoCard :pressed="true">
       <StudyProblem num="2" :isGoal="true"/>
     </StudyInfoCard>
-    <StudyInfoCard>
+    <StudyInfoCard style="padding-bottom: 0">
       <StudyTeam :members="members"/>
     </StudyInfoCard>
-    <StudyInfoCard :invert="true" :title="this.msgd('caseStudies.process')">
+    <StudyInfoCard :noPadding="true">
       <StudyProcess/>
     </StudyInfoCard>
-    <StudyInfoCard :invert="true" :title="this.msgd('caseStudies.links')">
+    <StudyInfoCard :invert="true" :title="this.msgd('caseStudies.links')" style="padding-top: 0; padding-bottom: 0">
       <StudyLink icon="github" link="https://github.com/harrypunia/Mage-Royale"/>
     </StudyInfoCard>
-    <StudyInfoCard>
-      <hr>
-    </StudyInfoCard>
-    <StudyInfoCard :invert="true" :title="'Other Projects'">
+    <StudyInfoCard :invert="true" title="Other Projects">
       <StudyMore :num="2"/>
     </StudyInfoCard>
   </div>

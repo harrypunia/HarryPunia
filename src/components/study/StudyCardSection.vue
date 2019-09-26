@@ -1,6 +1,6 @@
 <template>
   <div class="study-card-section">
-    <h3>{{title}}</h3>
+    <h4 bold style="opacity: .75">{{title}}</h4>
     <p bold>{{desc}}</p>
     <slot></slot>
   </div>

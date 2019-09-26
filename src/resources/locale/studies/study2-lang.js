@@ -11,7 +11,7 @@ export default {
       design: {
         title: "Design Process",
         1: {
-          title: "Branding",
+          title: "Logo Design",
           desc: "To begin the branding we decided to do a logo design and we wanted to express the idea of the game " +
             "through it. We heavily inspired our logo from MOBA games and incorporating our colors to it. Adding magic " +
             "stones to and gold to add more representation towards mages."

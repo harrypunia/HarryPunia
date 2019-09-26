@@ -1,5 +1,5 @@
 <template>
-  <div class="grid" :class="[dirClasses, centerClasses, justifyClasses, alignClasses, wrapClasses, columnClasses]">
+  <div class="grid" :class="[dirClasses, justifyClasses, alignClasses, wrapClasses, columnClasses, centerClasses]">
     <slot></slot>
   </div>
 </template>
@@ -15,12 +15,10 @@
       },
       justify: {
         type: String,
-        default: "flex-start",
         validator: value => ["flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly", "initial", "unset"].indexOf(value) !== -1
       },
       align: {
         type: String,
-        default: "flex-start",
         validator: value => ["flex-start", "flex-end", "center", "baseline", "stretch", "initial", "unset"].indexOf(value) !== -1
       },
       column: Boolean,
@@ -30,7 +28,7 @@
     data() {
       return {
         dirClasses: `grid-${this.direction}`,
-        centerClasses: this.center ? "grid-align-center grid-justify-center" : null,
+        centerClasses: (this.center ? "grid-align-center grid-justify-center" : null),
         justifyClasses: `grid-justify-${this.justify}`,
         alignClasses: `grid-align-${this.align}`,
         wrapClasses: this.wrap ? "grid-wrap" : null,

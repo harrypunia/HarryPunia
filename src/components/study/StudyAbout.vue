@@ -10,7 +10,7 @@
     </div>
     <div class="study-about-other">
       <div class="study-about-other-item">
-        <h4 resetMargin>MY ROLE</h4>
+        <h4 resetMargin>My Role</h4>
         <p>
           <span :key="index" v-for="(role, index) in this.msg(`${num}.roles`)">
             {{role}} <br/>
@@ -18,7 +18,7 @@
         </p>
       </div>
       <div class="study-about-other-item">
-        <h4 resetMargin>DURATION</h4>
+        <h4 resetMargin>Duration</h4>
         <p>{{this.msg(`${num}.duration`)}}</p>
       </div>
     </div>

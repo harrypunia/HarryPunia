@@ -24,6 +24,11 @@
   border: none;
 }
 
+.no-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .transparent {
   @include setTheme('background-color', main);
   opacity: 0.9;

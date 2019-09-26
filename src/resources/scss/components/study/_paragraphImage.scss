@@ -2,7 +2,7 @@
 @import "../../wrapper";
 
 .paragraph-image {
-  @include size(55%, auto);
+  @include size(45%, auto);
   position: relative;
   margin-right: 40px;
 
@@ -14,6 +14,10 @@
   @include view(laptop) {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  &-desc {
+    font-size: 2rem;
   }
 
   & img {
@@ -32,6 +36,7 @@
     position: relative;
     opacity: .75;
     margin-bottom: 20px;
+    margin-top: 0;
 
     &:after {
       content: "";
@@ -49,9 +54,8 @@
   &-container {
     @include size(100%, auto);
     @include flexGrid(flex-start, flex-start, nowrap);
-    margin: 20px 0;
     position: relative;
-    padding: 20px;
+    padding: 30px 20px;
 
     &-right {
       flex-direction: row-reverse;
@@ -64,7 +68,7 @@
   }
 
   &-content {
-    @include size(45%, auto);
+    @include size(65%, auto);
     @include flexGrid(flex-start, flex-start, wrap);
     flex-direction: column;
 

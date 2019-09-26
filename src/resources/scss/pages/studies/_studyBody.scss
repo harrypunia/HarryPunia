@@ -4,6 +4,7 @@
   width: 100%;
   position: relative;
   margin-top: calc(100vh - 210px);
+  @include setTheme("background-color", main);
 
   @include view(tab) {
     margin-top: calc(100vh - 25vh);

@@ -1,12 +1,13 @@
 <template>
   <div class="study-process">
     <Grid column center>
-      <h1 bold>Branding</h1>
+      <h1 bold class="study-process-section-title">Branding</h1>
       <DescriptionImage
           :src="getImg(`d1.jpg`)"
           :title="msg(`design.1.title`)"
           :desc="msg(`design.1.desc`)"
       />
+      <h1 bold class="study-process-section-title">User Interface</h1>
       <ParagraphImage
           :src="getImg(`d2.jpg`)"
           :title="msg(`design.2.title`)"
@@ -23,6 +24,7 @@
           :title="msg(`design.4.title`)"
           :desc="msg(`design.4.desc`)"
       />
+      <h1 bold class="study-process-section-title">Game Assets</h1>
       <ParagraphImage
           :src="getImg(`d5.jpg`)"
           :title="msg(`design.5.title`)"
@@ -75,3 +77,14 @@
     }
   }
 </script>
+
+<style lang="scss" scoped>
+  .study-process-section-title {
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+</style>
