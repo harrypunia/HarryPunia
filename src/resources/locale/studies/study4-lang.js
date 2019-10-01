@@ -1,6 +1,7 @@
 export default {
   en: {
-    solution: "Hello",
+    solution: "Create an intriguing 3D modal with dynamic motion with help of technologies like arduino and laser cutting" +
+      " and or 3D printing",
     roles: ["Product Designer", "Physical Computing", "Development"],
     duration: "5 Weeks",
     tags: ['Laser Cutting', '3D', 'Arduino', 'Physical Computing', 'Team of 2'],
@@ -49,11 +50,11 @@ export default {
         },
         7: {
           title: "Implementing Circuit",
-          desc: ""
+          desc: "After the circuit was working and soldered, we implemented it into the 3D modal"
         },
         8: {
           title: "Putting it all Together",
-          desc: ""
+          desc: "At last we brought all the components together, fit the boxes into the container and tested the modal."
         }
       }
     }
