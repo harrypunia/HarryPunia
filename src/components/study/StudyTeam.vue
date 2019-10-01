@@ -5,9 +5,9 @@
            alt="Project Member">
       <h4 center class="member-name">{{member.name}}</h4>
       <p small center class="member-desc">{{member.position}}</p>
-      <a hover class="member-visit" v-if="member.visit" :href="member.visit" rel="noopener noreferrer">
+      <Link hover class="member-visit" v-if="member.visit" :href="member.visit">
         {{$t("visit")}}
-      </a>
+      </Link>
       <p small v-if="member.visit"><i class="fas fa-external-link-alt"></i></p>
       <p class="member-role">{{member.role}}</p>
     </div>
@@ -15,8 +15,11 @@
 </template>
 
 <script>
+  import Link from "../Link";
+
   export default {
     name: "caseStudies.team",
+    components: {Link},
     props: ['members']
   }
 </script>

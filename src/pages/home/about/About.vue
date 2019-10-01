@@ -2,7 +2,7 @@
   <div id="about" class="about">
     <Title>{{msg('title')}}</Title>
     <div class="about-wrapper">
-      <Parallax breakpoint=1400 class="about-image" speed="0.2" :src="myImg" alt="Harry Punia"/>
+      <Parallax breakpoint=1400 class="about-image" speed="0.1" :src="myImg" alt="Harry Punia"/>
       <AboutContent/>
     </div>
   </div>

@@ -9,11 +9,6 @@
               :title="personal.title"
               :desc="personal.desc"
         />
-      </div>
-    </div>
-    <div class="aboutContent-component aboutContent-component-looking-for">
-      <h4>{{msg('lookingTitle')}}</h4>
-      <div class="aboutContent-looking-for aboutContent-items">
         <List class="aboutContent-list-items"
               v-for="looking in msg('looking')"
               :key="looking.title"
