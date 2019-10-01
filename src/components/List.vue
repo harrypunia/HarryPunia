@@ -7,7 +7,7 @@
 <script>
   export default {
     name: "PersonalInfo",
-    props: [ 'title', 'desc'],
+    props: ['title', 'desc'],
   }
 </script>
 

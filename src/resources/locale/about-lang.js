@@ -17,7 +17,7 @@ export const about = {
       {title: 'Duration', desc: '6+ months (depends)'},
       {title: 'Type', desc: 'Part-time / Freelance'},
     ],
-    extraTitle: "Extra",
+    extraTitle: "More of me",
     extra: 'You would usually find me designing & developing which is fun, but i do have some hobbies outside that too. ' +
       'For starters, I love sports ❤️ 😼. I played tennis professionally before I started doing what I do. By the way, ' +
       'I FORGET ALOT! Notorious for leaving my belongings somewhere and walking away 😑, I need help'
