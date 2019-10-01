@@ -1,7 +1,7 @@
 export default {
   en: {
     solution: "Create an expressing video from a speech, which amplies and expresses the meaning with just the use of" +
-      "typography and motion.",
+      " typography and motion.",
     roles: ["Project Lead"],
     duration: "5 Weeks",
     tags: ['Typography', 'After Effects', 'Visual Design', 'Solo Project'],
@@ -50,7 +50,9 @@ export default {
         },
         7: {
           title: "Putting it all Together in AE",
-          desc: ""
+          desc: "After brainstorming through the sequences, After Effects was used to bring the composition together. Some" +
+            " iterations were done during the implementations due to the lack of experience with AE at this point. I was " +
+            "learning and creating at the same time which was a unique experience."
         }
       }
     }
