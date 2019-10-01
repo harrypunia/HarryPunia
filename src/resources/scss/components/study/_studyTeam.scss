@@ -24,7 +24,8 @@
       transform: rotate(-5deg);
 
       & ~ .member-role {
-        opacity: 1 !important;
+        display: block;
+        opacity: .9 !important;
         transform: translate3d(0, 0, 0) !important;
         transition: transform .2s ease, opacity .2s ease;
       }
@@ -42,11 +43,12 @@
 
   &-role {
     @include posAbs(60%, -25%, false, default);
-    @include size(250px, auto);
+    @include size(275px, auto);
     @include setTheme('background-color', main);
     @include setShadow(large);
     padding: map-get($spacing, xSmall) map-get($spacing, small);
     border-radius: 5px;
+    display: none;
     z-index: 10;
     opacity: 0;
     transform: translate3d(0, 25%, 0);
