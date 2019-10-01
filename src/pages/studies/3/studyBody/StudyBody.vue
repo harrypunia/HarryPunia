@@ -1,9 +1,9 @@
 <template>
   <div class="study-body">
     <StudyInfoCard>
-      <a rel="noopener noreferrer" href="https://www.youtube.com/watch?v=ArF3UT5Q6RI" class="study-button-try">
+      <Link href="https://www.youtube.com/watch?v=ArF3UT5Q6RI" class="study-button-try">
         <Button :invert="true" dir="horizontal" :text="msg('try')" img="arrow-right"/>
-      </a>
+      </Link>
       <StudyAbout num="3"/>
     </StudyInfoCard>
     <StudyInfoCard :pressed="true">
@@ -29,10 +29,11 @@
   import StudyProcess from "./process/StudyProcess";
   import StudyTeam from "../../../../components/study/StudyTeam";
   import StudyAbout from "../../../../components/study/StudyAbout";
+  import Link from "../../../../components/Link";
 
   export default {
     name: "caseStudies.3",
-    components: {Button, StudyInfoCard, StudyProcess, StudyTeam, StudyAbout, StudyMore, StudyProblem},
+    components: {Link, Button, StudyInfoCard, StudyProcess, StudyTeam, StudyAbout, StudyMore, StudyProblem},
     data() {
       return {
         members: [{

@@ -1,6 +1,6 @@
 <template>
   <div class="clientInfo">
-    <h4 :style="{color: contentColor}">{{ brandName }}</h4>
+    <h4 :style="{color: contentColor}">{{ msg(`${brandName}.name`) }}</h4>
     <p :style="{color: contentColor}">{{ msg(`${brandName}.duration`) }}</p>
     <Tags
         class="clientInfo-tags"
