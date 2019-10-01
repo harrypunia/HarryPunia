@@ -2,6 +2,7 @@ import study1Page from "./studies/study1-lang";
 import study2Page from "./studies/study2-lang";
 import study3Page from "./studies/study3-lang";
 import study4Page from "./studies/study4-lang";
+import study5Page from "./studies/study5-lang";
 
 const study1 = {
   en: {
@@ -64,6 +65,21 @@ const study4 = {
   }
 };
 
+const study5 = {
+  en: {
+    title: "More from Harry",
+    desc: "Additional project worth the honorable mention",
+    created: "N/A",
+    ...study5Page.en
+  },
+  fr: {
+    title: "Random Phrase, GIF Poster",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet magnam nihil officia quas sit, velit?",
+    created: "December, 2018, Sheridan College",
+    ...study5Page.fr
+  }
+};
+
 export const caseStudies = {
   en: {
     title: "Case Studies",
@@ -77,7 +93,8 @@ export const caseStudies = {
     1: {...study1.en},
     2: {...study2.en},
     3: {...study3.en},
-    4: {...study4.en}
+    4: {...study4.en},
+    5: {...study5.en}
   },
   fr: {
     title: 'Projets',
@@ -91,6 +108,7 @@ export const caseStudies = {
     1: {...study1.fr},
     2: {...study2.fr},
     3: {...study3.fr},
-    4: {...study4.fr}
+    4: {...study4.fr},
+    5: {...study5.fr}
   }
 };

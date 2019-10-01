@@ -5,17 +5,17 @@
       <CaseItem :num="1" type="school"/>
       <CaseItem :num="3" type="school"/>
       <CaseItem :num="4" type="school"/>
+      <CaseItem :num="5"/>
     </div>
   </div>
 </template>
 
 <script>
   import CaseItem from "./caseItem/CaseItem"
-  import Title from "../../../components/Title"
 
   export default {
     name: "caseStudies",
-    components: {CaseItem, Title},
+    components: {CaseItem},
     data() {
       return {
         selection: 0,

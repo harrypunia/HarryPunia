@@ -1,6 +1,6 @@
 <template>
   <div class="clientInfo">
-    <h4 :style="{color: contentColor}">{{ msg(`${brandName}.type`) }}</h4>
+    <h4 :style="{color: contentColor}">{{ brandName }}</h4>
     <p :style="{color: contentColor}">{{ msg(`${brandName}.duration`) }}</p>
     <Tags
         class="clientInfo-tags"
@@ -17,7 +17,7 @@
 
   export default {
     name: "clients",
-    props: ['name', 'brandName', 'brandColor', 'contentColor'],
+    props: ['brandName', 'brandColor', 'contentColor'],
     components: {Tags}
   }
 </script>

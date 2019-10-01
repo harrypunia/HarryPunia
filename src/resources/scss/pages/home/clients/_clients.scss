@@ -10,7 +10,7 @@
     margin-right: auto;
     max-width: none;
 
-    @include view(2000px) {
+    @include view(1650px) {
       max-width: 800px;
     }
   }

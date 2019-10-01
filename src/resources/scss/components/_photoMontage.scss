@@ -1,0 +1,33 @@
+@import "../mixins";
+
+.montage {
+  @include size(100%, auto);
+  margin: 20px 0;
+
+  &-image {
+    width: 100%;
+
+    &-landscape {
+      @include size(auto, 100%);
+    }
+
+    &-container {
+      @include size(400px, 400px);
+      @include flexGrid(center, center, nowrap);
+      margin: 20px;
+      box-shadow: map-get($shadow, small);
+      border-radius: 5px;
+      overflow: hidden;
+      cursor: pointer;
+      @include smooth(transform, .2s);
+
+      &:hover {
+        transform: scale(1.02)
+      }
+    }
+  }
+
+  &-selected {
+    @include size(auto, 80vh);
+  }
+}

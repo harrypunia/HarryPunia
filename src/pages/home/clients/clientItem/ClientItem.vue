@@ -1,5 +1,6 @@
 <template>
   <a :href="hpRef"
+     target="_new"
      rel="noopener noreferrer"
      class="clientItem"
      :class="{clientItemNoLink : !hpRef}"
@@ -10,7 +11,7 @@
       <i v-else :style="{color: contentColor}" class="fas fa-ban"></i>
     </div>
     <img class="clientItem-logo" :src="logo" alt="client"/>
-    <h4 :style="{color: contentColor}" class="clientItem-name">{{msgd(`ClientItem.${brandName}.type`)}}</h4>
+    <h4 :style="{color: contentColor}" class="clientItem-name">{{msg(`${brandName}.type`)}}</h4>
   </a>
 </template>
 
@@ -18,7 +19,7 @@
   import ClientInfo from "./ClientInfo"
 
   export default {
-    name: "ClientItem",
+    name: "clients",
     props: ['brandName', 'brandColor', 'contentColor', 'hpRef'],
     components: {ClientInfo},
     data() {

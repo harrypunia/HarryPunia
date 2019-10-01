@@ -1,0 +1,14 @@
+@import "../mixins";
+
+.footer-buttons {
+  margin: 0 10px;
+
+  &-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+  }
+}

@@ -22,7 +22,6 @@
     data() {
       return {
         s: null,
-        sketches: [S1],
         colors: {
           main: variables[this.theme + "Main"],
           secondary: variables[this.theme + "Secondary"]
@@ -31,9 +30,8 @@
     },
     methods: {
       setup(sketch) {
-        const chosenS = this.sketches[Math.floor(Math.random() * this.sketches.length)];
         sketch.createCanvas(window.innerWidth, window.innerHeight);
-        this.s = new chosenS(sketch);
+        this.s = new S1(sketch);
         window.onresize = () => sketch.resizeCanvas(window.innerWidth, window.innerHeight);
       },
       draw(sk) {

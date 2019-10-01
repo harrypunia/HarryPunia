@@ -3,7 +3,7 @@
     <router-link class="header-logo" to="/" :style="{textDecoration: 'none'}">
       <h4 bold>Harry Punia</h4>
     </router-link>
-    <a href="./resume.pdf" target="_new" class="header-resume">
+    <a href="/resume.pdf" target="_new" class="header-resume">
       <p resetMargin bold>Resume</p>
     </a>
   </Grid>
@@ -17,7 +17,6 @@
     components: {Grid},
     data() {
       return {
-        logo: require('../../resources/img/logo/logo.png'),
         shadow: false
       }
     },

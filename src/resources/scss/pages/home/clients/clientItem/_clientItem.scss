@@ -4,12 +4,12 @@
   @include setShadow(small);
   @include smooth(transform, .4s);
   @include flexGrid(center, space-between, no-wrap);
-  @include size(360px, 600px);
+  @include size(300px, 450px);
   flex-direction: column;
   padding: map-get($spacing, small);
   border: 1px solid;
   border-radius: 5px;
-  margin: 0 map-get($spacing, regular) map-get($spacing, regular) 0;
+  margin: 0 map-get($spacing, small) map-get($spacing, small) 0;
   text-decoration: none;
   cursor: alias;
 
