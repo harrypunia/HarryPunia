@@ -5,6 +5,10 @@
   height: 190px;
   padding: map-get($spacing, small);
 
+  @include view(tab) {
+    height: auto;
+  }
+
   .content {
     &-title {
       @include setTheme('background-color', xxHigh);
@@ -21,7 +25,7 @@
     }
 
     &-type {
-      @include posAbs(10px, 10px, false, invert);
+      @include posAbs(10px, 5px, false, invert);
       @include setTheme("color", high);
     }
   }

@@ -1,6 +1,6 @@
 export default {
   en: {
-    solution: "Create an intriguing 3D modal with dynamic motion with help of technologies like arduino and laser cutting" +
+    solution: "Create an intriguing 3D model with dynamic motion with help of technologies like arduino and laser cutting" +
       " and or 3D printing",
     roles: ["Product Designer", "Physical Computing", "Development"],
     duration: "5 Weeks",

@@ -26,7 +26,6 @@
     props: ['state'],
     data() {
       return {
-        myImg: require('../../../resources/img/intro/harryPunia.jpg'),
         isContact: false
       }
     },

@@ -11,6 +11,22 @@
     margin-left: 40px;
   }
 
+  &-container {
+    @include size(100%, auto);
+    @include flexGrid(flex-start, flex-start, nowrap);
+    position: relative;
+    padding: 40px 20px;
+
+    &-right {
+      flex-direction: row-reverse;
+    }
+
+    @include view(laptop) {
+      flex-direction: column;
+      height: auto;
+    }
+  }
+
   @include view(laptop) {
     margin-left: 0;
     margin-right: 0;
@@ -53,22 +69,6 @@
 
   @include view(laptop) {
     width: 100%;
-  }
-
-  &-container {
-    @include size(100%, auto);
-    @include flexGrid(flex-start, flex-start, nowrap);
-    position: relative;
-    padding: 30px 20px;
-
-    &-right {
-      flex-direction: row-reverse;
-    }
-
-    @include view(laptop) {
-      flex-direction: column;
-      height: auto;
-    }
   }
 
   &-content {

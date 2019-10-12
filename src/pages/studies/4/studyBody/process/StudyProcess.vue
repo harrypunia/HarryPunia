@@ -18,14 +18,12 @@
 </template>
 
 <script>
-  import BorderTitle from "../../../../../components/BorderTitle";
-  import ZigZag from "../../../../../components/ZigZag";
   import DescriptionImage from "../../../../../components/study/DescriptionImage";
   import ParagraphImage from "../../../../../components/study/ParagraphImage";
 
   export default {
     name: "caseStudies.4.process",
-    components: {DescriptionImage, ParagraphImage, ZigZag, BorderTitle},
+    components: {DescriptionImage, ParagraphImage},
     methods: {
       getImg(img) {
         return require(`../../../../../resources/img/caseStudies/4/process/${img}`)

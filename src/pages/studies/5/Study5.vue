@@ -18,21 +18,21 @@
     data() {
       return {
         images: [
-          {src: require("../../../resources/img/caseStudies/5/process/1.png")},
+          {src: require("../../../resources/img/caseStudies/5/process/1.jpg")},
           {src: require("../../../resources/img/caseStudies/5/process/2.jpg")},
           {src: require("../../../resources/img/caseStudies/5/process/3.jpg")},
-          {src: require("../../../resources/img/caseStudies/5/process/4.jpeg")},
+          {src: require("../../../resources/img/caseStudies/5/process/4.jpg")},
           {src: require("../../../resources/img/caseStudies/5/process/5.jpg")},
-          {src: require("../../../resources/img/caseStudies/5/process/6.jpeg")},
+          {src: require("../../../resources/img/caseStudies/5/process/6.jpg")},
           {
-            src: require("../../../resources/img/caseStudies/5/process/7.jpeg"),
+            src: require("../../../resources/img/caseStudies/5/process/7.jpg"),
             orientation: "landscape"
           },
           {
-            src: require("../../../resources/img/caseStudies/5/process/8.png"),
+            src: require("../../../resources/img/caseStudies/5/process/8.jpg"),
             orientation: "landscape"
           },
-          {src: require("../../../resources/img/caseStudies/5/process/9.jpeg")}
+          {src: require("../../../resources/img/caseStudies/5/process/9.jpg")}
         ]
       }
     }

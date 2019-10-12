@@ -76,11 +76,11 @@ h1, h2, h3, h4 {
 }
 
 h2, h3, h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Barlow', sans-serif;
 }
 
 p, a, q, li {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 a, q {
@@ -90,14 +90,14 @@ a, q {
 }
 
 h1 {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 300;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 800;
   font-size: 42px;
   font-size: 4.2rem;
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 30px;
   font-size: 3rem;
   letter-spacing: -0.5px;
@@ -110,7 +110,7 @@ h3 {
 }
 
 h4 {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 22px;
   font-size: 2.2rem;
 }

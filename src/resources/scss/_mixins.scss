@@ -48,7 +48,9 @@
 
 @mixin smooth($prop, $time) {
   transition: $prop ease $time;
-  &:hover {transition: $prop $time ease}
+  &:hover {
+    transition: $prop $time ease
+  }
 }
 
 @mixin createCircle() {
@@ -58,17 +60,25 @@
 
 @mixin view($which) {
   @if $which == phone {
-    @media only screen and (max-width: 600px) {@content}
+    @media only screen and (max-width: 600px) {
+      @content
+    }
   } @else if $which == tab {
-    @media only screen and (max-width: 1000px) {@content}
+    @media only screen and (max-width: 1000px) {
+      @content
+    }
   } @else if $which == laptop {
-    @media only screen and (max-width: 1400px) {@content}
+    @media only screen and (max-width: 1400px) {
+      @content
+    }
   } @else {
-    @media only screen and (max-width: $which) {@content}
+    @media only screen and (max-width: $which) {
+      @content
+    }
   }
 }
 
-@mixin introAnimation ($x, $y, $d) {
+@mixin introAnimation($x, $y, $d) {
   transform: translate3d($x, $y, 0);
   opacity: 0;
 
@@ -80,26 +90,40 @@
   }
 }
 
-@mixin hide($which) {@include view($which) {display: none}}
+@mixin hide($which) {
+  @include view($which) {
+    display: none
+  }
+}
 
-@mixin theme($which) {.theme__#{$which} & {@content}}
+@mixin theme($which) {
+  .theme__#{$which} & {
+    @content
+  }
+}
 
-@mixin setShadow($which) {box-shadow: map-get($shadow, $which)}
+@mixin setShadow($which) {
+  box-shadow: map-get($shadow, $which)
+}
 
 @mixin setTheme($prop, $which) {
-  .theme__Dark & {#{$prop}: map-get($theme_Dark, $which)}
-  .theme__Red & {#{$prop}: map-get($theme_Red, $which)}
-  .theme__Light & {#{$prop}: map-get($theme_Light, $which)}
-  .theme__Black & {#{$prop}: map-get($theme_Black, $which)}
-  .theme__Purple & {#{$prop}: map-get($theme_Purple, $which)}
-  .theme__Wheat & {#{$prop}: map-get($theme_Wheat, $which)}
+  //.theme__Dark & {#{$prop}: map-get($theme_Dark, $which)}
+  //.theme__Red & {#{$prop}: map-get($theme_Red, $which)}
+  .theme__Light & {
+    #{$prop}: map-get($theme_Light, $which)
+  }
+  //.theme__Black & {#{$prop}: map-get($theme_Black, $which)}
+  //.theme__Purple & {#{$prop}: map-get($theme_Purple, $which)}
+  //.theme__Wheat & {#{$prop}: map-get($theme_Wheat, $which)}
 }
 
 @mixin bodyTheme() {
-  .theme__Dark {background-color: map-get($theme_Dark, main)}
-  .theme__Red {background-color: map-get($theme_Red, main)}
-  .theme__Light {background-color: map-get($theme_Light, main)}
-  .theme__Black {background-color: map-get($theme_Black, main)}
-  .theme__Purple {background-color: map-get($theme_Purple, main)}
-  .theme__Wheat {background-color: map-get($theme_Wheat, main)}
+  //.theme__Dark {background-color: map-get($theme_Dark, main)}
+  //.theme__Red {background-color: map-get($theme_Red, main)}
+  .theme__Light {
+    background-color: map-get($theme_Light, main)
+  }
+  //.theme__Black {background-color: map-get($theme_Black, main)}
+  //.theme__Purple {background-color: map-get($theme_Purple, main)}
+  //.theme__Wheat {background-color: map-get($theme_Wheat, main)}
 }

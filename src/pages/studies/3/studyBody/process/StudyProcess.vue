@@ -16,12 +16,11 @@
 </template>
 
 <script>
-  import BorderTitle from "../../../../../components/BorderTitle";
   import DescriptionImage from "../../../../../components/study/DescriptionImage";
 
   export default {
     name: "caseStudies.3.process",
-    components: {DescriptionImage, BorderTitle},
+    components: {DescriptionImage},
     methods: {
       getImg(img) {
         return require(`../../../../../resources/img/caseStudies/3/process/${img}`)
