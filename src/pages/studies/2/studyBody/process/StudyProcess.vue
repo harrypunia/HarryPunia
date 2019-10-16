@@ -1,6 +1,9 @@
 <template>
   <div class="study-process">
     <Grid column center>
+      <h1>My role</h1>
+      <h3 center>Starting Mage Royale was an unique experience for me. I am managing a team of 3 meanwhile working as a
+      Front-End Developer. My goal is to grow the team further and make this product shine in the market.</h3>
       <h1 bold center class="study-process-section-title">Branding</h1>
       <DescriptionImage :src="getImg(`d1.jpg`)" :title="msg(`design.1.title`)" :desc="msg(`design.1.desc`)"/>
       <h1 bold center class="study-process-section-title">User Interface</h1>

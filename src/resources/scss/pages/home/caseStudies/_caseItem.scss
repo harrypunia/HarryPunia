@@ -17,10 +17,6 @@
     max-width: 100%;
   }
 
-  @include view(tab) {
-    height: auto;
-  }
-
   &-lg {
     @include size(100%, 600px);
     max-width: 650px;
@@ -46,6 +42,10 @@
         height: 400px;
       }
     }
+  }
+
+  @include view(tab) {
+    height: auto;
   }
 
   &:hover {

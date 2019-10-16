@@ -10,7 +10,7 @@
     </div>
     <div class="study-about-other">
       <div class="study-about-other-item">
-        <h4 resetMargin>My Role</h4>
+        <h4 bold resetMargin>My Role</h4>
         <p>
           <span :key="index" v-for="(role, index) in this.msg(`${num}.roles`)">
             {{role}} <br/>
@@ -18,7 +18,7 @@
         </p>
       </div>
       <div class="study-about-other-item">
-        <h4 resetMargin>Duration</h4>
+        <h4 bold resetMargin>Duration</h4>
         <p>{{this.msg(`${num}.duration`)}}</p>
       </div>
     </div>
@@ -57,6 +57,11 @@
         width: 100%;
         margin-bottom: 40px;
       }
+
+      @include view(tab) {
+        width: 100%;
+        margin-right: 0;
+      }
     }
 
     &-other {
@@ -67,11 +72,21 @@
         width: 500px;
       }
 
+      @include view(phone) {
+        display: flex;
+        justify-content: space-between;
+      }
+
       &-item {
         margin: 15px 40px 15px 0;
+        width: 50%;
 
         @include view(tab) {
           margin: 10px 20px 10px 0;
+        }
+
+        @include view(phone) {
+          margin: 0;
         }
       }
     }

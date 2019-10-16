@@ -17,6 +17,10 @@
     position: relative;
     padding: 40px 20px;
 
+    @include view(phone) {
+      padding: 40px 5px;
+    }
+
     &-right {
       flex-direction: row-reverse;
     }

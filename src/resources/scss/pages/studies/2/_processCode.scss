@@ -1,6 +1,7 @@
 @import "../../../mixins";
 
 .study-process-code {
+  @include flexGrid(flex-start, space-between, wrap);
   width: 100%;
 
   &-items {

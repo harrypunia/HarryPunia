@@ -23,11 +23,19 @@
     &:hover {
       transform: rotate(-5deg);
 
+      @include view(phone) {
+        transform: rotate(0);
+      }
+
       & ~ .member-role {
         display: block;
         opacity: .9 !important;
         transform: translate3d(0, 0, 0) !important;
         transition: transform .2s ease, opacity .2s ease;
+
+        @include view(phone) {
+          display: none;
+        }
       }
     }
   }

@@ -7,7 +7,7 @@
       <StudyAbout num="1"/>
     </StudyInfoCard>
     <StudyInfoCard :pressed="true">
-      <StudyProblem num="1" />
+      <StudyProblem num="1"/>
     </StudyInfoCard>
     <StudyInfoCard style="padding-bottom: 0">
       <StudyTeam :members="members"/>

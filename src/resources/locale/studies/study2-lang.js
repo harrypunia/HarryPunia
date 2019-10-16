@@ -1,6 +1,6 @@
 export default {
   en: {
-    solution: "Mage Royale is a massive multi-player game designer and developed for browsers. The purpose of the " +
+    solution: "Mage Royale is a massive multi-player game designed and developed for browsers. The purpose of the " +
       "game is to allow users to enjoy popular game genres like MOBA and Battle Royale on their browsers without having " +
       "the hassle to get appropriate tech for it.",
     roles: ["Project Manager", "Lead Front-end Developer", "UI Designer"],

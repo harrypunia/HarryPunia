@@ -3,18 +3,19 @@
     <router-link class="header-logo" to="/" :style="{textDecoration: 'none'}">
       <h4 bold>Harry Punia</h4>
     </router-link>
-    <a href="/resume.pdf" target="_new" class="header-resume">
+    <Link href="/resume.pdf" class="header-resume">
       <p resetMargin bold>Resume</p>
-    </a>
+    </Link>
   </Grid>
 </template>
 
 <script>
   import Grid from "../Grid";
+  import Link from "../Link";
 
   export default {
     name: 'Header',
-    components: {Grid},
+    components: {Grid, Link},
     data() {
       return {
         shadow: false

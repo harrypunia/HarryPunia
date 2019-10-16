@@ -4,7 +4,7 @@
     <CaseStudies/>
     <About/>
     <Work/>
-    <SocialLinks />
+    <SocialLinks/>
   </div>
 </template>
 
@@ -12,8 +12,8 @@
   import Intro from "./intro/Intro"
   import CaseStudies from "./caseStudies/CaseStudies"
   import SocialLinks from "../../components/SocialLinks";
-  import Work from "./clients/Clients"
-  import About from "./about/About"
+  import Work from "./clients/Clients";
+  import About from "./about/About";
 
   export default {
     name: "Home",

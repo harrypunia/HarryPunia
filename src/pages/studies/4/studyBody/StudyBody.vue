@@ -2,7 +2,7 @@
   <div class="study-body">
     <StudyInfoCard>
       <Link href="https://www.youtube.com/watch?v=x9BAJbtY3Yk&feature=youtu.be" class="study-button-try">
-        <Button :invert="true" dir="horizontal" :text="msg('try')" img="arrow-right"/>
+        <Button dir="horizontal" :text="msg('try')" img="arrow-right"/>
       </Link>
       <StudyAbout num="4"/>
     </StudyInfoCard>

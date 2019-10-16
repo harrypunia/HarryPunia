@@ -1,8 +1,8 @@
 <template>
   <div class="study-process">
     <h1 bold center class="study-process-section-title">{{msg("concept.title")}}</h1>
-    <DescriptionImage :src="getImg('c1.jpg')" :title="msg('concept.1.title')" :desc="msg('concept.1.desc')"/>
-    <DescriptionImage :src="getImg('c2.jpg')" :title="msg('concept.2.title')" :desc="msg('concept.2.desc')"/>
+    <ParagraphImage :src="getImg('c1.jpg')" :title="msg('concept.1.title')" :desc="msg('concept.1.desc')"/>
+    <ParagraphImage :right="true" :src="getImg('c2.jpg')" :title="msg('concept.2.title')" :desc="msg('concept.2.desc')"/>
     <DescriptionImage :src="getImg('c3.jpg')" :title="msg('concept.3.title')" :desc="msg('concept.3.desc')"/>
     <h1 bold center class="study-process-section-title">{{msg("design.title")}}</h1>
     <DescriptionImage :src="getImg('d1.jpg')" :title="msg('design.1.title')" :desc="msg('design.1.desc')"/>
@@ -17,10 +17,11 @@
 
 <script>
   import DescriptionImage from "../../../../../components/study/DescriptionImage";
+  import ParagraphImage from "../../../../../components/study/ParagraphImage";
 
   export default {
     name: "caseStudies.3.process",
-    components: {DescriptionImage},
+    components: {DescriptionImage, ParagraphImage},
     methods: {
       getImg(img) {
         return require(`../../../../../resources/img/caseStudies/3/process/${img}`)

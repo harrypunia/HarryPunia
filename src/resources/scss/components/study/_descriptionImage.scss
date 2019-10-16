@@ -9,6 +9,10 @@
     width: 100%;
   }
 
+  @include view(phone) {
+    padding: 40px 5px;
+  }
+
   & img {
     @include size(100%, auto);
     object-fit: cover;
