@@ -10,19 +10,18 @@
       <ContactMe/>
     </div>
     <a @click="scrollTo('caseStudies')" hover class="link" :class="'link-' + state">{{msg("caseStudies")}}</a>
-    <ScrollPrompt class="prompt" :class="'prompt-' + state"/>
+    <!--    <ScrollPrompt class="prompt" :class="'prompt-' + state"/>-->
   </div>
 </template>
 
 <script>
   import Canvas from "../canvas/Canvas";
   import ContactMe from "../../../components/ContactMe";
-  import ScrollPrompt from "../../../components/ScrollPrompt";
   import jump from "jump.js"
 
   export default {
     name: "intro",
-    components: {ScrollPrompt, ContactMe, Canvas},
+    components: {ContactMe, Canvas},
     props: ['state'],
     data() {
       return {

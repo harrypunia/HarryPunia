@@ -2,6 +2,7 @@
   <div class="dialog" :class="{'dialog-open' : isOpen}">
     <div class="dialog-container" @click="close"></div>
     <div class="dialog-content">
+      <i class="fas fa-times dialog-cross" @click.prevent="close"></i>
       <slot></slot>
     </div>
   </div>
