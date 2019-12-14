@@ -22,7 +22,7 @@
         ]
       }
     },
-    created() {
+    beforeCreate() {
       setTimeout(() => {
         this.state = true;
         this.$emit('loaded', true)

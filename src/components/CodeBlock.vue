@@ -17,7 +17,7 @@
       <div class="code-block-body" :class="{'code-block-body-open' : isOpen}">
         <img class="code-block-body-img"
              :src="image" alt="Code Preview"
-             :style="isMaxSize ? {width: '600px'} :imageCSS"
+             :style="isMaxSize ? {width: maxWidth || '600px'} :imageCSS"
         />
       </div>
     </div>
@@ -27,7 +27,7 @@
 <script>
   export default {
     name: "CodeBlock",
-    props: ['type', 'scale', 'src'],
+    props: ['type', 'scale', 'src', 'maxWidth'],
     data() {
       // eslint-disable-next-line
       const _scale = this.scale ? (typeof this.scale === "number" ? this.scale : console.error("scale should be a number")) : 1;
@@ -40,6 +40,15 @@
           width: `${scale}px`,
           height: "auto"
         }
+      }
+    },
+    watch: {
+      scale: function (val) {
+        const _scale = val ? (typeof val === "number" ? val : console.error("scale should be a number")) : 1;
+        const scale = 400 * _scale > 600 ? 600 : 400 * _scale < 200 ? 200 : 400 * _scale;
+        this.$data.imageCSS.width = `${scale}px`;
+      },
+      maxWidth: function () {
       }
     },
     methods: {

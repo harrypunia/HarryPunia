@@ -18,6 +18,9 @@
     <StudyInfoCard :invert="true" :title="this.msgd('caseStudies.links')" :noPadding="true">
       <StudyLink icon="github" link="https://github.com/harrypunia/Kinect_game"/>
     </StudyInfoCard>
+    <StudyInfoCard>
+      <hr>
+    </StudyInfoCard>
     <StudyInfoCard :invert="true" :title="'Other Projects'">
       <StudyMore :num="1"/>
     </StudyInfoCard>

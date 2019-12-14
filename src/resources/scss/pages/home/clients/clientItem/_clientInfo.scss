@@ -1,6 +1,23 @@
 @import "../../../../mixins";
 
 .clientInfo {
+  height: 100%;
+  padding: 0;
+
+  &-logo {
+    margin-top: 30%;
+    height: 25%;
+
+    &-img {
+      @include size(100px, auto);
+    }
+  }
+
+  &-extra {
+    width: 100%;
+    min-height: 40%;
+  }
+
   &-tags {
     margin-top: map-get($spacing, small)
   }

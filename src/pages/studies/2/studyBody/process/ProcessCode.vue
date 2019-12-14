@@ -19,18 +19,9 @@
       </StudyCardSection>
     </Grid>
     <Grid wrap>
-      <div class="study-process-code-items">
-        <h4>{{msg("practices.1")}}</h4>
-        <CodeBlock src="2/code-super.png"/>
-      </div>
-      <div class="study-process-code-items">
-        <h4>{{msg("practices.2")}}</h4>
-        <CodeBlock src="2/code-poly.png"/>
-      </div>
-      <div class="study-process-code-items">
-        <h4>{{msg("practices.3")}}</h4>
-        <CodeBlock src="2/code-singleton.png"/>
-      </div>
+      <CodeDescription src="2/code-super.png" :title="msg('practices.1.title')" :desc="msg('practices.1.desc')"/>
+      <CodeDescription right src="2/code-poly.png" :title="msg('practices.2.title')" :desc="msg('practices.2.desc')"/>
+      <CodeDescription src="2/code-singleton.png" :title="msg('practices.3.title')" :desc="msg('practices.3.desc')"/>
     </Grid>
   </div>
 </template>
@@ -38,11 +29,12 @@
 <script>
   import Grid from "../../../../../components/Grid";
   import CodeBlock from "../../../../../components/CodeBlock";
+  import CodeDescription from "../../../../../components/study/CodeDescription";
   import StudyCardSection from "../../../../../components/study/StudyCardSection";
 
   export default {
     name: "caseStudies.2.process.code",
-    components: {CodeBlock, StudyCardSection, Grid},
+    components: {CodeBlock, StudyCardSection, CodeDescription, Grid},
   }
 </script>
 

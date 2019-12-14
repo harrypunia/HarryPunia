@@ -4,7 +4,7 @@ export default {
       "game is to allow users to enjoy popular game genres like MOBA and Battle Royale on their browsers without having " +
       "the hassle to get appropriate tech for it.",
     roles: ["Project Manager", "Lead Front-end Developer", "UI Designer"],
-    duration: "5 Months and In Progress",
+    duration: "6 Months and In Progress",
     tags: ['Game', 'Multi-player', 'Personal', 'Team Project'],
     try: "Contribute",
     process: {
@@ -20,20 +20,40 @@ export default {
           title: "Home Page - Draft",
           desc: "Designs for Home Page had 3 sections. It was necessary for the user-flow to priorities Guest User, " +
             "since users generally dont want to SignUp and just get a quick buzz out of the game. We also had Store to " +
-            "purchase unique characters and tertiary information relevant to the game"
+            "purchase unique characters and tertiary information relevant to the game."
         },
         3: {
           title: "Home Page - Refactored",
           desc: "We improved on our user-flow and designs to make the experience more fluid. The Guest SignUp was " +
             "further prioritized and made the focus of the page. Secondary methods of joining game were added as tabs. " +
             "We also added all tertiary information like How To Play & Controls on a Side Nav. The least important " +
-            "information was at the bottom of the card, which includes supports, reports and social media."
+            "information was at the bottom of the card, which includes supports, reports and social media. The game shop " +
+            "was put on a coming soon state for the alpha version, hence a badge was designed to display that. Additionally, " +
+            "a character selection section was created on the left hand side of the forms to allow the user to change characters" +
+            "at any moment."
         },
-        4: {
+        controls: {
           title: "Game Controls",
-          desc: "Before the user joins the game, he/she can change the controls. The UI uses the template used very often " +
-            "in the UI for the game. User can click on each item to edit it(wiggles). They have to confirm and cancel " +
-            "those changes and they can always revert back to default."
+          desc: "The entire game runs on a set of controls that the user has access to. The game allows the user to " +
+            "change controls at any stage of the game. Controls was implemented with validation to avoid duplication. The " +
+            "user can select the control they want to change and assign a new key. If they key already exists the controls" +
+            " will throw an error with visual que's. Controls are also configures with Local Storage allowing user to store " +
+            "their settings on their browser and not loose it after leaving the page. This also allows for additional " +
+            "functionality to Reset back to Default."
+        },
+        settings: {
+          title: "Game Settings",
+          desc: "Game Settings was not only implemented to allow users to personalize their game-play experience but also" +
+            " as a tool for developers to toggle some important settings. At the time of writing this, Mage Royale allows" +
+            " users to personalize their graphics settings, which is crucial to improve performance on small devices like" +
+            " laptops. It allows provides the ability to toggle audio settings and some general flags. In Developer mode" +
+            " the developers can toggle performance graph, prop validation and parameter logs to enhance debugging abilities."
+        },
+        characters: {
+          title: "Character Development",
+          desc: "The team made further progress on character development with details character designs, background story" +
+            " and skills. The designs have been kept very minimalistic to stay cohesive with the art style of the game. These" +
+            " characters are planned to be launched in Alpha version with additional content like skins and accessories."
         },
         5: {
           title: "First Character",
@@ -45,7 +65,10 @@ export default {
           desc: "The Environment of the game contains some elements that interact with the player, whereas others that " +
             "are just for decoration. Elements like, bushes and tress help player hide and Fountain bless them with " +
             "health and mana. There are also assets like flyers and lanterns that just add to the environment and the overall" +
-            " vibe of the game"
+            " vibe of the game. The environment also contains coins that the player collects by moving around the forest " +
+            "in order to get stronger by purchasing items. Additionally, we have monsters planned to be implemented in the " +
+            "game to allow player to gain additional gold + experience by killing them, however we have delayed this " +
+            "implementation for Beta version / official launch."
         },
         7: {
           title: "Character Slot",
@@ -99,9 +122,25 @@ export default {
           8: "This handles all UI and interactions with Character stats"
         },
         practices: {
-          1: "Super Classes",
-          2: "Polymorphism",
-          3: "Singleton"
+          1: {
+            title: "Super Classes",
+            desc: "Creating a super class was a very helpful tool, as it acted as a boiler plate for most classes." +
+              " This not only allowed for global variables to be easy to access and maintain but handle global methods " +
+              "nested inside important classes like players and characters."
+          },
+          2: {
+            title: "Polymorphism",
+            desc: "Allowing other classes to morph the parent class as a parameter was extremely beneficial in the case " +
+              "of shop items. As each item has very unique properties and creating an api for such complex structure would " +
+              "only pollute the parameters and variables. With Polymorphism, it was easy to pass the reference of the parent " +
+              "and allow the child to morph data at second level."
+          },
+          3: {
+            title: "Singleton",
+            desc: "There are few cases where, as a developer I wanted to keep the api consistent and create classes for " +
+              "each functionality. Hence for classes that only contained global variables/methods, singletons came in very" +
+              " handy."
+          }
         }
       }
     }
@@ -208,7 +247,12 @@ export default {
           8: "This handles all UI and interactions with Character stats"
         },
         practices: {
-          1: "Super Classes",
+          1: {
+            title: "Super Classes",
+            desc: "Creating a super class was a very helpful tool, as it acted as a boiler plate for most classes." +
+              " This not only allowed for global variables to be easy to access and maintain but handle global methods " +
+              "nested inside important classes like players and characters."
+          },
           2: "Polymorphism",
           3: "Singleton"
         }

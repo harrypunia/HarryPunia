@@ -12,8 +12,11 @@
     <StudyInfoCard :noPadding="true">
       <StudyProcess/>
     </StudyInfoCard>
-    <StudyInfoCard :invert="true" :title="this.msgd('caseStudies.links')" style="padding-top: 0; padding-bottom: 0">
-      <StudyLink icon="github" link="https://github.com/harrypunia/Mage-Royale"/>
+    <!--    <StudyInfoCard :invert="true" :title="this.msgd('caseStudies.links')" style="padding-top: 0; padding-bottom: 0">-->
+    <!--      <StudyLink icon="github" link="https://github.com/harrypunia/Mage-Royale"/>-->
+    <!--    </StudyInfoCard>-->
+    <StudyInfoCard>
+      <hr>
     </StudyInfoCard>
     <StudyInfoCard :invert="true" title="Other Projects">
       <StudyMore :num="2"/>
@@ -38,20 +41,38 @@
         members: [{
           name: "Harry Punia",
           img: "harryPunia.jpg",
-          position: "Project Manager",
-          role: "I developed, designed, conceptualized the game & managed the team"
+          position: "Project Manager & Front-End",
+          role: "I did front-end for the game & am managing the team"
         }, {
           name: "Lauren Black",
           img: "laurenBlack.jpg",
-          position: "Designer",
+          position: "Lead Designer",
           role: "I designed the graphics and conceptualized the game",
           visit: "http://www.laurenblackdesign.com"
         }, {
           name: "Omar Elbanby",
           img: "omarElbanby.jpg",
           position: "Back-End",
-          role: "I handled the backend and data structuring for the game",
+          role: "I did websockets and database for the game",
           visit: "https://www.linkedin.com/in/elbanby/"
+        }, {
+          name: "Marko Prodanovic",
+          img: "markoProd.jpg",
+          position: "Sound Designer",
+          role: "I designed the sound for the game",
+          visit: "https://www.linkedin.com/in/marko-prodanovic-70533a193/"
+        }, {
+          name: "Huang Fei",
+          img: "huangFei.jpg",
+          position: "Concept Artist",
+          role: "I did concept art of the game",
+          visit: "https://www.linkedin.com/in/fei-huang-39691a152/"
+        }, {
+          name: "Alex Atiti",
+          img: "alexAtiti.jpg",
+          position: "UI Designer",
+          role: "I did the UI related graphics for the game",
+          visit: "https://www.alexatiti.com/"
         }]
       }
     }

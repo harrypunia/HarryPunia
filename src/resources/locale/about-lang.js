@@ -18,9 +18,10 @@ export const about = {
       {title: 'Type', desc: 'Part-time / Freelance'},
     ],
     extraTitle: "More of me",
-    extra: 'You would usually find me designing & developing which is fun, but i do have some hobbies outside that too. ' +
-      'For starters, I love sports ❤️ 😼. I played tennis professionally before I started doing what I do. By the way, ' +
-      'I FORGET A LOT! Notorious for leaving my belongings somewhere and walking away 😑, I need help'
+    extra: 'You would usually find me designing & developing, but beyond my professional life, I also love sports ❤️ 😼.' +
+      ' As a young adult, I played tennis competitively. Also, I have a passion to organize and format everything every' +
+      ' thing in my life from sorting my gaming disks in order to keeping  my calendar clean. Another side hobby of mine' +
+      ' is teaching which led me to join a tutoring team in my college to help our peer students.'
   },
   fr: {
     title: 'Sur',

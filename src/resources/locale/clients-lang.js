@@ -10,7 +10,7 @@ export const clients = {
     punias: {
       name: "PUNIAS",
       type: 'Freelance',
-      duration: '1+ year (on-going)',
+      duration: '1+ year',
       projects: ['Web Design', 'Web Development', 'Logo Design', 'Architectural Designs']
     },
     firmway: {
@@ -22,7 +22,7 @@ export const clients = {
     meraki: {
       name: "Meraki Commodities",
       type: 'Freelance',
-      duration: '1+ month (on-going)',
+      duration: '1+ month',
       projects: ['Data Management', 'Web Design', 'Web Development']
     }
   },

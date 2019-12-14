@@ -1,0 +1,86 @@
+@import "../../mixins";
+@import "../../wrapper";
+
+.code-description {
+  @include size(auto, auto);
+  margin-right: 30px;
+
+  &-right {
+    margin-right: 0;
+    margin-left: 30px;
+  }
+
+  &-container {
+    @include size(100%, auto);
+    @include flexGrid(flex-start, flex-start, nowrap);
+    position: relative;
+    padding: 40px 20px;
+
+    @include view(phone) {
+      padding: 40px 5px;
+    }
+
+    &-right {
+      flex-direction: row-reverse;
+    }
+
+    @include view(laptop) {
+      flex-direction: column;
+      height: auto;
+    }
+  }
+
+  @include view(laptop) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  &-desc {
+    font-size: 2rem;
+  }
+
+  & img {
+    max-height: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+
+    @include view(tab) {
+      max-height: 500px;
+    }
+
+    @include view(phone) {
+      max-height: 350px;
+    }
+  }
+
+  &-title {
+    position: relative;
+    opacity: .75;
+    margin-bottom: 20px;
+    margin-top: 0;
+    @include view(laptop) {
+      margin-top: 20px;
+    }
+
+    &:after {
+      content: "";
+      z-index: -1;
+      @include posAbs(0, 100%, false, default);
+      @include size(120px, 10px);
+      @include setTheme(background-color, xMain);
+    }
+  }
+
+  @include view(laptop) {
+    width: 100%;
+  }
+
+  &-content {
+    @include size(100%, auto);
+    @include flexGrid(flex-start, flex-start, wrap);
+    flex-direction: column;
+
+    @include view(laptop) {
+      width: 100%;
+    }
+  }
+}

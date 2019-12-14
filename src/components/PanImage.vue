@@ -1,10 +1,17 @@
 <template>
-  <img class="pan-image" :src="src" :alt="alt" @mousemove="panImage" @mouseout="resetImage"/>
+  <div class="pan-image-container">
+    <GIF v-if="gif" :height="height" class.native="pan-image" :src="src" :preload="preload" :alt="alt"/>
+    <IMG v-else :height="height" class.native="pan-image" :src="src" :alt="alt"/>
+  </div>
 </template>
 
 <script>
+  import GIF from "../components/GIF";
+  import IMG from "../components/IMG";
+
   export default {
-    props: ['src', 'alt'],
+    props: ['src', 'alt', 'gif', 'preload', 'height'],
+    components: {GIF, IMG},
     methods: {
       panImage(e) {
         const relX = e.clientX - e.target.getBoundingClientRect().left;
@@ -24,7 +31,6 @@
   .pan-image {
     position: relative;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
   }
 </style>

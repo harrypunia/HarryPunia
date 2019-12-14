@@ -118,9 +118,11 @@ h4 {
 
 p {
   @include setTheme('color', high);
+  font-family: 'Roboto';
   font-weight: 200;
   font-size: 1.9rem;
   font-size: 19px;
+  line-height: 1.75em;
   max-width: 500px;
 
   &[bold] {

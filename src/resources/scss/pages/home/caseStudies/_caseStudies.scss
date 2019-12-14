@@ -10,5 +10,37 @@
   &-container {
     @include wrapper();
     @include size(100%, auto);
+    position: relative;
+  }
+
+  &-avatar {
+    position: absolute;
+    width: 180px;
+    transform: translateY(100%);
+    animation: pop .4s cubic-bezier(.14, 1.03, .76, 1.15);
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
+
+    &-dialog {
+      position: absolute;
+      top: 90px;
+      margin-left: 100px;
+      background: #333;
+      padding: 2px 7px;
+      border-radius: 5px;
+      transform: translateY(100%);
+      animation: pop .4s cubic-bezier(.14, 1.03, .76, 1.15);
+      animation-delay: 2s;
+      animation-fill-mode: forwards;
+    }
+  }
+}
+
+@keyframes pop {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(-85%);
   }
 }

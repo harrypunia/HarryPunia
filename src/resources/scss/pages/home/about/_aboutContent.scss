@@ -12,22 +12,37 @@
 
   &-component {
     margin-top: map-get($spacing, regular);
-    &:first-child {margin: 0}
+
+    &:first-child {
+      margin: 0
+    }
 
     @include view(laptop) {
       width: 100%;
       margin-top: map-get($spacing, xSmall) !important;
 
-      &-personal {margin-right: 5% !important;}
-      &-looking-for {margin-left: 5%}
-      &-extra {width: 100%}
+      &-personal {
+        margin-right: 5% !important;
+      }
+      &-looking-for {
+        margin-left: 5%
+      }
+      &-extra {
+        width: 100%
+      }
     }
 
     @include view(tab) {
       width: 97.5%;
-      &-personal {margin-right: 2.5% !important;}
-      &-looking-for {margin-left: 2.5%}
-      &-extra {width: 100%}
+      &-personal {
+        margin-right: 2.5% !important;
+      }
+      &-looking-for {
+        margin-left: 2.5%
+      }
+      &-extra {
+        width: 100%
+      }
     }
 
     @include view(phone) {
@@ -39,9 +54,10 @@
   &-items {
     @include setTheme('border-color', xxMain);
     @include flexGrid(flex-start, flex-start, wrap);
-
+    @include setShadow(small);
     padding: map-get($spacing, xSmall) map-get($spacing, small);
-    border: 1px dashed;
+    border: 1px solid;
+    border-radius: 5px;
     margin-top: map-get($spacing, xSmall);
   }
 

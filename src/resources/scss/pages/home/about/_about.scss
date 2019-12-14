@@ -8,6 +8,7 @@
   &-image {
     @include size(400px, 700px);
     margin-right: 60px;
+    border-radius: 5px;
 
     @include view(1600px) {
       @include size(350px, 700px);

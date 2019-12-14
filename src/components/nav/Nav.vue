@@ -16,7 +16,7 @@
 
   export default {
     name: "Nav",
-    components: { NavButtons, NavTheme },
+    components: {NavButtons, NavTheme},
     props: ['theme', 'state', 'buttons'],
     data() {
       return {
@@ -25,7 +25,9 @@
       }
     },
     methods: {
-      updateApp(newTheme) {this.$emit('themeChanged', newTheme)},
+      updateApp(newTheme) {
+        this.$emit('themeChanged', newTheme)
+      },
       toggleLang() {
         this.activeLang !== 'FR' ? this.setLang('fr', 'en') : this.setLang('en', 'fr');
       },

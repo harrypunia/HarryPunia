@@ -18,6 +18,11 @@
     padding: 2px 10px;
   }
 
+  &[size='xSmall'] {
+    padding: 2px 8px;
+    font-size: 10px;
+  }
+
   &[stroke] {
     @include setTheme('border-color', xxHigh);
     border: 1px solid;

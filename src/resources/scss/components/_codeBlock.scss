@@ -13,6 +13,14 @@
   margin: 10px 0;
   overflow: hidden;
 
+  &-container {
+    display: flex;
+
+    @include view(laptop) {
+      justify-content: center;
+    }
+  }
+
   &-header {
     @include posAbs(0, 0, false, default);
     @include size(100%, 30px);
