@@ -14,7 +14,7 @@
     components: {PanImage},
     data() {
       return {
-        height: window.innerWidth < 1000 ? "400px" : "800px"
+        height: window.innerWidth < 1000 ? "400px" : "600px"
       }
     },
     mounted() {

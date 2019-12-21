@@ -25,9 +25,21 @@
         transform: scale(1.02)
       }
     }
+
+    &-large {
+      width: calc(50% - 40px);
+
+      @include view(tab) {
+        width: 100%;
+      }
+    }
   }
 
   &-selected {
     @include size(auto, 80vh);
+
+    /deep/ .IMG-container-img {
+      width: auto;
+    }
   }
 }

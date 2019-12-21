@@ -7,6 +7,7 @@
       <CaseItem size="xlg" :num="2" type="personal"/>
       <CaseItem :num="1" type="school"/>
       <CaseItem :num="3" type="school"/>
+      <CaseItem size="xlg" :num="6" type="personal"/>
       <CaseItem :num="4" type="school"/>
       <CaseItem :num="5" type="personal"/>
     </div>
