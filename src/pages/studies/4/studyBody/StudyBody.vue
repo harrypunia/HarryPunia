@@ -6,7 +6,7 @@
       </Link>
       <StudyAbout num="4"/>
     </StudyInfoCard>
-    <StudyInfoCard :pressed="true">
+    <StudyInfoCard>
       <StudyProblem num="4" :isGoal="true"/>
     </StudyInfoCard>
     <StudyInfoCard :title="this.msgd('caseStudies.members')">

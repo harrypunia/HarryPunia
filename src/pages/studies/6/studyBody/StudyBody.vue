@@ -1,12 +1,12 @@
 <template>
   <div class="study-body">
     <StudyInfoCard>
-      <Link href="http://ixd0089.firebird.sheridanc.on.ca/vdui/" class="study-button-try">
+      <Link href="http://ixd0089.firebird.sheridanc.on.ca/vui/" class="study-button-try">
         <Button dir="horizontal" text="Explore" img="arrow-right"/>
       </Link>
       <StudyAbout num="6"/>
     </StudyInfoCard>
-    <StudyInfoCard :pressed="true">
+    <StudyInfoCard>
       <StudyProblem num="6"/>
     </StudyInfoCard>
     <StudyInfoCard :title="this.msgd('caseStudies.process')">

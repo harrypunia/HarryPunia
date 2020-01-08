@@ -10,7 +10,7 @@
       />
     </div>
     <div class="paragraph-image-content">
-      <h4 bold class="paragraph-image-title">{{title}}</h4>
+      <h2 class="paragraph-image-title">{{title}}</h2>
       <p resetMargin fillWidth class="paragraph-image-desc">{{desc}}</p>
     </div>
   </div>

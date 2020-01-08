@@ -1,7 +1,7 @@
 <template>
   <div class="study-process-image">
     <PanImage :height="height" class="study-process-image-media" :src="src" :alt="alt || 'Description Image'"/>
-    <h4 bold class="study-process-image-title">{{title}}</h4>
+    <h2 class="study-process-image-title">{{title}}</h2>
     <p resetMargin fillWidth class="study-process-image-desc">{{desc}}</p>
   </div>
 </template>

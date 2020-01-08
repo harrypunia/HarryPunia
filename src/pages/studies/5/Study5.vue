@@ -2,7 +2,7 @@
   <StudyContainer style="padding-top: 120px">
     <h1 bold center>Honorable Mentions</h1>
     <PhotoMontage id="Honorable Mentions" :images="images"/>
-    <FooterButtons />
+    <FooterButtons/>
   </StudyContainer>
 </template>
 

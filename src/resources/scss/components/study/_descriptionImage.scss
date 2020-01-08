@@ -26,20 +26,10 @@
   &-title {
     position: relative;
     opacity: .75;
-    margin-bottom: 20px;
-    margin-top: 20px;
-
-    &:after {
-      content: "";
-      z-index: -1;
-      @include posAbs(0, 100%, false, default);
-      @include size(120px, 10px);
-      @include setTheme(background-color, xMain);
-    }
   }
 
   &-desc {
     font-size: 2rem;
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
   }
 }

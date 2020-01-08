@@ -1,11 +1,10 @@
 <template>
   <div class="IMG-container">
-    <img class="IMG-container-img" :style="{height}" :class="{'IMG-hide': !isLoad}" :src="src" :alt="alt"
-         @load="isLoad = true">
-    <Grid v-if="!isLoad" center column class="IMG-loader">
-      <img class="IMG-loader-img" src="../resources/img/icons/img-loader.svg" alt="Loading Image">
-      <p>{{alt}}</p>
-    </Grid>
+    <img class="IMG-container-img" :style="{height}" :src="src" :alt="alt">
+<!--    <Grid v-if="!isLoad" center column class="IMG-loader">-->
+<!--      <img class="IMG-loader-img" src="../resources/img/icons/img-loader.svg" alt="Loading Image">-->
+<!--      <p>{{alt}}</p>-->
+<!--    </Grid>-->
   </div>
 </template>
 

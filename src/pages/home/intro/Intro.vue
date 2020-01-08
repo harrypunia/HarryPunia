@@ -9,7 +9,6 @@
     <div class="intro-button" :class="'intro-button-' + state">
       <ContactMe/>
     </div>
-    <a @click="scrollTo('caseStudies')" hover class="link" :class="'link-' + state">{{msg("caseStudies")}}</a>
     <!--    <ScrollPrompt class="prompt" :class="'prompt-' + state"/>-->
   </div>
 </template>

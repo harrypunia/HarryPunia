@@ -39,7 +39,28 @@
     @include size(auto, 80vh);
 
     /deep/ .IMG-container-img {
+      height: 100%;
       width: auto;
+    }
+
+    @include view(tab) {
+      @include size(80vw, auto);
+
+      /deep/ .IMG-container-img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+.dialog-landscape {
+  @include view(1800px) {
+    @include size(80vw, auto);
+
+    /deep/ .IMG-container-img {
+      height: auto;
+      width: 100%;
     }
   }
 }

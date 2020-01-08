@@ -1,14 +1,14 @@
 <template>
   <div id="caseStudies" class="caseStudies-container">
     <div class="caseStudies">
-      <img class="caseStudies-avatar" src="../../../resources/img/about/avatar.svg" alt="Harry Avatar"
-           @click="dialog = Math.floor(Math.random() * 5)"/>
-      <p small invert class="caseStudies-avatar-dialog">{{this.dialogs[this.dialog]}}</p>
+<!--      <img class="caseStudies-avatar" src="../../../resources/img/about/avatar.svg" alt="Harry Avatar"-->
+<!--           @click="dialog = Math.floor(Math.random() * 5)"/>-->
+<!--      <p small invert class="caseStudies-avatar-dialog">{{this.dialogs[this.dialog]}}</p>-->
       <CaseItem size="xlg" :num="2" type="personal"/>
       <CaseItem :num="1" type="school"/>
-      <CaseItem :num="3" type="school"/>
-      <CaseItem size="xlg" :num="6" type="personal"/>
       <CaseItem :num="4" type="school"/>
+      <CaseItem size="xlg" :num="6" type="personal"/>
+      <CaseItem :num="3" type="school"/>
       <CaseItem :num="5" type="personal"/>
     </div>
   </div>

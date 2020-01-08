@@ -20,7 +20,7 @@ export const clients = {
       projects: ['Brochure Design']
     },
     meraki: {
-      name: "Meraki Commodities",
+      name: "Meraki",
       type: 'Freelance',
       duration: '1+ month',
       projects: ['Data Management', 'Web Design', 'Web Development']

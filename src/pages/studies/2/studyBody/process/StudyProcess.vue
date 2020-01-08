@@ -2,7 +2,7 @@
   <div class="study-process">
     <Grid column center>
       <h1>My role</h1>
-      <h3 center>Starting Mage Royale was an unique experience for me. I am managing a team of 6 meanwhile working as a
+      <h3 center light>Starting Mage Royale was a unique experience for me. I am managing a team of 6 meanwhile working as a
         Front-End Developer. My goal is to grow the team further and make this product shine in the market.</h3>
       <h1 bold center class="study-process-section-title">Branding</h1>
       <DescriptionImage

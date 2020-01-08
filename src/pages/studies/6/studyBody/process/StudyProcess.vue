@@ -29,18 +29,22 @@
         images: [
           {
             src: this.getImg("table.png"),
+            orientation: "landscape",
             size: "lg"
           },
           {
             src: this.getImg("card.png"),
+            orientation: "landscape",
             size: "lg"
           },
           {
             src: this.getImg("button.png"),
+            orientation: "landscape",
             size: "lg"
           },
           {
             src: this.getImg("dropdown.png"),
+            orientation: "landscape",
             size: "lg"
           }
         ]

@@ -1,5 +1,5 @@
 <template>
-  <Link href="https://calendly.com/harry-77/introduction" class="contact-me">
+  <Link href="mailto:harry@punias.com?subject=Internship Application" class="contact-me">
     <Button action="#" dir="vertical" :text="msg('button')" img="grin-alt" />
   </Link>
 </template>

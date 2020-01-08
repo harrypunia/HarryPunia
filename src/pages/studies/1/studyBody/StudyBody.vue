@@ -6,7 +6,7 @@
       </Link>
       <StudyAbout num="1"/>
     </StudyInfoCard>
-    <StudyInfoCard :pressed="true">
+    <StudyInfoCard>
       <StudyProblem num="1"/>
     </StudyInfoCard>
     <StudyInfoCard style="padding-bottom: 0">

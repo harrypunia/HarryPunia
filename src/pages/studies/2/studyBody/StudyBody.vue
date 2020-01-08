@@ -3,7 +3,7 @@
     <StudyInfoCard>
       <StudyAbout num="2"/>
     </StudyInfoCard>
-    <StudyInfoCard :pressed="true">
+    <StudyInfoCard>
       <StudyProblem num="2" :isGoal="true"/>
     </StudyInfoCard>
     <StudyInfoCard style="padding-bottom: 0">

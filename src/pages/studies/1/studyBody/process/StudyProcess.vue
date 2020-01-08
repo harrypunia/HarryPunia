@@ -38,17 +38,14 @@
           :title="msg('design.3.title')"
           :desc="msg('design.3.desc')"
       />
+      <h1 bold class="study-process-title">Environment</h1>
       <ParagraphImage
           :src="getImg('d4.jpg')"
           :title="msg('design.4.title')"
           :desc="msg('design.4.desc')"
       />
-      <h1 bold class="study-process-title">Environment</h1>
-      <DescriptionImage
-          :src="getImg('d5.jpg')"
-          :title="msg('design.5.title')"
-          :desc="msg('design.5.desc')"
-      />
+      <h1 bold class="study-process-title">Bringing it all together</h1>
+      <DescriptionImage :src="getImg('d5.jpg')"/>
       <ProcessCode/>
     </Grid>
   </div>

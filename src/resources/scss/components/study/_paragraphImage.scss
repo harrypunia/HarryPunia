@@ -56,18 +56,9 @@
   &-title {
     position: relative;
     opacity: .75;
-    margin-bottom: 20px;
-    margin-top: 0;
+    margin-bottom: 10px;
     @include view(laptop) {
       margin-top: 20px;
-    }
-
-    &:after {
-      content: "";
-      z-index: -1;
-      @include posAbs(0, 100%, false, default);
-      @include size(120px, 10px);
-      @include setTheme(background-color, xMain);
     }
   }
 

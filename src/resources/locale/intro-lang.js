@@ -1,10 +1,10 @@
 export const intro = {
   en: {
-    button: "Ping me",
+    button: "Hire Me",
     caseStudies: "Explore Case Studies",
     name: "Harry Punia",
     location: "Toronto, ",
-    quote: "Designer who got introduced to Development"
+    quote: "Interaction Designer who loves developing"
   },
   fr: {
     button: "Parlons",
